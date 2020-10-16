@@ -1,0 +1,6 @@
+book_filename: "Catatan-Mekanik-Kuantum"
+chapter_name: "Bab "
+repo: https://github.com/seankross/bookdown-start
+output_dir: docs
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
