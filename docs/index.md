@@ -1,7 +1,7 @@
 --- 
 title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
-date: "2020-10-16"
+date: "2020-10-17"
 output:
   html_document:
     df_print: paged
@@ -9,8 +9,8 @@ documentclass: book
 bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
-github-repo: Thaza_Kun/cft-mekanik-kuantum
-url: ''
+github-repo: Thaza-Kun/cft-mekanik-kuantum
+url: 'https://thaza-kun.github.io/cft-mekanik-kuantum/'
 description: Catatan ilmiah teknikal Mekanik Kuantum
 site: bookdown::bookdown_site
 ---
@@ -23,12 +23,21 @@ site: bookdown::bookdown_site
 
 Bagi memulakan buku ini, eloklah kita menghayati petikan fizikawan ulung Paul Dirac daripada rencananya, '[Kaedah Kerja dalam Fizik Teori](https://fizikkini.com/kaedah-kerja-dalam-fizik-teori-bahagian-i/)'. Kisah yang dirujuk oleh beliau itu sebenarnya ialah kisah pencarian persamaan Schr&ouml;dinger. Ia menepati tema utama kebanyakan kursus pengenalan mekanik kuantum: iaitu agar pelajar memahami dan memahiri persamaan Schr&ouml;dinger.
 
-Tambahan pula, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit. Lagipun, ia membantu saya menentukan halatuju projek Catatan Fizik Teori ini. Ia seperti pepatah "sedikit-sedikit lama-lama jadi bukit" tetapi versi Dirac.
+Lagipun, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit. Tambahan pula, ia membantu saya menentukan halatuju projek Catatan Fizik Teori ini.
 
-Asalnya, saya menulis nota ini menggunakan [$\LaTeX$](https://en.wikipedia.org/wiki/LaTeX) kerana ia memudahkan penulisan Matematik. Waktu itu, saya sendiri tidak tahu bagaimana ingin terbitkannya. Namun, saya ingat pesanan guru saya: "Jika ingin tulis sesuatu, maka tulislah. Masalah di mana ia akan diterbitkan itu boleh difikirkan kemudian." Ia selari dengan kata-kata Dirac agar memecahkan laluan kejayaan kita menjadi beberapa masalah kecil. Masalah penulisan dan masalah penerbitan adalah dua masalah yang berbeza.
+Untuk menghasilkan catatan ini, saya tidak cuba menyelesaikan segala macam masalah sekaligus untuk menghasilkan produk akhir terus. Saya selesaikan masalah kecil yang pertama dahulu: iaitu kandungan.
 
-Ternyata, nasihat itu berguna. Setelah saya habis memperkemaskan bab 1, saya menemui [Bookdown](https://bookdown.org/yihui/bookdown/) yang bantu menghasilkan buku teks dalam talian. Bookdown memperkayakan kefungsian [Markdown](https://en.wikipedia.org/wiki/Markdown) (yang memudahkan penulisan tetapi lemah dalam penulisan Matematik) dengan menyelitkan kefungsian Matematik $\LaTeX$. Ia sangat sesuai untuk projek Catatan Fizik Teori yang bukan sahaja sarat Matematik tetapi ingin dikongsikan sebagai bahan rujukan dalam talian. Apabila masalah penulisan sudah disingkirkan, kita boleh singkirkan masalah penerbitan pula sehingga akhirnya, projek kita selesai.
+Asalnya, saya menulis semua ini menggunakan $\LaTeX$ kerana pada waktu tersebut itulah alat menulis kaedah-kaedah Matematik yang paling mantap yang saya kenal. Maka, saya gunakanlah apa sahaja alat yang saya ada tanpa merisaukan perkara yang berkaitan penerbitan atau edaran.
 
+Masalah seterusnya yang saya perlu risau ialah tentang bagaimana saya akan edarkannya? Disebabkan hasil keluaran $\LaTeX$ ialah sejenis PDF, maka edaran melalui Akademia adalah satu pilihan yang wajar.
+
+Namun, tujuan akhir saya ialah untuk menerbitkannya dalam bentuk laman web. Saya bukanlah pembangun web jadi ia adalah satu jurang pengetahuan yang besar buat saya.
+
+Nasib baik ada alat yang sangat sesuai untuk menghasilkan buku teks dalam talian: [Bookdown](www.bookdown.org). Ia membolehkan saya menghasilkan laman web rujukan yang cantik tanpa banyak pengetahuan tentang pembangunan web. Lebih-lebih lagi, ia mengekalkan banyak kefungsian $\LaTeX$ untuk menulis kaedah-kaedah Matematik jadi ia sangat sesuai dengan tujuan saya.
+
+Memandangkan saya sudah ada kandungan yang pernah saya tulis melalui $\LaTeX$, beban saya dikurangkan sedikit. Cuma perlu terjemahkan beberapa tatatulis dokumen $\LaTeX$ menjadi tatatulis yang difahami Bookdown.
+
+Jadi begitulah serba sedikit petua melaksanakan projek serta kisah peribadi mengamalkan petua tersebut. Malah, ada banyak lagi kefungsian yang saya rasa boleh ditambah dalam bahan rujukan ini, tetapi eloklah jika saya fikirkannya kemudian.
 
 ## Dorongan Projek {-}
 
