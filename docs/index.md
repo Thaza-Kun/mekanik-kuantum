@@ -1,16 +1,18 @@
 --- 
 title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
-date: "2020-10-17"
+date: "2020-10-18"
 output:
   html_document:
     df_print: paged
+    includes:
+      in_header: header.html
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
-github-repo: Thaza-Kun/cft-mekanik-kuantum
-url: 'https://thaza-kun.github.io/cft-mekanik-kuantum/'
+github-repo: thaza-Kun/mekanik-kuantum
+url: 'https://thaza-kun.github.io/mekanik-kuantum/'
 description: Catatan ilmiah teknikal Mekanik Kuantum
 site: bookdown::bookdown_site
 ---

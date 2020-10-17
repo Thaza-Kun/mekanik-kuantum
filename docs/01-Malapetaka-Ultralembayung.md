@@ -1,6 +1,6 @@
 # Malapetaka Ultralembayung
 
-Dikemas kini: 2020-10-17
+Dikemas kini: 2020-10-18
 
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Namun, akar umbi ilham tersebut ialah cahaya yang dipancarkan bintang-bintang tersebut. Malah, penelitian terhadap tabiat cahaya inilah yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian ketika jalan menjadi suram.
 
@@ -28,7 +28,7 @@ Tenaga yang diperihalkan dalam Hukum Stefan&ndash;Boltzmann ini adalah jumlah ke
 Namun begitu, cahaya apa yang dipancarkan dengan paling banyak itu bergantung kepada suhu jasad tersebut. Disebabkan itulah kita melihat bahawa bintang mempunyai warna yang berbeza-beza walaupun secara hakikatnya setiap satu bintang itu memancarkan setiap frekuensi cahaya.
 
 <div class="figure" style="text-align: center">
-<img src=".\gambar\jasadhitam.jpg" alt="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang." width="40%" />
+<img src=".\gambar\jasadhitam.jpg" alt="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang." width="600px" />
 <p class="caption">(\#fig:mu-jasad)Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang.</p>
 </div>
 

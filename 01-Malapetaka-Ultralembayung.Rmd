@@ -27,7 +27,7 @@ Tenaga yang diperihalkan dalam Hukum Stefan&ndash;Boltzmann ini adalah jumlah ke
 
 Namun begitu, cahaya apa yang dipancarkan dengan paling banyak itu bergantung kepada suhu jasad tersebut. Disebabkan itulah kita melihat bahawa bintang mempunyai warna yang berbeza-beza walaupun secara hakikatnya setiap satu bintang itu memancarkan setiap frekuensi cahaya.
 
-```{r mu-jasad, echo=FALSE, out.width='40%', fig.align='center', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
+```{r mu-jasad, echo=FALSE, out.width='600px', fig.align='center', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
 knitr::include_graphics(".\\gambar\\jasadhitam.jpg")
 ```
 
