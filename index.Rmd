@@ -23,23 +23,7 @@ site: bookdown::bookdown_site
 
 Bagi memulakan buku ini, eloklah kita menghayati petikan fizikawan ulung Paul Dirac daripada rencananya, '[Kaedah Kerja dalam Fizik Teori](https://fizikkini.com/kaedah-kerja-dalam-fizik-teori-bahagian-i/)'. Kisah yang dirujuk oleh beliau itu sebenarnya ialah kisah pencarian persamaan Schr&ouml;dinger. Ia menepati tema utama kebanyakan kursus pengenalan mekanik kuantum: iaitu agar pelajar memahami dan memahiri persamaan Schr&ouml;dinger.
 
-Lagipun, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit. Tambahan pula, ia membantu saya menentukan halatuju projek Catatan Fizik Teori ini.
-
-Untuk menghasilkan catatan ini, saya tidak cuba menyelesaikan segala macam masalah sekaligus untuk menghasilkan produk akhir terus. Saya selesaikan masalah kecil yang pertama dahulu: iaitu kandungan. Jadi, saya mula menulis tanpa merisaukan masalah yang lain.
-
-Pada waktu itu, saya mengenal alat bernama $\LaTeX$ yang membenarkan saya menulis perkaedahan Matematik dengan cantik dan cepat. Maka di situlah saya mula menulis dan menyususn kandungan.
-
-Apabila sudah habiskan bab pertama, masalah seterusnya yang saya perlu risau ialah tentang bagaimana saya akan edarkannya. Disebabkan hasil keluaran $\LaTeX$ ialah sejenis PDF, maka edaran melalui Akademia adalah satu pilihan yang wajar.
-
-Namun, tujuan akhir saya ialah untuk menerbitkannya dalam bentuk laman web yang akan saya terangkan dalam bahagian Dorongan Projek. Saya bukanlah pembangun web jadi ia adalah satu jurang pengetahuan yang besar buat saya.
-
-Nasib baik ada alat yang sangat sesuai untuk menghasilkan buku teks dalam talian: [Bookdown](www.bookdown.org). Ia membolehkan saya menghasilkan laman web rujukan yang cantik tanpa banyak pengetahuan tentang pembangunan web. Lebih-lebih lagi, ia mengekalkan banyak kefungsian $\LaTeX$ untuk menulis kaedah-kaedah Matematik jadi ia sangat sesuai dengan tujuan saya.
-
-Memandangkan saya sudah ada kandungan yang pernah saya tulis melalui $\LaTeX$, beban saya dikurangkan sedikit. Cuma perlu terjemahkan beberapa tatatulis dokumen $\LaTeX$ menjadi tatatulis yang difahami Bookdown.
-
-Sewaktu penemuan Bookdown itu, saya sudah agak selesa dengan [GitHub](www.github.com) yang boleh bantu saya terbitkan laman web yang dihasilkan oleh Bookdown. Di sinilah kita, menggunakan GitHub untuk memaparkan Catatan Fizik Teori yang dihasilkan oleh Bookdown.
-
-Jadi begitulah serba sedikit petua melaksanakan projek serta kisah peribadi mengamalkan petua tersebut. Malah, ada banyak lagi kefungsian yang saya rasa boleh ditambah dalam bahan rujukan ini, tetapi eloklah jika saya fikirkannya kemudian.
+Lagipun, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit. Tambahan pula, tidak keterlaluan rasanya untuk mengatakan bahawa ia selari dengan dorongan saya menghasilkan projek Catatan Fizik Teori ini.
 
 ## Dorongan Projek {-}
 
@@ -47,22 +31,24 @@ Laman sesawang [MajalahSains](www.majalahsains.com) yang diasaskan oleh Mohd Fai
 
 Dengan menunjukkan bahawa minat masyarakat terhadap sains belum terpadam, kewujudan MajalahSains juga memberi peluang kepada portal-portal sains lain untuk turut berkembang sama. Misalnya Muhammad Hafez Ahmat Murtza mengasaskan [Apadilangit](https://apadilangit.com/) pada tahun 2016 dengan pelbagai program di luar dan dalam talian. Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 juta pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun!
 
-Pemasyarakatan sains, atau pemasyarakatan ilmu secara amnya, menampakkan perkembangan yang positif dan dijangka akan kekal positif untuk tempoh yang lama. Bila melihat ramai orang menumpukan tenaga mereka menyampaikan sains popular, tiba masa pula ada orang halakan usaha menambah bahan-bahan rujukan teknikal.
+Pemasyarakatan sains, atau umumnya pemasyarakatan ilmu, sedang galak dilaksanakan oleh bicarawan-bicarawan sains yang sudah ataupun yang belum mendapat nama. Penyampaian sains dalam konteks popular ini seringkali menyabitkan nama Carl Sagan sebagai pengasas dan amalannya meluas sehingga muncul banyak saluran YouTube berkaitannya. Di Malaysia, ia masih di peringkat tunas.
 
-Dua nama yang saya kenal rajin menulis bahan rujukan teknikal sains dan matematik sejak sebelum zaman internet lagi ialah Mohammad Yahaya yang antaranya menulis tentang Mekanik dan Fizik Moden, dan Shaharir Mohd Zain yang menghasilkan buku rujukan pelbagai jenis fungsi. Belum lagi termasuk pensyarah-pensyarah yang sekali-sekala menulis buku rujukan seperti Roslan Abd Shukor yang menulis tentang Superkonduktor.
+Dengan kemunculan golongan seperti MajalahSains, Apadilangit, dan Ajar, masalah pertama, iaitu ketiadaan bahan sains di dalam talian sudah selesai. Mungkin dalam masa sedekad, banyak nama baharu akan muncul dan sains popular akan semakin subur di tanah maya ini.
 
-Entah berapa ramai lagi penulis ilmiah serta bukunya yang tidak kita ketahui. Ada eloknya jika kita geledah perpustakaan ilmiah kita untuk mengorek khazanah-khazanah ini.
+Dengan begitu banyak tenaga ditumpu ke arah penyuburan penyampaian sains popular, sudah tiba masanya untuk kita agihkan tenaga untuk menyuburkan kandungan sains teknikal pula. Kita tidak mahu melahirkan peminat sains sahaja tetapi kita ingin juga melahirkan pakar dalam bidang ini.
 
-Namun, semua itu hanya wujud di alam nyata. Dunia internet ialah satu pustaka yang luas dan dekat; maka amat rugilah jika bahan rujukan tidak dibawa ke pusat pustaka dunia ini. Kewujudan bahan ilmiah di alam nyata dan kewujudannya di alam maya perlu ada keseimbangan.
+Dua nama yang saya kenal rajin menulis bahan rujukan teknikal sains dan matematik sejak sebelum zaman internet lagi ialah Prof Mohammad Yahaya yang antaranya menulis tentang Mekanik dan Fizik Moden; dan Prof Shaharir Mohd Zain yang menghasilkan buku rujukan pelbagai jenis fungsi. Itu belum lagi termasuk pensyarah yang sekali-sekala menulis buku rujukan seperti Prof Roslan Abdul Shukor yang menulis tentang Superkonduktor.
 
-Buat masa ini, kelihatannya seperti tiada bahan rujukan ilmiah sains berbahasa Melayu. Oleh itu, projek Catatan Fizik Teori ini bertujuan untuk memulakan langkah pertama mengisi kelompongan itu. Bertambahlah harapanku agar ada orang lain meneruskan langkah ini.
+Entah berapa ramai lagi penulis ilmiah serta bukunya yang tidak kita ketahui. Ada eloknya jika kita geledah perpustakaan ilmiah kita untuk mengorek khazanah-khazanah ilmu ini.
 
-Karya ini adalah hasil teladan daripada wargamaya seluruh dunia. Ada banyak jenis rujukan yang mereka hasilkan dan sebahagiannya bukanlah kuliah atau kursus bersilibus tetapi hanya sekadar catatan mereka berkaitan ilmu yang diteroka itu. Maka, inilah catatan saya agar kalian beroleh manfaat.
+Adapun semua nama ini, buku-buku tersebut hanya wujud di alam nyata. Dunia internet ialah satu pustaka yang luas dan sangat dekat; maka amatlah rugi jika bahan rujukan tidak dibawa ke pusat pustaka dunia ini. Kewujudan bahan ilmiah di alam nyata dan kewujudannya di alam maya perlu ada keseimbangan.
+
+Buat masa ini, kelihatannya seperti tiada bahan rujukan ilmiah sains berbahasa Melayu yang dijumpai di internet, terutamanya untuk pengajian tinggi. Oleh itu, projek Catatan Fizik Teori ini bertujuan untuk memulakan langkah pertama mengisi kelompongan itu.
+
+Karya ini adalah hasil teladan daripada wargamaya seluruh dunia. Ada banyak jenis rujukan yang mereka hasilkan dan sebahagiannya (mungkin sebenarnya sebahagian besar daripadanya) bukanlah daripada kuliah atau kursus bersilibus tetapi hanya sekadar catatan mereka berkaitan ilmu yang diteroka itu.
+
+Lagipun, amalan mengongsikan catatan kuliah sudah lama diamalkan oleh para mahasiswa tetapi selalunya ia adalah perkongsian dari senior ke junior kursus tersebut. Maka, projek ini adalah perkembangan wajar daripada amalan tersebut.
 
 ## Tentang Penulis {-}
 
-```{r, echo=FALSE, out.width="30%", fig.align="center"}
-knitr::include_graphics(".\\gambar\\penulis.jpg")
-```
-
-Murthadza bin Aznam sedang menyambung pengajian Sarjana Muda Fizik Gunaan di Universiti Kebangsaan Malaysia sejak sesi 2017/2018 dan dijangka akan habis pada sesi 2021/2022. Karya ini, "Catatan Fizik Teori: Mekanik Kuantum" ialah hasil kutipan notanya untuk kursus Mekanik Kuantum di sini. Dia bercadang ingin menyambung pengajian kesarjanaan lanjut dalam bidang Fizik Teori dan siri Catatan Fizik Teori ini akan menjadi siri nota-nota sepanjang perjalanannya.
+Murthadza bin Aznam ialah seorang Sarjana Muda Fizik Gunaan di Universiti Kebangsaan Malaysia sejak sesi 2017/2018 dan dijangka akan habis pada sesi 2021/2022. Karya ini, "Catatan Fizik Teori: Mekanik Kuantum" ialah hasil kutipan notanya untuk kursus Mekanik Kuantum di sini. Beliau pernah berkecimpung dalam dunia penyampaian sains popular sejak 2016 melalui beberapa saluran seperti [NotaSains](www.notasains.wordpress.com), MajalahSains, The Patriots Asia, [FizikKini](www.fizikkini.com) dan media sosial peribadi.
