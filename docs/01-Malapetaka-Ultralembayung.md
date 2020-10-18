@@ -1,3 +1,160 @@
 # Malapetaka Ultralembayung
 
-Lorem Ipsum macam-macam Ipsum
+Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
+Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
+
+## Sinaran Jasad Hitam
+
+Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya dengan sempurna tanpa pantulan. Jasad ini akan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba. Kata kuncinya di sini ialah ia memancarkan kesemua panjang gelombang cahaya daripada sependek-pendek gamma sehinggalah sepanjang-panjang radio. Bintang-bintang di langit memiliki ciri ini.
+
+Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan&ndash;Boltzmann.
+
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-83-116-101-102-97-110-38-110-100-97-115-104-59-66-111-108-116-122-109-97-110-110-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-01"><strong>(\#def:mu-def-01)  \iffalse (Hukum Stefan&ndash;Boltzmann) \fi{} </strong></span>Jumlah tenaga, $E$, yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, $T$,
+\begin{equation}
+  E = \sigma T^4,
+\end{equation}
+dengan maksud bahawa,
+\begin{equation*}
+\begin{split}
+	E & = \text{tenaga},\\
+	T & = \text{suhu bintang},\\
+	\sigma & = \text{pemalar Stefan--Boltzmann,}\\
+	& = 5.6704\times 10^{-8}\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4}.\\
+\end{split}
+\end{equation*}</div>\EndKnitrBlock{definition}
+
+Tenaga yang diperihalkan dalam Hukum Stefan&ndash;Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
+
+<div class="figure" style="text-align: center">
+<img src=".\gambar\ultra\jasadhitam.jpg" alt="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang." width="600px" />
+<p class="caption">(\#fig:mu-jasad)Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang.</p>
+</div>
+
+Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesuatu bintang mengikut panjang gelombang cahaya. Puncak lengkung itu menunjukkan cahaya mana yang paling banyak dikeluarkan. Puncak itu semakin menghampiri kiri jika suhu bintang semakin panas.
+
+Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya berada akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kta teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
+
+<div class="figure" style="text-align: center">
+<img src=".\gambar\ultra\belantik.jpg" alt="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: Mouser, CC BY--SA 3.0; dari [wikipedia](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg)." height="500px" />
+<p class="caption">(\#fig:mu-belantik)Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: Mouser, CC BY--SA 3.0; dari [wikipedia](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg).</p>
+</div>
+
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-83-101-115-97-114-97-110-32-87-105-101-110-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-02"><strong>(\#def:mu-def-02)  \iffalse (Hukum Sesaran Wien) \fi{} </strong></span>Panjang gelombang puncak sinaran jasad hitam, $\lambda_p$, adalah berkadaran songsang dengan suhu bintang tersebut, $T$,
+\begin{equation}
+	\lambda_p = \frac{W}{T},
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Sesaran Wien}
+\begin{equation*}
+\begin{split}
+	\lambda_p & = \text{panjang gelombang puncak,} \\
+	T & = \text{suhu jasad hitam,} \\
+	W & = \text{pemalar Wien,} \\
+	& = 2.8978\times 10^{-3}\text{m}\cdot\text{K}.\\
+\end{split}
+\end{equation*}</div>\EndKnitrBlock{definition}
+
+Pemerihalan jumlah tenaga dan nilai tenaga puncak itu cukup mantap. Namun, pencarian ahli fizik belum selesai kerana mereka ingin tahu persamaan apakah yang boleh menghasilkan graf tersebut, bukan sekadar jumlah tenaga atau puncaknya sahaja.
+
+Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Hukum Wien pula hanya menyatakan di mana letaknya puncak graf tersebut. Kedua-duanya tidak mampu menerangkan lengkungan graf tersebut.
+
+## Cubaan Wein, Rayleigh dan Jeans
+
+Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien,
+
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-84-97-98-117-114-97-110-32-87-105-101-110-32-47-32-80-101-110-103-104-97-109-112-105-114-97-110-32-87-105-101-110-93-}\fi{}<div class="definition"><span class="definition" id="def:unnamed-chunk-1"><strong>(\#def:unnamed-chunk-1)  \iffalse (Hukum Taburan Wien / Penghampiran Wien) \fi{} </strong></span>Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\{-\frac{1}{\lambda T}\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
+\begin{equation}
+U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Taburan Wien}
+\begin{equation*}
+\begin{split}
+U(\lambda,T) & = \text{ketumpatan tenaga cahaya},\\
+\lambda & = \text{panjang gelombang cahaya},\\
+T & = \text{suhu bintang},\\
+a,b & = \text{pemalar}.\\
+\end{split}
+\end{equation*}</div>\EndKnitrBlock{definition}
+
+Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh&ndash;Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.
+
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-82-97-121-108-101-105-103-104-38-110-100-97-115-104-59-74-101-97-110-115-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-04"><strong>(\#def:mu-def-04)  \iffalse (Hukum Rayleigh&ndash;Jeans) \fi{} </strong></span>Ketumpatan tenaga cahaya, $U$, adalah berkadaran terus dengan suhu bintang $T$ dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, $\lambda^4$,
+\begin{equation}
+U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.6cm}Hukum Rayleigh--Jeans}
+\begin{equation*}
+\begin{split}
+U & = \text{ketumpatan tenaga cahaya},\\
+k_B & = \text{pemalar Boltzmann},\\
+&= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1},\\
+\lambda & = \text{panjang gelombang cahaya},\\
+T & = \text{suhu bintang}.\\
+\end{split}
+\end{equation*}</div>\EndKnitrBlock{definition}
+
+\BeginKnitrBlock{proof}\iffalse{-91-75-97-101-100-97-104-32-77-101-109-112-101-114-111-108-101-104-32-80-101-114-115-97-109-97-97-110-32-82-97-121-108-101-105-103-104-38-110-100-97-115-104-59-74-101-97-110-115-93-}\fi{}<div class="proof">\iffalse{} <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Persamaan Rayleigh&ndash;Jeans) </span>  \fi{}
+Kita mulakan dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun. Pengayun Rayleigh-Jeans ini mempunyai jumlah tenaga $\frac{1}{2}{k_BT}$. Melalui hukum keabadian tenaga, kita tahu bahawa
+$$E = E_{\text{kinetik}} + E_{\text{upaya}}$$
+sepanjang masa asalkan sistem tersebut tidak diganggu.
+
+Menggunakan teorem pemetakan sama, tenaga kinetik dan tenaga upaya sistem pengayun harmonik klasik adalah sama. Memandangkan tenaga kinetik ialah $\frac{1}{2}{k_BT}$ maka begitulah juga tenaga upayanya. Tenaga keseluruhannya menjadi $E = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} = k_BT$. Pengayun-pengayun ini bertaburan dalam jasad hitam memenuhi ruang. Jumlah pengayun yang berkumpul dalam suatu isipadu tertentu itu ditakrifkan sebagai ketumpatannya,
+\begin{equation}\label{0}
+n(f) = \frac{8\pi f^2}{c^3},
+\end{equation}
+dengan maksud bahawa,
+\begin{equation*}
+\begin{split}
+n(f) & = \text{ketumpatan pengayun yang dikaji},\\
+f & = \text{frekuensi cahaya},\\
+c & = \text{kelajuan cahaya},\\
+& = 2.99792458\times 10^8 \text{m}\cdot\text{s}^{-1}.
+\end{split}
+\end{equation*}
+
+Dengan tanggapan bahawa taburan pengayun adalah sekata di keseluruhan ruang jasad hitam itu, bolehlah kita mendapatkan ketumpatan tenaga yang dipancarkan oleh pengayun untuk setiap isipadu tertentu dengan mendarabkannya dengan tenaga pengayun $k_BT$ yang kita dapati sebelum ini,
+\begin{equation} \label{ERJ}
+U\left(\lambda,T\right) = n\left(f\right)k_BT.
+\end{equation}
+
+Kita perlu menukar nilai Jeans kita kepada nilai yang bergantung kepada panjang gelombang, $\lambda$, dan bukan frekuensi, $f$, kerana graf dalam rajah \ref{jasad} itu diungkapkan dalam bentuk tenaga melawan panjang gelombang. Untuk melakukan penukaran tersebut, kita perlu mengetahui hakikat bahawa
+$$n\left(\lambda\right) \text{d}{\lambda} = n(f)\text{d}{f},$$
+maka
+\begin{equation} \label{fL}
+n\left(\lambda\right) \frac{\text{d}{\lambda}}{\text{d}{f}}= n
+\left(f\right).
+\end{equation}
+Perkaitan frekuensi dan panjang gelombang pula ialah,
+\begin{equation} \label{f}
+\lambda = \frac{c}{f}.
+%\end{equation}
+\end{equation}
+Lalu, pembezaan untuk pers. \ref{f} terhadap $f$ menjadi
+\begin{equation} \label{df}
+\frac{\text{d}{\lambda}}{\text{d}{f}} = \frac{-c}{f^2}.
+\end{equation}
+
+Disebabkan nilai Jeans ini merujuk kepada bilangan jasad yang semestinya tidak boleh negatif, maka kita ambil nilai mutlaknya sahaja. Lalu, jika pers. \ref{df} dimasukkan dalam pers. \ref{fL} kita boleh lakukan langkah-langkah aljabar umum untuk memperoleh persamaan berikut,
+\begin{align}
+n\left(\lambda\right) \left|\frac{\text{d}{\lambda}}{\text{d}{f}}\right| &= n\left(f\right),\nonumber\\
+n\left(\lambda\right) \left|\frac{-c}{f^2}\right| &= \frac{8\pi f^2}{c^3},\nonumber\\
+n\left(\lambda\right) &= \frac{8\pi f^2}{c^3} \frac{f^2}{c},\nonumber\\
+n\left(\lambda\right)& = 8\pi\left(\frac{f}{c}\right)^4.\label{nL}
+\end{align}
+Menggunakan perkaitan pada pers. \ref{f} ke dalam pers. \ref{nL}, kita akan peroleh:
+\begin{equation} \label{N}
+n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
+\end{equation}
+
+Maka, langkah terakhir kita ialah dengan menggantikan pers. \ref{N} ke dalam pers. \ref{ERJ} lalu kita perolehlah hukum Rayleigh-Jeans,
+\begin{equation} \label{RJ}
+U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.6cm}Hukum Rayleigh--Jeans}
+\begin{equation*}
+\begin{split}
+U & = \text{ketumpatan tenaga},\\
+k_B & = \text{pemalar Boltzmann},\\
+&= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}.\\
+\end{split}
+\end{equation*}
+</div>\EndKnitrBlock{proof}

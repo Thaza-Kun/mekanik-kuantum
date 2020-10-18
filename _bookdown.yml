@@ -1,6 +1,12 @@
 book_filename: "Catatan-Mekanik-Kuantum"
 chapter_name: "Bab "
-repo: https://github.com/seankross/bookdown-start
+repo: https://github.com/thaza-kun/cft-mekanik-kuantum
 output_dir: docs
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
+language:
+  label:
+    fig: "RAJAH "
+    tab: "JADUAL "
+    proof: "BUKTI "
+    def: "HUKUM "
