@@ -8,9 +8,6 @@ bookdown::gitbook:
         <li><a href="./">CATATAN FIZIK TEORI:<br/>MEKANIK KUANTUM</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Dihasilkan menggunakan Bookdown</a></li>
-  sharing:
-      github: yes
-      facebook: no
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

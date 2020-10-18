@@ -6,10 +6,3 @@ technical-details
 malapetaka-ultralembayung
 kedualan-gelombangzarah
 pengenalan-fungsi-gelombang
-sinaran-jasad-hitam
-eq:mu01
-fig:unnamed-chunk-1
-fig:jasadhitam
-fig:mu-jasad
-eq:mu02
-cubaan-wein-rayleigh-dan-jeans
