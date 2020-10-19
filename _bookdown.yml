@@ -3,10 +3,11 @@ chapter_name: "Bab "
 repo: https://github.com/thaza-kun/cft-mekanik-kuantum
 output_dir: docs
 clean: [packages.bib, bookdown.bbl]
-new_session: yes
+new_session: no
 language:
   label:
     fig: "RAJAH "
     tab: "JADUAL "
     proof: "BUKTI "
     def: "HUKUM "
+    prp: "USUL "

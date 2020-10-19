@@ -33,7 +33,7 @@ knitr::include_graphics(".\\gambar\\ultra\\jasadhitam.jpg")
 
 Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesuatu bintang mengikut panjang gelombang cahaya. Puncak lengkung itu menunjukkan cahaya mana yang paling banyak dikeluarkan. Puncak itu semakin menghampiri kiri jika suhu bintang semakin panas.
 
-Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya berada akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kta teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
+Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
 ```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: Mouser, CC BY--SA 3.0; dari [wikipedia](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg)."}
 knitr::include_graphics(".\\gambar\\ultra\\belantik.jpg")
@@ -61,14 +61,14 @@ Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Huk
 
 ## Cubaan Wein, Rayleigh dan Jeans
 
-Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien,
+Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.
 
 ```{definition, name="Hukum Taburan Wien / Penghampiran Wien"}
 Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\{-\frac{1}{\lambda T}\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
 \begin{equation}
 U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Taburan Wien}
+dengan maksud bahawa,
 \begin{equation*}
 \begin{split}
 U(\lambda,T) & = \text{ketumpatan tenaga cahaya},\\
@@ -99,70 +99,64 @@ T & = \text{suhu bintang}.\\
 ```
 
 ```{proof, name="Kaedah Memperoleh Persamaan Rayleigh&ndash;Jeans"}
+Bagi memperoleh persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.
 
-Kita mulakan dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun. Pengayun Rayleigh-Jeans ini mempunyai jumlah tenaga $\frac{1}{2}{k_BT}$. Melalui hukum keabadian tenaga, kita tahu bahawa
-$$E = E_{\text{kinetik}} + E_{\text{upaya}}$$
-sepanjang masa asalkan sistem tersebut tidak diganggu.
+**USUL 1**: Pengayun-pengayun Rayleigh&ndash;Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh&ndash;Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, $E_k$, dan tenaga upaya, $E_v$ dan masing-masing mempunyai nilai $\frac{1}{2}{k_BT}$,
+$$E_k = E_v = \frac{1}{2}{k_BT}.$$
 
-Menggunakan teorem pemetakan sama, tenaga kinetik dan tenaga upaya sistem pengayun harmonik klasik adalah sama. Memandangkan tenaga kinetik ialah $\frac{1}{2}{k_BT}$ maka begitulah juga tenaga upayanya. Tenaga keseluruhannya menjadi $E = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} = k_BT$. Pengayun-pengayun ini bertaburan dalam jasad hitam memenuhi ruang. Jumlah pengayun yang berkumpul dalam suatu isipadu tertentu itu ditakrifkan sebagai ketumpatannya,
-\begin{equation}\label{0}
-n(f) = \frac{8\pi f^2}{c^3},
+Maka, tenaga setiap pengayun tersebut ialah $k_BT$,
+\begin{equation}
+\sum E = E_k + E_v = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} =k_BT (\#eq:mu-0)
 \end{equation}
-dengan maksud bahawa,
-\begin{equation*}
-\begin{split}
-n(f) & = \text{ketumpatan pengayun yang dikaji},\\
-f & = \text{frekuensi cahaya},\\
-c & = \text{kelajuan cahaya},\\
-& = 2.99792458\times 10^8 \text{m}\cdot\text{s}^{-1}.
-\end{split}
-\end{equation*}
 
-Dengan tanggapan bahawa taburan pengayun adalah sekata di keseluruhan ruang jasad hitam itu, bolehlah kita mendapatkan ketumpatan tenaga yang dipancarkan oleh pengayun untuk setiap isipadu tertentu dengan mendarabkannya dengan tenaga pengayun $k_BT$ yang kita dapati sebelum ini,
-\begin{equation} \label{ERJ}
+**USUL 2**: Jumlah pengayun yang berkumpul dalam suatu isipadu tertentu ialah berkadaran dengan frekuensi kuasa dua $f^2$,
+\begin{equation}
+n(f) = \frac{8\pi f^2}{c^3}.(\#eq:mu-1)
+\end{equation}
+Nilai $n(f)$ ini dikenali sebagai nilai Jeans.
+
+Oleh itu, tenaga yang dibawa oleh setiap frekuensi cahaya, $U\left(\lambda,T\right)$, boleh diperoleh sebagai hasil darab nilai Jeans (pers. \@ref(eq:mu-1)) dengan tenaga pengayun (pers. \@ref(eq:mu-0)),
+\begin{equation}
 U\left(\lambda,T\right) = n\left(f\right)k_BT.
+(\#eq:mu-2)
 \end{equation}
 
-Kita perlu menukar nilai Jeans kita kepada nilai yang bergantung kepada panjang gelombang, $\lambda$, dan bukan frekuensi, $f$, kerana graf dalam rajah \ref{jasad} itu diungkapkan dalam bentuk tenaga melawan panjang gelombang. Untuk melakukan penukaran tersebut, kita perlu mengetahui hakikat bahawa
-$$n\left(\lambda\right) \text{d}{\lambda} = n(f)\text{d}{f},$$
-maka
-\begin{equation} \label{fL}
-n\left(\lambda\right) \frac{\text{d}{\lambda}}{\text{d}{f}}= n
-\left(f\right).
+Persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)) memerihalkan tenaga cahaya dalam bentuk panjang gelombang $\lambda$, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
+\begin{equation}
+f = \frac{c}{\lambda},(\#eq:mu-3)
 \end{equation}
-Perkaitan frekuensi dan panjang gelombang pula ialah,
-\begin{equation} \label{f}
-\lambda = \frac{c}{f}.
-%\end{equation}
-\end{equation}
-Lalu, pembezaan untuk pers. \ref{f} terhadap $f$ menjadi
-\begin{equation} \label{df}
-\frac{\text{d}{\lambda}}{\text{d}{f}} = \frac{-c}{f^2}.
+dan kita lakukan pembezaan siap-siap,
+\begin{equation}
+\frac{\text{d}f}{\text{d}\lambda} = \frac{-c}{\lambda^2}.
+(\#eq:mu-3a)
 \end{equation}
 
-Disebabkan nilai Jeans ini merujuk kepada bilangan jasad yang semestinya tidak boleh negatif, maka kita ambil nilai mutlaknya sahaja. Lalu, jika pers. \ref{df} dimasukkan dalam pers. \ref{fL} kita boleh lakukan langkah-langkah aljabar umum untuk memperoleh persamaan berikut,
-\begin{align}
-n\left(\lambda\right) \left|\frac{\text{d}{\lambda}}{\text{d}{f}}\right| &= n\left(f\right),\nonumber\\
-n\left(\lambda\right) \left|\frac{-c}{f^2}\right| &= \frac{8\pi f^2}{c^3},\nonumber\\
-n\left(\lambda\right) &= \frac{8\pi f^2}{c^3} \frac{f^2}{c},\nonumber\\
-n\left(\lambda\right)& = 8\pi\left(\frac{f}{c}\right)^4.\label{nL}
-\end{align}
-Menggunakan perkaitan pada pers. \ref{f} ke dalam pers. \ref{nL}, kita akan peroleh:
-\begin{equation} \label{N}
+Fungsi nilai Jeans pula boleh ditukar menggunakan perhubungan ini,
+\begin{equation}
+n\left(\lambda\right) = n(f)\left|\frac{\text{d}{f}}{\text{d}{\lambda}}\right|.
+(\#eq:mu-4)
+\end{equation}
+Fungsi pembezaan $\frac{\text{d}{f}}{\text{d}{\lambda}}$ dimutlakkan sebab nilai Jeans ialah jumlah pengayun. Jumlah benda fizikal tidak boleh berada dalam julat negatif.
+
+Dengan memasukkan pers. \@ref(eq:mu-1) dan pers. \@ref(eq:mu-3a) ke dalam pers. \@ref(eq:mu-4),
+\begin{equation}
+n(\lambda) = \left(\frac{8\pi f^2}{c^3}\right)\left|\frac{-c}{\lambda^2}\right|.
+  (\#eq:mu-5)
+\end{equation}
+Kemudian, pembolehubah $f$ perlu diganti dengan perkaitan dalam pers. \@ref(eq:mu-3),
+\begin{equation}
+n(\lambda) = \left(\frac{8\pi}{c^3}\left(\frac{c}{\lambda}\right)^2\right)\left|\frac{-c}{\lambda^2}\right|.
+  (\#eq:mu-6)
+\end{equation}
+Maka, nilai $n(\lambda)$ ialah,
+\begin{equation}
 n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
+(\#eq:mu-7)
 \end{equation}
 
-Maka, langkah terakhir kita ialah dengan menggantikan pers. \ref{N} ke dalam pers. \ref{ERJ} lalu kita perolehlah hukum Rayleigh-Jeans,
-\begin{equation} \label{RJ}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
+Maka, langkah terakhir kita ialah dengan menggunakan pers. \@ref{eq:mu-7} untuk menyelesaikan pers. \@ref{eq:mu-2} di awal kaedah ini tadi,
+\begin{equation}
+U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.6cm}Hukum Rayleigh--Jeans}
-\begin{equation*}
-\begin{split}
-U & = \text{ketumpatan tenaga},\\
-k_B & = \text{pemalar Boltzmann},\\
-&= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}.\\
-\end{split}
-\end{equation*}
-
+Inilah persamaan Rayleigh&ndash;Jeans yang ingin diperolehi.
 ```
