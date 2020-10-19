@@ -154,7 +154,7 @@ n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
 (\#eq:mu-7)
 \end{equation}
 
-Maka, langkah terakhir kita ialah dengan menggunakan pers. \@ref{eq:mu-7} untuk menyelesaikan pers. \@ref{eq:mu-2} di awal kaedah ini tadi,
+Maka, langkah terakhir kita ialah dengan menggunakan pers. \@ref(eq:mu-7) untuk menyelesaikan pers. \@ref(eq:mu-2) di awal kaedah ini tadi,
 \begin{equation}
 U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
 \end{equation}
