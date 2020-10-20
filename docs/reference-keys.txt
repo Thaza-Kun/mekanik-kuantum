@@ -16,3 +16,6 @@ eq:mu-4
 eq:mu-5
 eq:mu-6
 eq:mu-7
+def:unnamed-chunk-2
+fig:unnamed-chunk-1
+fig:unnamed-chunk-4

@@ -3,6 +3,10 @@
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
+```{r echo=FALSE, fig.cap="Bunga lembayung (*Eichhornia crassipes*)^[Kamus Dewan Ke&ndash;4] atau lebih dikenali sebagai bunga keladi bunting ialah sejenis bunga yang terapung di atas air. Warna lembayung menyerupai warna bunga ini. Karya: [Wouter Hagens](https://commons.wikimedia.org/wiki/File:Eichhornia_crassipes_C.jpg), Domain Awam."}
+knitr::include_graphics(".\\gambar\\ultra\\keladi-bunting.jpg")
+```
+
 ## Sinaran Jasad Hitam
 
 Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya dengan sempurna tanpa pantulan. Jasad ini akan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba. Kata kuncinya di sini ialah ia memancarkan kesemua panjang gelombang cahaya daripada sependek-pendek gamma sehinggalah sepanjang-panjang radio. Bintang-bintang di langit memiliki ciri ini.
@@ -35,7 +39,7 @@ Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesua
 
 Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
-```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: Mouser, CC BY--SA 3.0; dari [wikipedia](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg)."}
+```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
 knitr::include_graphics(".\\gambar\\ultra\\belantik.jpg")
 ```
 
@@ -160,3 +164,18 @@ U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
 \end{equation}
 Inilah persamaan Rayleigh&ndash;Jeans yang ingin diperolehi.
 ```
+
+Hasil daripada persamaan Rayleigh&ndash;Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh&ndash;Jeans ialah suatu fungsi salingan, $\frac{1}{x}$, berkuasa 4.
+
+Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga! Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.
+
+Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.
+
+```{r echo=FALSE, out.width="500px", fig.align='center', fig.cap="Persamaan Rayleigh&ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal."}
+knitr::include_graphics(".\\gambar\\ultra\\Rayleigh.png")
+```
+
+## Postulat Planck Tentang Sekuanta Tenaga
+
+Max Planck ada mengemukakan penyelesaian kepada masalah ini. Namun, pendekatannya berbeza. Pendekatan yang digunakan di sini ialah pendekatan *heuristik*, iaitu kaedah yang berguna untuk masalah ini tetapi tidak semestinya mempunyai rasional atau hujah yang kukuh untuk mengesahkan kaedah ini. Pada waktu itu, postulat-postulat yang dikemukakan Planck itu hanyalah postulat cubaan sahaja. Beliau sendiri tidak percaya bahawa ada kebenaran di sebalik postulatnya. Beliau hanya gunakan postulat itu kerana ia berkesan.
+
