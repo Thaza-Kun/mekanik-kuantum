@@ -4,7 +4,7 @@ Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermu
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
 ```{r echo=FALSE, fig.cap="Bunga lembayung (*Eichhornia crassipes*)^[Kamus Dewan Ke&ndash;4] atau lebih dikenali sebagai bunga keladi bunting ialah sejenis bunga yang terapung di atas air. Warna lembayung menyerupai warna bunga ini. Karya: [Wouter Hagens](https://commons.wikimedia.org/wiki/File:Eichhornia_crassipes_C.jpg), Domain Awam."}
-knitr::include_graphics(".\\gambar\\ultra\\keladi-bunting.jpg")
+knitr::include_graphics(".\\gambar\\ultra\\keladibunting.jpg")
 ```
 
 ## Sinaran Jasad Hitam
