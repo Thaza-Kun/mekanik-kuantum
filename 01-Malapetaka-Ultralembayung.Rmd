@@ -3,8 +3,8 @@
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
-```{r echo=FALSE, fig.cap="Bunga lembayung (*Eichhornia crassipes*)^[Kamus Dewan Ke&ndash;4] atau lebih dikenali sebagai bunga keladi bunting ialah sejenis bunga yang terapung di atas air. Warna lembayung menyerupai warna bunga ini. Karya: [Wouter Hagens](https://commons.wikimedia.org/wiki/File:Eichhornia_crassipes_C.jpg), Domain Awam."}
-knitr::include_graphics(".\\gambar\\ultra\\keladibunting.jpg")
+```{r echo=FALSE, fig.cap="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), CC0 Dedikasi Domain Awam."}
+knitr::include_graphics(".\\gambar\\ultra\\basellaalba.jpg")
 ```
 
 ## Sinaran Jasad Hitam
