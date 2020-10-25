@@ -28,3 +28,13 @@ eq:mu-10
 eq:mu-11
 eq:mu-12
 eq:mu-13
+def:unlabeled-div-1
+eq:mu-14
+eq:mu-15
+thm:unlabeled-div-1
+thm:unlabeled-div-2
+thm:unnamed-chunk-5
+thm:mu-thm-01
+thm:unlabeled-div-8
+thm:unlabeled-div-9
+thm:mu-thm-02

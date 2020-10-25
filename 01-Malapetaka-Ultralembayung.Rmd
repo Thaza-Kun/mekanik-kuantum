@@ -212,7 +212,8 @@ k_B & = \text{pemalar Boltzmann},\\
 \end{equation*}
 ```
 
-```{proof, name="Kaedah Memperoleh Persamaan Planck"}
+
+<div class="proof"> (Kaedah Memperoleh Persamaan Planck)
 Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayung serta menakrifkan jumlah pengayunnya.
 
 **USUL 1**: Pengayun-pengayung Planck mempunyai tenaga, $\varepsilon_n$, yang berkadaran terus terhadap frekuensi, $f$, dan berpekali integer, $n$, seperti yang dijelaskan dalam dua postulat Planck,
@@ -239,7 +240,7 @@ Tatatanda $\text{exp}\Big\{\frac{-\varepsilon_n}{k_BT}\Big\}$ digunakan untuk me
 
 Jangan pula keliru antara $N$ dengan $n$. $N$ merujuk kepada jumlah pengayun manakala $n$ merujuk kepada jumlah ketulan cahaya.
 
-Oleh itu, purata tenaga, $\overline{\varepsilon}$, yang dipancarkan oleh jasad hitam boleh diluahkan sebagai hasil jumlah tenaga yang dibawa oleh semua pengayun, $N(n)\varepsilon_n$, dibahagikan dengan jumlah pengayung, $N(n)$,
+Oleh itu, purata tenaga, $\overline{\varepsilon}$, yang dipancarkan oleh jasad hitam boleh diluahkan sebagai hasil jumlah tenaga yang dibawa oleh semua pengayun, $N(n)\varepsilon_n$, dibahagikan dengan jumlah pengayun, $N(n)$,
 \begin{equation}
 \overline{\varepsilon} = \frac{\sum_{n=0}^{\infty}N(n)\varepsilon_n}{\sum_{n=0}^{\infty}N(n)}.
 (\#eq:mu-12)
@@ -259,44 +260,38 @@ Pers. \@ref(eq:mu-12) boleh dikembangkan mengikut takrif nilai $N(n)$ dan $\vare
 (\#eq:mu-13)
 \end{equation}
 
-Nilai $N_0$ atas dan bawah boleh dipotong kerana ia hanyalah pemalar. Nilai $hf$ pula boleh difaktorkan keluar. Pemalar $\frac{-hf}{k_BT}$ dalam $\exp\Big\{\frac{-nhf}{k_BT}\Big\}$ akan digantikan dengan $k$. Pers. \@ref(eq:mu-12) kini adalah,
-$$\overline{\varepsilon} = hf\frac{\sum n e^{kn}}{\sum e^{kn}}$$
-
-===========================
-
-Kini, kita boleh tulisnya sebagai hasil penjumlahan $n$,
-\begin{equation}\label{6}
-\overline{\varepsilon} = \frac{(0)hfx^0 + (1)hfx^1 + (2)hfx^2 + (3)hfx^3+\dots+(\infty)hfx^\infty}{x^0+x^1+x^2+x^3+\dots+x^\infty}.
+Pekali $N_0$ dan $hf$ pula boleh difaktorkan keluar kerana malar dalam hal penjumlahan ini. Kemudian, $N_0$ di atas dan di bawah boleh dipotong. Pemalar $\frac{-hf}{k_BT}$ dalam $\exp\Big\{\frac{-nhf}{k_BT}\Big\}$ akan digantikan dengan $k$. Pers. \@ref(eq:mu-12) kini adalah,
+$$\overline{\varepsilon} = hf\frac{\sum n e^{nk}}{\sum e^{nk}}$$
+Apabila dikembangkan penjumlahannya, kita akan dapat,
+\begin{equation}
+\overline{\varepsilon} = hf\lim_{N\to\infty}\frac{(0)e^{0k} + (1)e^{1k} + (2)e^{2k} + (3)e^{3k}+\dots+Ne^{Nk}}{e^{0k}+e^{1k}+e^{2k}+e^{3k}+\dots+e^{Nk}}.
+(\#eq:mu-14)
 \end{equation}
 
-Dengan memfaktorkan keluar sebutan sepunya, kita dapat
-\begin{equation}\label{6-1}
-\overline{\varepsilon} = hfx \frac{\lim_{N\to\infty}1+2x+3x^2+\dots+Nx^{N-1}}{1+x+x^2+x^3+\dots+x^\infty}.
+Mari kita perhatikan setiap satu sebutan dalam pecahan tersebut. Untuk nilai pengangka, sebutan pertamanya ialah sifar maka hanya tinggal sebutan berpekali integer sahaja. Kemudian kita dapati setiap satu sebutan di bahagian atas tersebut mengongsi sebutan sepunya, iaitu $e^k$. Maka, nilai pengangka tersebut akan menjadi $$\lim_{N\to\infty}e^k(1+2e^k+3e^{2k}+\cdots+Ne^{(N-1)k}).$$
+Untuk nilai pembawah pula, sebutan pertamanya ialah $e^{0k}=e^0=1$ dan sebutan-sebutan lain tidak mengalami perubahan.
+
+Ini persamaan baharu kita,
+\begin{equation}
+\overline{\varepsilon} = hfe^k \lim_{N\to\infty} \frac{1+2e^k+3e^{2k}+\dots+Ne^{(N-1)k}}{1+e^k+e^{2k}+e^{3k}+\dots+x^{Nk}}
+(\#eq:mu-15)
 \end{equation}
-Nilai pembawah itu didapati adalah suatu siri geometri. Nilai pengangka pula adalah pembezaan siri geometri.
 
-\begin{petua}[Siri Geometri]
-  \label{geometri}
-Jujukan geometri ialah satu jujukan yang meningkat nilainya sebanyak satu pekali. Dalam jujukan $a, ax, ax^2, ax^3,...,ax^k$ setiap sebutan seterusnya didarabkan dengan $x$. Siri geometri pula adalah penjumlahan setiap sebutan dalam jujukan ini. Jika $-1<x<1$ dan $k\to\infty$, maka siri geometrinya adalah begini,
-\begin{equation*}
-    \lim_{k\to\infty}\sum_{n=0}^k ax^n = a\frac{1}{1-x}.
-\end{equation*}
-\margintext{\protect\vspace{-0.5cm}Ingatlah bahawa $$e^{-n} = \frac{1}{e^n}$$ maka ia tidak akan melebihi satu.}Memandangkan $x^n$ dalam pers. \ref{6-1} merujuk kepada $e^{-n\frac{hf}{k_BT}}$, maka kita sudah cukup syarat untuk menggunakan petua ini kerana $-1<e^{-n\frac{hf}{k_BT}}<1$. Ganti sahaja $a=1$.$\qed$
-\end{petua}
+Pers. \@ref(eq:mu-15) menonjolkan dua jenis siri, iaitu siri geometri yang menjadi nilai pembawah pecahan tersebut, dan pembezaan siri geometri yang menjadi nilai pengangkanya.
 
-\begin{petua}[Contoh 12.18, \citet{Mayer2006}]
-Pembezaan siri geometri terhadap $n$ adalah
-\begin{equation*}
-\dv{x}\sum_{n=0}^{k}ax^n = \sum_{n=0}^{k} anx^{n-1},
-\end{equation*}
+```{theorem mu-thm-01, name="Siri Geometri"}
+Dalam jujukan $a, ax, ax^2, ax^3,...,ax^N$ setiap sebutan seterusnya didarabkan dengan $x$. Penjumlahan setiap sebutan dalam jujukan ini ialah sirinya. Jika $-1<x<1$ dan $N\to\infty$, maka siri geometrinya adalah begini,
+$$\lim_{N\to\infty}\sum_{n=0}^N ax^n = a\frac{1}{1-x}.$$
+```
+```{theorem mu-thm-02, name="Pembezaan Siri Geometri"}
+**Contoh 12.18, \citet{Mayer2006}**
+Pembezaan siri geometri terhadap $x$ adalah
+$$\frac{\text{d}}{\text{d}x}\sum_{n=0}^{N}ax^n = \sum_{n=0}^{N} anx^{n-1},$$
 dengan jumlahnya ialah
-\begin{equation*}
-\lim_{k\to\infty}\sum_{n=0}^{k} anx^{n-1} = a\frac{1}{(1-x)^2}.
-\end{equation*}
-dan gantilah $a=1$ untuk tujuan kita kali ini.$\qed$
-\end{petua}
-
-Lalu, kita akan peroleh
+$$\lim_{k\to\infty}\sum_{n=0}^{k} anx^{n-1} = a\frac{1}{(1-x)^2}.$$
+```
+Nilai $e^{nk}$ dalam pers. \@ref(eq:mu-15) menepati syarat petua \@ref(thm:mu-thm-01) dan \@ref(thm:mu-thm-02) kerana $-1<e^{nk}<1$. Maka, kedua-dua petua ini boleh digunakan. Ganti sahaja $a=1$ dan $x=e^k$. Lalu, kita akan peroleh
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{align}
 \overline{\varepsilon} &= hfx\frac{(1-x)^{1}}{(1-x)^{2}}\,,\nonumber\\
 &= hf\frac{x}{1-x}\,,\nonumber\\
@@ -325,5 +320,4 @@ k_B & = \text{pemalar Boltzmann},\\
 & = \boltzmann\uboltzmann.\\
 \end{split}
 \end{equation*}
-
-```
+</div>
