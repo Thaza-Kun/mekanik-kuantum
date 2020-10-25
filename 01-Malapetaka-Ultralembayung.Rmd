@@ -3,7 +3,7 @@
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
-```{r echo=FALSE, fig.cap="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), CC0 Dedikasi Domain Awam."}
+```{r echo=FALSE, fig.cap="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), [CC0 1.0 Dedikasi Domain Awam](https://creativecommons.org/publicdomain/zero/1.0/deed.en)."}
 knitr::include_graphics(".\\gambar\\ultra\\basellaalba.jpg")
 ```
 
@@ -68,7 +68,7 @@ Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Huk
 Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.
 
 ```{definition, name="Hukum Taburan Wien / Penghampiran Wien"}
-Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\{-\frac{1}{\lambda T}\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
+Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
 \begin{equation}
 U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
 \end{equation}
@@ -175,7 +175,155 @@ Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelom
 knitr::include_graphics(".\\gambar\\ultra\\Rayleigh.png")
 ```
 
-## Postulat Planck Tentang Sekuanta Tenaga
+## Postulat Planck Tentang Sekuantum Tenaga
 
-Max Planck ada mengemukakan penyelesaian kepada masalah ini. Namun, pendekatannya berbeza. Pendekatan yang digunakan di sini ialah pendekatan *heuristik*, iaitu kaedah yang berguna untuk masalah ini tetapi tidak semestinya mempunyai rasional atau hujah yang kukuh untuk mengesahkan kaedah ini. Pada waktu itu, postulat-postulat yang dikemukakan Planck itu hanyalah postulat cubaan sahaja. Beliau sendiri tidak percaya bahawa ada kebenaran di sebalik postulatnya. Beliau hanya gunakan postulat itu kerana ia berkesan.
+Penyelesaian kepada masalah ini diberikan oleh Max Planck dengan dua postulat yang dibawanya. Postulat-postulat ini mengandaikan bahawa cahaya bukanlah selanjar seperti gelombang tetapi seperti berketul-ketul seperti zarah. Ternyata, persamaan yang muncul dari postulat ini menghasilkan graf yang selari dengan hasil cerapan.
 
+**POSTULAT 1**: Tenaga, $\varepsilon$, yang dipancarkan oleh pengayun-pengayun dalam jasad hitam itu bergantung kepada frekuensi cahaya, $f$,
+$$\varepsilon = hf.$$
+($h$ ialah pemalar)
+
+**POSTULAT 2**: Jumlah tenaga, $\varepsilon_n$, yang dipancarkan atau diserap oleh pengayun-pengayun dalam jasad hitam ialah hasil darab integer, $$\varepsilon_n = n\varepsilon,\ n=1,2,3,\cdots$$
+
+Adapun begitu, perkara ini bertentangan dengan pandangan ahli fizik tentang cahaya yang dipegang pada zaman itu. Selama ini, cahaya dipandang sebagai suatu gelombang selanjar yang selari dengan persamaan Maxwell. Postulat yang diusulkan itu menatijahkan bahawa cahaya itu sifatnya berketul-ketul. Satu ketul cahaya inilah yang disebut satu kuantum cahaya.
+
+Max Planck sendiri menolak postulat yang dikemukakannya. Postulat tersebut hanyalah cubaannya sahaja dan mendapati ia selari dengan hasil cerapan. Baginya, ia adalah ralat dalam dunia Matematik dan ia akan dapat diperbetulkan di kemudian hari.
+
+Namun begitu, dua postulat ini kekal sehingga hari ini setelah banyak ujikaji lain mengesahkannya. Fizikawan mendapati cahaya mempunyai kedua-dua sifat gelombang dan zarah. Pemilikan dua sifat ini dipanggil kedualan gelombang&ndash;zarah dan sifat ini adalah asas kepada Mekanik Kuantum. Pemalar $h$ itu kini dikenali sebagai Pemalar Planck.
+
+```{definition mu-def-05, name="Hukum Planck"}
+Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
+\begin{equation}
+U(\lambda, T)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.7cm}Hukum Planck}
+\begin{equation*}
+\begin{split}
+U(\lambda, T) & = \text{ketumpatan tenaga},\\
+\lambda & = \text{panjang gelombang cahaya},\\
+T & = \text{suhu bintang},\\
+h & = \text{pemalar Planck},\\
+& = 6.62607015\times 10^{-34}\text{J}\cdot\text{s},\\
+c & = \text{kelajuan cahaya},\\
+& = 2.99792458\times 10^8 \text{m}\cdot\text{s}^{-1},\\
+k_B & = \text{pemalar Boltzmann},\\
+& = 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}.\\
+\end{split}
+\end{equation*}
+```
+
+```{proof, name="Kaedah Memperoleh Persamaan Planck"}
+Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayung serta menakrifkan jumlah pengayunnya.
+
+**USUL 1**: Pengayun-pengayung Planck mempunyai tenaga, $\varepsilon_n$, yang berkadaran terus terhadap frekuensi, $f$, dan berpekali integer, $n$, seperti yang dijelaskan dalam dua postulat Planck,
+\begin{equation}
+\varepsilon_n = nhf
+(\#eq:mu-10)
+\end{equation}
+
+**USUL 2**: Jumlah pengayun dalam jasad hitam mematuhi taburan Maxwell&ndash;Boltzmann,
+\begin{equation}
+N(n)= N_0\exp\Big\{\frac{-\varepsilon_n}{k_BT}\Big\},
+(\#eq:mu-11)
+\end{equation}
+dengan maksud bahawa,
+\begin{equation*}
+\begin{split}
+N(n) &= \text{jumlah pengayun yang mempunyai tenaga $\varepsilon_n$},\\
+N_0 &= \text{sejenis pemalar}\\
+\varepsilon_n &= nhf\\
+k_B &= \text{pemalar Boltzmann}.
+\end{split}
+\end{equation*}
+Tatatanda $\text{exp}\Big\{\frac{-\varepsilon_n}{k_BT}\Big\}$ digunakan untuk menggantikan $e^{\frac{-\varepsilon_n}{k_BT}}$ supaya pecahan dalam kuasa eksponen itu lebih jelas kelihatan tetapi kedua-duanya mempunyai maksud yang sama.
+
+Jangan pula keliru antara $N$ dengan $n$. $N$ merujuk kepada jumlah pengayun manakala $n$ merujuk kepada jumlah ketulan cahaya.
+
+Oleh itu, purata tenaga, $\overline{\varepsilon}$, yang dipancarkan oleh jasad hitam boleh diluahkan sebagai hasil jumlah tenaga yang dibawa oleh semua pengayun, $N(n)\varepsilon_n$, dibahagikan dengan jumlah pengayung, $N(n)$,
+\begin{equation}
+\overline{\varepsilon} = \frac{\sum_{n=0}^{\infty}N(n)\varepsilon_n}{\sum_{n=0}^{\infty}N(n)}.
+(\#eq:mu-12)
+\end{equation}
+
+Perhatikan bagaimana penjumlahan ini dilaksanakan. Purata tenaga tersebut dijumlahkan menggunakan penjumlahan ($\sum$) dan bukannya pengamiran ($\int$). Cuba ingat semula kelas kalkulus tentang makna pengamiran serta perbezaannya dengan penjumlahan. 
+
+Pengamiran hanya sah digunakan sekiranya tiada rongga dalam nilai $n$. Maksudnya, semua nilai dalam julat $[n_1, n_2]$ mempunyai makna. Sifat ketiadaan rongga ini disebut sebagai sifat selajar.
+
+Sebaliknya, penjumlahan hanya sah digunakan sekiranya terdapat rongga dalam nilai $n$. Maksudnya, nilai pertama dan nilai kedua dipisahkan oleh satu nilai tertentu, katakanlah $\Delta n$. Dalam kes ini, $n=1$ dan $n=2$ dipisahkan oleh $\Delta n = 1$. Natijahnya, nilai perantara seperti $n=0.5$ tiada makna dalam penjumlahan ini. Sifat set nilai yang berongga ini disebut sebagai sifat diskret.
+
+Penggunaan penjumlahan dalam pers. \@ref(eq:mu-12) menonjolkan lagi sifat kediskretan cahaya yang kita sebut berketul-ketul tadi. Ia selari dengan postulat keduanya yang mengatakan bahawa pekali $n$ ialah nilai integer.
+
+Pers. \@ref(eq:mu-12) boleh dikembangkan mengikut takrif nilai $N(n)$ dan $\varepsilon_n$ yang diberikan sebelum ini,
+\begin{equation}
+\overline{\varepsilon} = \frac{\sum N_0\exp\Big\{\frac{-nhf}{k_BT}\Big\} nhf}{\sum N_0\exp\Big\{\frac{-nhf}{k_BT}\Big\}}.
+(\#eq:mu-13)
+\end{equation}
+
+Nilai $N_0$ atas dan bawah boleh dipotong kerana ia hanyalah pemalar. Nilai $hf$ pula boleh difaktorkan keluar. Pemalar $\frac{-hf}{k_BT}$ dalam $\exp\Big\{\frac{-nhf}{k_BT}\Big\}$ akan digantikan dengan $k$. Pers. \@ref(eq:mu-12) kini adalah,
+$$\overline{\varepsilon} = hf\frac{\sum n e^{kn}}{\sum e^{kn}}$$
+
+===========================
+
+Kini, kita boleh tulisnya sebagai hasil penjumlahan $n$,
+\begin{equation}\label{6}
+\overline{\varepsilon} = \frac{(0)hfx^0 + (1)hfx^1 + (2)hfx^2 + (3)hfx^3+\dots+(\infty)hfx^\infty}{x^0+x^1+x^2+x^3+\dots+x^\infty}.
+\end{equation}
+
+Dengan memfaktorkan keluar sebutan sepunya, kita dapat
+\begin{equation}\label{6-1}
+\overline{\varepsilon} = hfx \frac{\lim_{N\to\infty}1+2x+3x^2+\dots+Nx^{N-1}}{1+x+x^2+x^3+\dots+x^\infty}.
+\end{equation}
+Nilai pembawah itu didapati adalah suatu siri geometri. Nilai pengangka pula adalah pembezaan siri geometri.
+
+\begin{petua}[Siri Geometri]
+  \label{geometri}
+Jujukan geometri ialah satu jujukan yang meningkat nilainya sebanyak satu pekali. Dalam jujukan $a, ax, ax^2, ax^3,...,ax^k$ setiap sebutan seterusnya didarabkan dengan $x$. Siri geometri pula adalah penjumlahan setiap sebutan dalam jujukan ini. Jika $-1<x<1$ dan $k\to\infty$, maka siri geometrinya adalah begini,
+\begin{equation*}
+    \lim_{k\to\infty}\sum_{n=0}^k ax^n = a\frac{1}{1-x}.
+\end{equation*}
+\margintext{\protect\vspace{-0.5cm}Ingatlah bahawa $$e^{-n} = \frac{1}{e^n}$$ maka ia tidak akan melebihi satu.}Memandangkan $x^n$ dalam pers. \ref{6-1} merujuk kepada $e^{-n\frac{hf}{k_BT}}$, maka kita sudah cukup syarat untuk menggunakan petua ini kerana $-1<e^{-n\frac{hf}{k_BT}}<1$. Ganti sahaja $a=1$.$\qed$
+\end{petua}
+
+\begin{petua}[Contoh 12.18, \citet{Mayer2006}]
+Pembezaan siri geometri terhadap $n$ adalah
+\begin{equation*}
+\dv{x}\sum_{n=0}^{k}ax^n = \sum_{n=0}^{k} anx^{n-1},
+\end{equation*}
+dengan jumlahnya ialah
+\begin{equation*}
+\lim_{k\to\infty}\sum_{n=0}^{k} anx^{n-1} = a\frac{1}{(1-x)^2}.
+\end{equation*}
+dan gantilah $a=1$ untuk tujuan kita kali ini.$\qed$
+\end{petua}
+
+Lalu, kita akan peroleh
+\begin{align}
+\overline{\varepsilon} &= hfx\frac{(1-x)^{1}}{(1-x)^{2}}\,,\nonumber\\
+&= hf\frac{x}{1-x}\,,\nonumber\\
+&= hf\frac{1}{\frac{1}{x}-1}.\label{8}
+\end{align}
+
+Sepertimana yang dilakukan dalam penerbitan persamaan Rayleigh--Jeans, nilai $\overline{\varepsilon}$ ini akan didarabkan dengan Nilai Jeans (pers. \ref{0}). Nilai $x$ pula boleh digantikan dengan takrifan asalnya. Kita akan dapati persamaan ini adalah benar:
+\begin{equation}\label{9}
+U = n(f)\overline{\varepsilon} = \frac{8\pi hf^3}{c^3}\frac{1}{e^{\frac{hf}{k_BT}}-1}
+\end{equation}
+Lalu, kita ungkapkannya pula dalam bentuk panjang gelombang $\lambda$. Maka apa yang diperoleh adalah persamaan Planck,
+\begin{equation} \label{10}
+U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
+\end{equation}
+dengan maksud bahawa,\margintext{\protect\vspace{-1.7cm}Hukum Planck}
+\begin{equation*}
+\begin{split}
+U & = \text{ketumpatan tenaga},\\
+\lambda & = \text{panjang gelombang cahaya},\\
+T & = \text{suhu bintang},\\
+h & = \text{pemalar Planck},\\
+& = \planck\uplanck,\\
+c & = \text{kelajuan cahaya},\\
+& = \cahaya\ucahaya,\\
+k_B & = \text{pemalar Boltzmann},\\
+& = \boltzmann\uboltzmann.\\
+\end{split}
+\end{equation*}
+
+```

@@ -20,3 +20,11 @@ def:unnamed-chunk-2
 fig:unnamed-chunk-1
 fig:unnamed-chunk-4
 postulat-planck-tentang-sekuanta-tenaga
+prp:unnamed-chunk-5
+postulat-planck-tentang-sekuantum-tenaga
+def:mu-def-05
+eq:mu-8
+eq:mu-10
+eq:mu-11
+eq:mu-12
+eq:mu-13
