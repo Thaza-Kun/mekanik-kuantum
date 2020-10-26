@@ -38,3 +38,10 @@ thm:mu-thm-01
 thm:unlabeled-div-8
 thm:unlabeled-div-9
 thm:mu-thm-02
+eq:mu-16
+eq:mu-17
+eq:mu-18
+eq:mu-9
+bukti-persamaan-planck
+eq:mu-19
+kesinambungan-persamaan-planck-dengan-usaha-sebelumnya

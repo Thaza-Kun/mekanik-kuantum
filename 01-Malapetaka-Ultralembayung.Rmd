@@ -113,7 +113,7 @@ Maka, tenaga setiap pengayun tersebut ialah $k_BT$,
 \sum E = E_k + E_v = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} =k_BT (\#eq:mu-0)
 \end{equation}
 
-**USUL 2**: Jumlah pengayun yang berkumpul dalam suatu isipadu tertentu ialah berkadaran dengan frekuensi kuasa dua $f^2$,
+**USUL 2**: Ketumpatan pengayung ialah berkadaran dengan frekuensi kuasa dua $f^2$,
 \begin{equation}
 n(f) = \frac{8\pi f^2}{c^3}.(\#eq:mu-1)
 \end{equation}
@@ -183,7 +183,8 @@ Penyelesaian kepada masalah ini diberikan oleh Max Planck dengan dua postulat ya
 $$\varepsilon = hf.$$
 ($h$ ialah pemalar)
 
-**POSTULAT 2**: Jumlah tenaga, $\varepsilon_n$, yang dipancarkan atau diserap oleh pengayun-pengayun dalam jasad hitam ialah hasil darab integer, $$\varepsilon_n = n\varepsilon,\ n=1,2,3,\cdots$$
+**POSTULAT 2**: Tenaga, $\varepsilon_n$, yang dipancarkan oleh pengayun-pengayun dalam jasad hitam mempunyai tahap tenaga berhasil darab integer, $$\varepsilon_n = n\varepsilon,$$
+$$n=1,2,3,\cdots$$
 
 Adapun begitu, perkara ini bertentangan dengan pandangan ahli fizik tentang cahaya yang dipegang pada zaman itu. Selama ini, cahaya dipandang sebagai suatu gelombang selanjar yang selari dengan persamaan Maxwell. Postulat yang diusulkan itu menatijahkan bahawa cahaya itu sifatnya berketul-ketul. Satu ketul cahaya inilah yang disebut satu kuantum cahaya.
 
@@ -216,7 +217,7 @@ k_B & = \text{pemalar Boltzmann},\\
 <div class="proof"> (Kaedah Memperoleh Persamaan Planck)
 Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayung serta menakrifkan jumlah pengayunnya.
 
-**USUL 1**: Pengayun-pengayung Planck mempunyai tenaga, $\varepsilon_n$, yang berkadaran terus terhadap frekuensi, $f$, dan berpekali integer, $n$, seperti yang dijelaskan dalam dua postulat Planck,
+**USUL 1**: Pengayun-pengayun Planck mempunyai tenaga, $\varepsilon_n$, yang berkadaran terus terhadap frekuensi, $f$, dan berpekali integer, $n$, seperti yang dijelaskan dalam dua postulat Planck,
 \begin{equation}
 \varepsilon_n = nhf
 (\#eq:mu-10)
@@ -237,8 +238,6 @@ k_B &= \text{pemalar Boltzmann}.
 \end{split}
 \end{equation*}
 Tatatanda $\text{exp}\Big\{\frac{-\varepsilon_n}{k_BT}\Big\}$ digunakan untuk menggantikan $e^{\frac{-\varepsilon_n}{k_BT}}$ supaya pecahan dalam kuasa eksponen itu lebih jelas kelihatan tetapi kedua-duanya mempunyai maksud yang sama.
-
-Jangan pula keliru antara $N$ dengan $n$. $N$ merujuk kepada jumlah pengayun manakala $n$ merujuk kepada jumlah ketulan cahaya.
 
 Oleh itu, purata tenaga, $\overline{\varepsilon}$, yang dipancarkan oleh jasad hitam boleh diluahkan sebagai hasil jumlah tenaga yang dibawa oleh semua pengayun, $N(n)\varepsilon_n$, dibahagikan dengan jumlah pengayun, $N(n)$,
 \begin{equation}
@@ -280,44 +279,45 @@ Ini persamaan baharu kita,
 Pers. \@ref(eq:mu-15) menonjolkan dua jenis siri, iaitu siri geometri yang menjadi nilai pembawah pecahan tersebut, dan pembezaan siri geometri yang menjadi nilai pengangkanya.
 
 ```{theorem mu-thm-01, name="Siri Geometri"}
-Dalam jujukan $a, ax, ax^2, ax^3,...,ax^N$ setiap sebutan seterusnya didarabkan dengan $x$. Penjumlahan setiap sebutan dalam jujukan ini ialah sirinya. Jika $-1<x<1$ dan $N\to\infty$, maka siri geometrinya adalah begini,
+Jika $x$ dalam $a + ax + ax^2 + ax^3 + \cdots + ax^N$ mempunyai ciri $-1<x<1$ dan $N\to\infty$, maka siri geometrinya adalah,
 $$\lim_{N\to\infty}\sum_{n=0}^N ax^n = a\frac{1}{1-x}.$$
+[Dipetik dari @spiegel2009, contoh 21.5]
 ```
 ```{theorem mu-thm-02, name="Pembezaan Siri Geometri"}
-**Contoh 12.18, \citet{Mayer2006}**
 Pembezaan siri geometri terhadap $x$ adalah
 $$\frac{\text{d}}{\text{d}x}\sum_{n=0}^{N}ax^n = \sum_{n=0}^{N} anx^{n-1},$$
 dengan jumlahnya ialah
 $$\lim_{k\to\infty}\sum_{n=0}^{k} anx^{n-1} = a\frac{1}{(1-x)^2}.$$
+[Dipetik dari @Mayer2006, contoh 12.18]
 ```
-Nilai $e^{nk}$ dalam pers. \@ref(eq:mu-15) menepati syarat petua \@ref(thm:mu-thm-01) dan \@ref(thm:mu-thm-02) kerana $-1<e^{nk}<1$. Maka, kedua-dua petua ini boleh digunakan. Ganti sahaja $a=1$ dan $x=e^k$. Lalu, kita akan peroleh
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{align}
-\overline{\varepsilon} &= hfx\frac{(1-x)^{1}}{(1-x)^{2}}\,,\nonumber\\
-&= hf\frac{x}{1-x}\,,\nonumber\\
-&= hf\frac{1}{\frac{1}{x}-1}.\label{8}
-\end{align}
-
-Sepertimana yang dilakukan dalam penerbitan persamaan Rayleigh--Jeans, nilai $\overline{\varepsilon}$ ini akan didarabkan dengan Nilai Jeans (pers. \ref{0}). Nilai $x$ pula boleh digantikan dengan takrifan asalnya. Kita akan dapati persamaan ini adalah benar:
-\begin{equation}\label{9}
-U = n(f)\overline{\varepsilon} = \frac{8\pi hf^3}{c^3}\frac{1}{e^{\frac{hf}{k_BT}}-1}
+Nilai $e^{nk}$ dalam pers. \@ref(eq:mu-15) menepati syarat petua \@ref(thm:mu-thm-01) dan \@ref(thm:mu-thm-02) kerana $-1<e^{nk}<1$. Maka, kedua-dua petua ini boleh digunakan. Ganti sahaja $a=1$ dan $x=e^k$. Lalu, kita akan peroleh,
+\begin{equation}
+\overline{\varepsilon} = hfe^k\frac{(1-e^k)^{1}}{(1-e^k)^{2}},
+(\#eq:mu-16)
 \end{equation}
-Lalu, kita ungkapkannya pula dalam bentuk panjang gelombang $\lambda$. Maka apa yang diperoleh adalah persamaan Planck,
-\begin{equation} \label{10}
+yang setara dengan,
+\begin{equation}
+\overline\varepsilon= hf\frac{1}{\frac{1}{e^k}-1}.
+(\#eq:mu-17)
+\end{equation}
+Disebabkan $k$ ialah $\frac{-hf}{k_BT}$, maka $\frac{1}{e^k} = e^{\frac{hf}{k_BT}}$.
+
+**USUL 3**: Ketumpatan pengayun Planck mematuhi Nilai Jeans,
+\begin{equation}
+n(f) = \frac{8\pi f^2}{c^3}.(\#eq:mu-18)
+\end{equation}
+
+Ketumpatan tenaga, $U$ ialah hasil darab nilai Jeans dan pers. \@ref(eq:mu-17),
+\begin{equation}
+U = n(f)\overline{\varepsilon} = \frac{8\pi f^2}{c^3}\frac{hf}{e^{\frac{hf}{k_BT}}-1}
+(\#eq:mu-19)
+\end{equation}
+Menggunakan kaedah yang serupa dalam pers. \@ref(eq:mu-4) sehingga pers.\@ref(eq:mu-7) untuk menukarkan bentuk frekuensi menjadi bentuk panjang gelombang, kita akan peroleh persamaan Planck:
+\begin{equation}
 U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.7cm}Hukum Planck}
-\begin{equation*}
-\begin{split}
-U & = \text{ketumpatan tenaga},\\
-\lambda & = \text{panjang gelombang cahaya},\\
-T & = \text{suhu bintang},\\
-h & = \text{pemalar Planck},\\
-& = \planck\uplanck,\\
-c & = \text{kelajuan cahaya},\\
-& = \cahaya\ucahaya,\\
-k_B & = \text{pemalar Boltzmann},\\
-& = \boltzmann\uboltzmann.\\
-\end{split}
-\end{equation*}
 </div>
+
+## Kesinambungan Persamaan Planck dengan Usaha Sebelumnya
+
+## Pelbagai Bentuk Persamaan Planck
