@@ -2,7 +2,6 @@ book_filename: "Catatan-Mekanik-Kuantum"
 chapter_name: "Bab "
 repo: https://github.com/thaza-kun/cft-mekanik-kuantum
 output_dir: docs
-rmd_files: ["index.Rmd","00A-Daftar-Pemalar.Rmd","01-Malapetaka-Ultralembayung.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 language:
   label:
