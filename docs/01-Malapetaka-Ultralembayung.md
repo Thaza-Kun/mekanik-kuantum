@@ -3,9 +3,10 @@
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
-```{r echo=FALSE, fig.cap="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), [CC0 1.0 Dedikasi Domain Awam](https://creativecommons.org/publicdomain/zero/1.0/deed.en)."}
-knitr::include_graphics(".\\gambar\\ultra\\basellaalba.jpg")
-```
+<div class="figure">
+<img src=".\gambar\ultra\basellaalba.jpg" alt="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), [CC0 1.0 Dedikasi Domain Awam](https://creativecommons.org/publicdomain/zero/1.0/deed.en)."  />
+<p class="caption">(\#fig:unnamed-chunk-1)Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), [CC0 1.0 Dedikasi Domain Awam](https://creativecommons.org/publicdomain/zero/1.0/deed.en).</p>
+</div>
 
 ## Sinaran Jasad Hitam
 
@@ -13,8 +14,7 @@ Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya 
 
 Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan&ndash;Boltzmann.
 
-```{definition mu-def-01, name="Hukum Stefan&ndash;Boltzmann"}
-Jumlah tenaga, $E$, yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, $T$,
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-83-116-101-102-97-110-38-110-100-97-115-104-59-66-111-108-116-122-109-97-110-110-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-01"><strong>(\#def:mu-def-01)  \iffalse (Hukum Stefan&ndash;Boltzmann) \fi{} </strong></span>Jumlah tenaga, $E$, yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, $T$,
 \begin{equation}
   E = \sigma T^4,
 \end{equation}
@@ -26,25 +26,25 @@ dengan maksud bahawa,
 	\sigma & = \text{pemalar Stefan--Boltzmann,}\\
 	& = 5.6704\times 10^{-8}\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4}.\\
 \end{split}
-\end{equation*}
-```
+\end{equation*}</div>\EndKnitrBlock{definition}
 
 Tenaga yang diperihalkan dalam Hukum Stefan&ndash;Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
 
-```{r mu-jasad, echo=FALSE, out.width='600px', fig.align='center', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
-knitr::include_graphics(".\\gambar\\ultra\\jasadhitam.jpg")
-```
+<div class="figure" style="text-align: center">
+<img src=".\gambar\ultra\jasadhitam.jpg" alt="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang." width="600px" />
+<p class="caption">(\#fig:mu-jasad)Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang.</p>
+</div>
 
 Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesuatu bintang mengikut panjang gelombang cahaya. Puncak lengkung itu menunjukkan cahaya mana yang paling banyak dikeluarkan. Puncak itu semakin menghampiri kiri jika suhu bintang semakin panas.
 
 Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
-```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
-knitr::include_graphics(".\\gambar\\ultra\\belantik.jpg")
-```
+<div class="figure" style="text-align: center">
+<img src=".\gambar\ultra\belantik.jpg" alt="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0." height="500px" />
+<p class="caption">(\#fig:mu-belantik)Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0.</p>
+</div>
 
-```{definition mu-def-02, name="Hukum Sesaran Wien"}
-Panjang gelombang puncak sinaran jasad hitam, $\lambda_p$, adalah berkadaran songsang dengan suhu bintang tersebut, $T$,
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-83-101-115-97-114-97-110-32-87-105-101-110-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-02"><strong>(\#def:mu-def-02)  \iffalse (Hukum Sesaran Wien) \fi{} </strong></span>Panjang gelombang puncak sinaran jasad hitam, $\lambda_p$, adalah berkadaran songsang dengan suhu bintang tersebut, $T$,
 \begin{equation}
 	\lambda_p = \frac{W}{T},
 \end{equation}
@@ -56,8 +56,7 @@ dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Sesaran Wien}
 	W & = \text{pemalar Wien,} \\
 	& = 2.8978\times 10^{-3}\text{m}\cdot\text{K}.\\
 \end{split}
-\end{equation*}
-```
+\end{equation*}</div>\EndKnitrBlock{definition}
 
 Pemerihalan jumlah tenaga dan nilai tenaga puncak itu cukup mantap. Namun, pencarian ahli fizik belum selesai kerana mereka ingin tahu persamaan apakah yang boleh menghasilkan graf tersebut, bukan sekadar jumlah tenaga atau puncaknya sahaja.
 
@@ -67,8 +66,7 @@ Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Huk
 
 Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.
 
-```{definition mu-def-03, name="Hukum Taburan Wien / Penghampiran Wien"}
-Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-84-97-98-117-114-97-110-32-87-105-101-110-32-47-32-80-101-110-103-104-97-109-112-105-114-97-110-32-87-105-101-110-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-03"><strong>(\#def:mu-def-03)  \iffalse (Hukum Taburan Wien / Penghampiran Wien) \fi{} </strong></span>Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
 \begin{equation}
 U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
 \end{equation}
@@ -80,13 +78,11 @@ U(\lambda,T) & = \text{ketumpatan tenaga cahaya},\\
 T & = \text{suhu bintang},\\
 a,b & = \text{pemalar}.\\
 \end{split}
-\end{equation*}
-```
+\end{equation*}</div>\EndKnitrBlock{definition}
 
 Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh&ndash;Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.
 
-```{definition mu-def-04, name="Hukum Rayleigh&ndash;Jeans"}
-Ketumpatan tenaga cahaya, $U$, adalah berkadaran terus dengan suhu bintang $T$ dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, $\lambda^4$,
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-82-97-121-108-101-105-103-104-38-110-100-97-115-104-59-74-101-97-110-115-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-04"><strong>(\#def:mu-def-04)  \iffalse (Hukum Rayleigh&ndash;Jeans) \fi{} </strong></span>Ketumpatan tenaga cahaya, $U$, adalah berkadaran terus dengan suhu bintang $T$ dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, $\lambda^4$,
 \begin{equation}
 U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
 \end{equation}
@@ -99,11 +95,9 @@ k_B & = \text{pemalar Boltzmann},\\
 \lambda & = \text{panjang gelombang cahaya},\\
 T & = \text{suhu bintang}.\\
 \end{split}
-\end{equation*}
-```
+\end{equation*}</div>\EndKnitrBlock{definition}
 
-```{proof, name="Kaedah Memperoleh Persamaan Rayleigh&ndash;Jeans"}
-Bagi memperoleh persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.
+\BeginKnitrBlock{proof}\iffalse{-91-75-97-101-100-97-104-32-77-101-109-112-101-114-111-108-101-104-32-80-101-114-115-97-109-97-97-110-32-82-97-121-108-101-105-103-104-38-110-100-97-115-104-59-74-101-97-110-115-93-}\fi{}<div class="proof">\iffalse{} <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Persamaan Rayleigh&ndash;Jeans) </span>  \fi{}Bagi memperoleh persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.
 
 **USUL 1**: Pengayun-pengayun Rayleigh&ndash;Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh&ndash;Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, $E_k$, dan tenaga upaya, $E_v$ dan masing-masing mempunyai nilai $\frac{1}{2}{k_BT}$,
 $$E_k = E_v = \frac{1}{2}{k_BT}.$$
@@ -162,8 +156,7 @@ Maka, langkah terakhir kita ialah dengan menggunakan pers. \@ref(eq:mu-7) untuk 
 \begin{equation}
 U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
 \end{equation}
-Inilah persamaan Rayleigh&ndash;Jeans yang ingin diperolehi.
-```
+Inilah persamaan Rayleigh&ndash;Jeans yang ingin diperolehi.</div>\EndKnitrBlock{proof}
 
 Hasil daripada persamaan Rayleigh&ndash;Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh&ndash;Jeans ialah suatu fungsi salingan, $\frac{1}{x}$, berkuasa 4.
 
@@ -171,9 +164,10 @@ Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelo
 
 Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.
 
-```{r echo=FALSE, out.width="500px", fig.align='center', fig.cap="Persamaan Rayleigh&ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal."}
-knitr::include_graphics(".\\gambar\\ultra\\Rayleigh.png")
-```
+<div class="figure" style="text-align: center">
+<img src=".\gambar\ultra\Rayleigh.png" alt="Persamaan Rayleigh&amp;ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal." width="500px" />
+<p class="caption">(\#fig:unnamed-chunk-3)Persamaan Rayleigh&ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal.</p>
+</div>
 
 ## Postulat Planck Tentang Sekuantum Tenaga
 
@@ -192,8 +186,7 @@ Max Planck sendiri menolak postulat yang dikemukakannya. Postulat tersebut hanya
 
 Namun begitu, dua postulat ini kekal sehingga hari ini setelah banyak ujikaji lain mengesahkannya. Fizikawan mendapati cahaya mempunyai kedua-dua sifat gelombang dan zarah. Pemilikan dua sifat ini dipanggil kedualan gelombang&ndash;zarah dan sifat ini adalah asas kepada Mekanik Kuantum. Pemalar $h$ itu kini dikenali sebagai Pemalar Planck.
 
-```{definition mu-def-05, name="Hukum Planck"}
-Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
+\BeginKnitrBlock{definition}\iffalse{-91-72-117-107-117-109-32-80-108-97-110-99-107-93-}\fi{}<div class="definition"><span class="definition" id="def:mu-def-05"><strong>(\#def:mu-def-05)  \iffalse (Hukum Planck) \fi{} </strong></span>Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
 \begin{equation}
 U(\lambda, T)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 \end{equation}
@@ -210,8 +203,7 @@ c & = \text{kelajuan cahaya},\\
 k_B & = \text{pemalar Boltzmann},\\
 & = 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}.\\
 \end{split}
-\end{equation*}
-```
+\end{equation*}</div>\EndKnitrBlock{definition}
 
 <div class="proof"> (Kaedah Memperoleh Persamaan Planck)
 Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayunnya.
@@ -277,18 +269,14 @@ Ini persamaan baharu kita,
 
 Pers. \@ref(eq:mu-15) menonjolkan dua jenis siri, iaitu siri geometri yang menjadi nilai pembawah pecahan tersebut, dan pembezaan siri geometri yang menjadi nilai pengangkanya.
 
-```{theorem mu-thm-01, name="Siri Geometri"}
-Jika $x$ dalam $a + ax + ax^2 + ax^3 + \cdots + ax^N$ mempunyai ciri $-1<x<1$ dan $N\to\infty$, maka siri geometrinya adalah,
+\BeginKnitrBlock{theorem}\iffalse{-91-83-105-114-105-32-71-101-111-109-101-116-114-105-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-01"><strong>(\#thm:mu-thm-01)  \iffalse (Siri Geometri) \fi{} </strong></span>Jika $x$ dalam $a + ax + ax^2 + ax^3 + \cdots + ax^N$ mempunyai ciri $-1<x<1$ dan $N\to\infty$, maka siri geometrinya adalah,
 $$\lim_{N\to\infty}\sum_{n=0}^N ax^n = a\frac{1}{1-x}.$$
-[Dipetik dari @spiegel2009, contoh 21.5]
-```
-```{theorem mu-thm-02, name="Pembezaan Siri Geometri"}
-Pembezaan siri geometri terhadap $x$ adalah
+[Dipetik dari @spiegel2009, contoh 21.5]</div>\EndKnitrBlock{theorem}
+\BeginKnitrBlock{theorem}\iffalse{-91-80-101-109-98-101-122-97-97-110-32-83-105-114-105-32-71-101-111-109-101-116-114-105-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-02"><strong>(\#thm:mu-thm-02)  \iffalse (Pembezaan Siri Geometri) \fi{} </strong></span>Pembezaan siri geometri terhadap $x$ adalah
 $$\frac{\text{d}}{\text{d}x}\sum_{n=0}^{N}ax^n = \sum_{n=0}^{N} anx^{n-1},$$
 dengan jumlahnya ialah
 $$\lim_{N\to\infty}\sum_{n=0}^{N} anx^{n-1} = a\frac{1}{(1-x)^2}.$$
-[Dipetik dari @Mayer2006, contoh 12.18]
-```
+[Dipetik dari @Mayer2006, contoh 12.18]</div>\EndKnitrBlock{theorem}
 Nilai $e^{nk}$ dalam pers. \@ref(eq:mu-15) menepati syarat petua \@ref(thm:mu-thm-01) dan \@ref(thm:mu-thm-02) kerana $-1<e^{nk}<1$. Maka, kedua-dua petua ini boleh digunakan. Ganti sahaja $a=1$ dan $x=e^k$. Lalu, kita akan peroleh,
 \begin{equation}
 \overline{\varepsilon} = hfe^k\frac{(1-e^k)^{1}}{(1-e^k)^{2}},
@@ -356,19 +344,15 @@ E = \frac{8 \pi k_B^4 T^4}{h^3c^3}\int_0^\infty \frac{x^3}{e^x-1}\text{d}x.
 \end{equation}
 
 Kamiran tersebut boleh diselesaikan menggunakan petua \@ref(thm:mu-thm-03) tanpa perlu selesaikannya menggunakan tangan.
-```{theorem mu-thm-03, name="Kamiran khusus"}
-Kamiran $\frac{x^{(n-1)}}{e^x-1}$ terhadap $x$ dari sifar ke infititi ialah,
+\BeginKnitrBlock{theorem}\iffalse{-91-75-97-109-105-114-97-110-32-107-104-117-115-117-115-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-03"><strong>(\#thm:mu-thm-03)  \iffalse (Kamiran khusus) \fi{} </strong></span>Kamiran $\frac{x^{(n-1)}}{e^x-1}$ terhadap $x$ dari sifar ke infititi ialah,
 $$\int_{0}^{\infty} \frac{x^{(n-1)}}{e^x - 1}\text{d}x = \Gamma(n)\left(\frac{1}{1^n}+\frac{1}{2^n}+\frac{1}{3^n}+\dots\right).$$
-[Dipetik dari @spiegel2009, contoh 18.80]
-```
+[Dipetik dari @spiegel2009, contoh 18.80]</div>\EndKnitrBlock{theorem}
 
 Fungsi gamma $\Gamma(n)$ hanyalah merujuk kepada fungsi faktorial $\Gamma(n)=(n-1)!$. Untuk kes pers. \@ref(eq:mu-24), $n=4$ maka fungsi gammanya $\Gamma(4)=3!$. Disebabkan $n=4$, kita akan merujuk petua \@ref(thm:mu-thm-04) untuk menyelesaikan penjumlahan tersebut.
 
-```{theorem mu-thm-04, name="Penjumlahan khusus"}
-Penjumlahan salingan menaik berkuasa 4 ialah
+\BeginKnitrBlock{theorem}\iffalse{-91-80-101-110-106-117-109-108-97-104-97-110-32-107-104-117-115-117-115-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-04"><strong>(\#thm:mu-thm-04)  \iffalse (Penjumlahan khusus) \fi{} </strong></span>Penjumlahan salingan menaik berkuasa 4 ialah
 $$\sum_{k}^{\infty}\frac{1}{k^4}=\left(\frac{1}{1^4}+\frac{1}{2^4}+\frac{1}{3^4}+\frac{1}{4^4}+\dots\right) = \frac{\pi^4}{90}.$$
-[Dipetik dari @spiegel2009, contoh 21.20]
-```
+[Dipetik dari @spiegel2009, contoh 21.20]</div>\EndKnitrBlock{theorem}
 
 Maka, kita akan peroleh,
 \begin{align}
@@ -403,9 +387,7 @@ Hukum sesaran Wien menerangkan kedudukan puncak lengkung jasad hitam. Puncak len
 \frac{\text{d}U}{\text{d}\lambda} = \frac{\text{d}}{\text{d}\lambda}\left(\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}\right) = 0.(\#eq:mu-27)
 \end{equation}
 
-```{theorem mu-thm-05, name="Petua Pembezaan Hasil Darab"}
-$$\frac{\text{d}}{\text{d}x}(u\cdot v) = \frac{\text{d}u}{\text{d}x}\cdot v + u\cdot\frac{\text{d}v}{\text{d}x},$$
-```
+\BeginKnitrBlock{theorem}\iffalse{-91-80-101-116-117-97-32-80-101-109-98-101-122-97-97-110-32-72-97-115-105-108-32-68-97-114-97-98-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-05"><strong>(\#thm:mu-thm-05)  \iffalse (Petua Pembezaan Hasil Darab) \fi{} </strong></span>$$\frac{\text{d}}{\text{d}x}(u\cdot v) = \frac{\text{d}u}{\text{d}x}\cdot v + u\cdot\frac{\text{d}v}{\text{d}x},$$</div>\EndKnitrBlock{theorem}
 
 Persamaan Planck boleh dipecahkan menjadi hasil darab dua fungsi,
 $$u = \frac{8\pi hc}{\lambda^5},\; v = \frac{1}{e^{\frac{hc}{\lambda k_BT}}-1},$$
@@ -461,11 +443,9 @@ U_{\text{Wien}}=\lim_{\lambda\to 0}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc
 
 Lalu, kita perhatikan apa yang terjadi pada sebutan eksponennya. Jika $\lambda$ menghampiri sifar, maknanya $\frac{hc}{\lambda k_BT}$ akan menjadi tersangatlah besar. Maka nilai $1$ itu boleh diabaikan seperti dalam petua \@ref(thm:mu-thm-06).
 
-```{theorem mu-thm-06, name="penghampiran eksponen"}
-\begin{equation}
+\BeginKnitrBlock{theorem}\iffalse{-91-112-101-110-103-104-97-109-112-105-114-97-110-32-101-107-115-112-111-110-101-110-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-06"><strong>(\#thm:mu-thm-06)  \iffalse (penghampiran eksponen) \fi{} </strong></span>\begin{equation}
 \lim_{x\to\infty}e^x - 1 \approx e^x.
-\end{equation}
-```
+\end{equation}</div>\EndKnitrBlock{theorem}
 
 Oleh itu, pers. \@ref(eq:mu-34) menjadi,
 \begin{equation}
@@ -486,9 +466,7 @@ U_{\text{RJ}} = \lim_{\lambda\to\infty}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\fra
 \end{equation}
 
 Kemudian, bila melihat pada eksponennya, kita dapati $\frac{hc}{\lambda k_BT}$ menghampiri sifar kerana $\lambda$ menghampiri infiniti.
-```{theorem mu-thm-07, name="Penghampiran eksponen"}
-$$\lim_{x\to 0} e^x \approx x + 1.$$
-```
+\BeginKnitrBlock{theorem}\iffalse{-91-80-101-110-103-104-97-109-112-105-114-97-110-32-101-107-115-112-111-110-101-110-93-}\fi{}<div class="theorem"><span class="theorem" id="thm:mu-thm-07"><strong>(\#thm:mu-thm-07)  \iffalse (Penghampiran eksponen) \fi{} </strong></span>$$\lim_{x\to 0} e^x \approx x + 1.$$</div>\EndKnitrBlock{theorem}
 
 Bila petua \@ref(thm:mu-thm-07) digunakan terhadap pers. \@ref(eq:mu-36), kita dapati bahawa hanya sebutan $\frac{hc}{\lambda k_BT}$ sahaja yang tinggal,
 $$\lim_{\lambda\to\infty} e^{\frac{hc}{\lambda k_BT}}-1 \approx \frac{hc}{\lambda k_BT}+1 -1=\frac{hc}{\lambda k_BT}.$$

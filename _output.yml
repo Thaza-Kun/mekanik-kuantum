@@ -10,6 +10,7 @@ bookdown::gitbook:
         <li><a href="./">CATATAN FIZIK TEORI:<br/>MEKANIK KUANTUM</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Dihasilkan menggunakan Bookdown</a></li>
+        <li> &copy; Murthadza Aznam 2020</li>
   sharing:
       github: yes
       facebook: no

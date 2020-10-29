@@ -1,7 +1,7 @@
 --- 
 title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
-date: "`r Sys.Date()`"
+date: "2020-10-30"
 output:
   html_document:
     df_print: paged
@@ -19,7 +19,7 @@ site: bookdown::bookdown_site
 
 > "Pengajaran daripada kisah ini ialah kita tidak patut cuba mencapai banyak perkara sekaligus. Kita seharusnya mengasingkan satu masalah fizik daripada masalah fizik yang lain sejauh mungkin. Kemudian, barulah kita boleh singkirkannya satu demi satu."
 >
->`r tufte::quote_footer('--- Paul Dirac (1989)')`
+><footer>--- Paul Dirac (1989)</footer>
 
 Bagi memulakan buku ini, eloklah kita menghayati petikan fizikawan ulung Paul Dirac daripada rencananya, '[Kaedah Kerja dalam Fizik Teori](https://fizikkini.com/kaedah-kerja-dalam-fizik-teori-bahagian-i/)'. Kisah yang dirujuk oleh beliau itu sebenarnya ialah kisah pencarian persamaan Schr&ouml;dinger. Ia menepati tema utama kebanyakan kursus pengenalan mekanik kuantum: iaitu agar pelajar memahami dan memahiri persamaan Schr&ouml;dinger.
 
