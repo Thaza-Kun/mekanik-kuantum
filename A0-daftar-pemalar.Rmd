@@ -1,0 +1,14 @@
+\backmatter
+
+# Daftar Pemalar {-}
+
+Data diperoleh dari [@CODATA2018]. Semua nilai dibundarkan menjadi 5 angka bererti kecuali nilai-nilai yang dibintangkan. Yang dibintangkan itu ialah sebahagian daripada 7 pemalar asasi yang mempunyai nilai tepat seperti yang ditakrifkan oleh Biro Ukur Berat dan Ukuran Am Antarabangsa (BIPM).
+
+| Simbol | Nama | Nilai|
+|:---:|:----------|:----------|
+|$c$| Kelajuan cahaya dalam hampagas* | $2.99792458\times 10^8\;\text{m}\cdot\text{s}^{-1}$ |
+|$h$| Pemalar Planck* | $6.62607015 \times 10^{-34}\;\text{J}\cdot\text{s}$ |
+|$k_B$| Pemalar Boltzmann* | $1.380649\times 10^{-23}\;\text{J}\cdot\text{K}^{-1}$ |
+|$W$| Pemalar Wien | $2.8978 \times 10^{-3}\;\text{m}\cdot\text{K}$ |
+|$\sigma$| Pemalar Stefan&ndash;Boltzmann | $5.6704\times 10^{-8}\;\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4}$ |
+

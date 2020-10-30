@@ -25,13 +25,17 @@ Bagi memulakan buku ini, eloklah kita menghayati petikan fizikawan ulung Paul Di
 
 Lagipun, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit. Jika kita ditimpa satu masalah yang besar, ingatlah akan kata ini lalu pecahkannya menjadi masalah-masalah yang kecil dan cuba singkirkannya sedikit demi sedikit.
 
+Usaha membina masyarakat berilmu ialah satu cabaran yang besar dan memakan masa. Langkah pertama yang perlu diambil ialah belajar menyampaikan ilmu dalam bahasa masyarakat tersebut serta menyediakan acuan agar ia boleh berkembang. Usaha saya menyediakan bahan bacaan hanyalah satu langkah kecil untuk mencapai cita-cita tersebut setelah memahiri laras ilmiah bahasa Melayu.
+
+Semoga ia bermanfaat.
+
 ## Dorongan Projek {-}
 
 Laman sesawang [MajalahSains](www.majalahsains.com) yang diasaskan oleh Mohd Faizal Aziz boleh dilihat sebagai mercu tanda usaha pemasyarakatan sains di samudera maya bernama internet. Di sebalik bangun jatuh banyak portal sains yang lain, MajalahSains tetap megah mengibarkan benderanya pada ribuan pembaca yang melawatnya. Jelaslah orang ramai masih minat mengikuti berita sains.
 
 Kewujudan MajalahSains juga memberi peluang kepada portal-portal sains lain untuk turut berkembang sama. Misalnya [Apadilangit](https://apadilangit.com/) yang diasaskan oleh Muhammad Hafez Ahmat Murtza pada tahun 2016 melaksanakan pelbagai program di luar dan dalam talian. Apadilangit inilah yang menjadi wakil Malaysia untuk memberi nama bintang dan eksoplanet melalui kutipan cadangan dari pelajar-pelajar sempena sambutan 100 tahun Kesatuan Astronomi Antarabangsa, IAU.^[Nama yang diberikan oleh Malaysia ialah 'Intan' untuk bintangnya dan 'Baiduri' untuk eksoplanetnya (@iau2019).]
 
-Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) (walaupun bukan menumpu pada sains semata-mata) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 juta pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun!
+Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) (walaupun bukan menumpu pada sains semata-mata) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 juta pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun! Itu adalah pencapaian yang sangat mengagumkan!
 
 Pemasyarakatan sains, atau umumnya pemasyarakatan ilmu, sedang galak dilaksanakan oleh bicarawan-bicarawan sains yang sudah ataupun yang belum mendapat nama. Kegiatan menyampaikan sains dalam konteks popular ini seringkali menyabitkan nama Carl Sagan sebagai pengasas dan amalannya meluas sehingga muncul banyak saluran YouTube berkaitannya. Di Malaysia, ia masih di peringkat tunas.
 
@@ -53,10 +57,10 @@ Lagipun, amalan mengongsikan catatan kuliah sudah lama diamalkan oleh para mahas
 
 ## Tentang Penulis {-}
 
-Murthadza bin Aznam ialah seorang pelajar Sarjana Muda Fizik Gunaan di Universiti Kebangsaan Malaysia sejak sesi 2017/2018 dan dijangka akan habis pada sesi 2021/2022. Beliau berkecimpung dalam dunia penulisan sains popular sejak 2016 melalui pelbagai saluran. Selain itu, beliau juga pernah menyunting di MajalahSains untuk tempoh yang singkat pada tahun 2018.
+Murthadza bin Aznam ialah seorang pelajar Sarjana Muda Fizik Gunaan di Universiti Kebangsaan Malaysia sejak sesi 2017/2018 dan dijangka akan habis pada sesi 2021/2022. Beliau berkecimpung dalam dunia penulisan sains popular sejak 2016 melalui pelbagai saluran. Selain itu, beliau pernah menyunting di MajalahSains untuk tempoh yang singkat pada tahun 2018 dan pernah menterjemah beberapa penulisan sains.
 
 ## Tentang Buku {-}
 
 Buku ini, *Catatan Fizik Teori: Mekanik Kuantum*, merupakan catatan penulis sepanjang belajar Mekanik Kuantum di Universiti Kebangsaan Malaysia. Sebahagian besarnya merupakan catatan daripada kuliah Mekanik Kuantum. Namun begitu, ada bahagian yang ditokok tambah daripada pembacaan peribadi penulis yang dirasakan perlu diulas.
 
-Buku ini dihasilkan menggunakan Bookdown yang disediakan oleh @xie2015. Asalnya, ia dihasilkan agar pengguna bahasa R boleh melaporkan dapatan data mereka dengan mudah tetapi penggunaannya menjadi lebih meluas. Ia mempunyai sokongan matematik yang memadai untuk buku ilmiah sains maka ia sangat sesuai untuk catatan ini.
+Buku ini dihasilkan menggunakan [Bookdown](https://bookdown.org/home/) yang disediakan oleh @xie2015. Asalnya, ia dihasilkan agar pengguna bahasa R boleh melaporkan dapatan data mereka dengan mudah tetapi penggunaannya menjadi lebih meluas. Ia mempunyai sokongan matematik yang memadai untuk buku ilmiah sains maka ia sangat sesuai untuk catatan ini.
