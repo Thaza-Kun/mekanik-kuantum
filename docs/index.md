@@ -3,6 +3,8 @@ title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
 date: "2020-10-30"
 output:
+  pdf_document:
+    latex_engine: xelatex
   html_document:
     df_print: paged
 documentclass: book
