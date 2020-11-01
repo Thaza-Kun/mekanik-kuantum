@@ -1,12 +1,10 @@
 --- 
 title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
-date: "2020-10-30"
+date: "2020-11-01"
 output:
-  pdf_document:
-    latex_engine: xelatex
-  html_document:
-    df_print: paged
+  pdf_document: default
+  bookdown::pdf_book: default
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
@@ -37,7 +35,7 @@ Laman sesawang [MajalahSains](www.majalahsains.com) yang diasaskan oleh Mohd Fai
 
 Kewujudan MajalahSains juga memberi peluang kepada portal-portal sains lain untuk turut berkembang sama. Misalnya [Apadilangit](https://apadilangit.com/) yang diasaskan oleh Muhammad Hafez Ahmat Murtza pada tahun 2016 melaksanakan pelbagai program di luar dan dalam talian. Apadilangit inilah yang menjadi wakil Malaysia untuk memberi nama bintang dan eksoplanet melalui kutipan cadangan dari pelajar-pelajar sempena sambutan 100 tahun Kesatuan Astronomi Antarabangsa, IAU.^[Nama yang diberikan oleh Malaysia ialah 'Intan' untuk bintangnya dan 'Baiduri' untuk eksoplanetnya (@iau2019).]
 
-Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) (walaupun bukan menumpu pada sains semata-mata) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 juta pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun! Itu adalah pencapaian yang sangat mengagumkan!
+Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) (walaupun bukan menumpu pada sains semata-mata) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 ribu pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun! Itu adalah pencapaian yang sangat mengagumkan!
 
 Pemasyarakatan sains, atau umumnya pemasyarakatan ilmu, sedang galak dilaksanakan oleh bicarawan-bicarawan sains yang sudah ataupun yang belum mendapat nama. Kegiatan menyampaikan sains dalam konteks popular ini seringkali menyabitkan nama Carl Sagan sebagai pengasas dan amalannya meluas sehingga muncul banyak saluran YouTube berkaitannya. Di Malaysia, ia masih di peringkat tunas.
 

@@ -62,7 +62,7 @@ Pemerihalan jumlah tenaga dan nilai tenaga puncak itu cukup mantap. Namun, penca
 
 Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Hukum Wien pula hanya menyatakan di mana letaknya puncak graf tersebut. Kedua-duanya tidak mampu menerangkan lengkungan graf tersebut.
 
-## Cubaan Wein, Rayleigh dan Jeans
+## Cubaan Wein, Rayleigh dan Jeans {#sec:wien-rayleigh-jeans}
 
 Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.
 
@@ -169,7 +169,7 @@ Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelom
 <p class="caption">(\#fig:unnamed-chunk-3)Persamaan Rayleigh&ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal.</p>
 </div>
 
-## Postulat Planck Tentang Sekuantum Tenaga
+## Postulat Planck Tentang Sekuantum Tenaga {#sec:postulat-planck}
 
 Penyelesaian kepada masalah ini diberikan oleh Max Planck dengan dua postulat yang dibawanya. Postulat-postulat ini mengandaikan bahawa cahaya bukanlah selanjar seperti gelombang tetapi seperti berketul-ketul seperti zarah. Ternyata, persamaan yang muncul dari postulat ini menghasilkan graf yang selari dengan hasil cerapan.
 
@@ -305,14 +305,14 @@ U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 \end{equation}
 </div>
 
-## Kesinambungan Persamaan Planck dengan Usaha Sebelumnya
+## Kesinambungan Persamaan Planck dengan Usaha Sebelumnya {#sec:kesinambungan}
 Meskipun hanya usaha Planck sahaja yang mampu menerangkan lengkung jasad hitam secara menyeluruh, usaha-usaha sebelumnya hanya mampu menerangkan sebahagian sahaja daripada lengkung tersebut. Jika begitu, maknanya persamaan Planck boleh diubah agar menyerupai persamaan-persamaan ini dengan meletakkan syarat-syarat tertentu.
 
 Ada empat hukum yang dibangunkan sebelum Max Planck. Yang pertama ialah hukum Stefan&ndash;Boltzmann (Hukum \@ref(def:mu-def-01)) yang menerangkan jumlah tenaga yang disinarkan oleh bintang. Yang kedua ialah hukum sesaran Wien (Hukum \@ref(def:mu-def-02)) yang menerangkan puncak lengkung. Yang ketiga ialah hukum taburan Wien (Hukum \@ref(def:mu-def-03)) yang menerangkan lengkung jasad hitam pada panjang gelombang pendek. Yang keempat ialah hukum Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-04)) yang menerangkan lengkung jasad hitam pada panjang gelombang panjang.
 
 Kita akan cuba memperoleh setiap satu daripadanya menggunakan Hukum Planck mengikut turutan tersebut.
 
-### Kaedah Memperoleh Hukum Stefan&ndash;Boltzmann Daripada Hukum Planck {#sec:mu-4-1}
+### Kaedah Memperoleh Hukum Stefan&ndash;Boltzmann Daripada Hukum Planck {#sec:planck-stefan-boltzmann}
 Hukum Stefan&ndash;Boltzmann memerihalkan jumlah tenaga yang disinarkan oleh suatu bintang. Hal ini sama seperti mencari luas di bawah lengkung. Maknanya kita perlu kamirkannya terhadap panjang gelombang.
 
 **USUL 1**: Luas bawah lengkung ialah hasil kamiran Hukum Planck terhadap panjang gelombang dari sifar ke infiniti,
@@ -370,7 +370,7 @@ tetapi terkaan ini tidak benar kerana jika kita kira setiap satu pemalar tersebu
   \frac{8\pi^5 k_B^4}{15h^3c^3} &\neq \sigma.
 \end{align*}
 
-Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada ketumpatan tenaga cahaya berfrekuensi tertentu (Rujuk bahagian \@ref(sec:mu-5) untuk keterangan lanjut). Oleh itu, kamirannya, $\int U \text{d}\lambda$, itu masih merujuk kepada ketumpatan tenaga tetapi mengambil kira semua frekuensi cahaya. Sedangkan hukum Stefan&ndash;Boltzmann merujuk kepada jumlah tenaga mutlak. Kita perlukan pekali $\frac{c}{4}$ untuk memperbetulkan keadaan (@Nave2017),
+Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada ketumpatan tenaga cahaya berfrekuensi tertentu (Rujuk bahagian \@ref(sec:bentuk-pers-planck) untuk keterangan lanjut). Oleh itu, kamirannya, $\int U \text{d}\lambda$, itu masih merujuk kepada ketumpatan tenaga tetapi mengambil kira semua frekuensi cahaya. Sedangkan hukum Stefan&ndash;Boltzmann merujuk kepada jumlah tenaga mutlak. Kita perlukan pekali $\frac{c}{4}$ untuk memperbetulkan keadaan (@Nave2017),
 \begin{equation}
 E = \frac{c}{4}\frac{8\pi^5 k_B^4}{15h^3c^3}T^4
 (\#eq:mu-26)
@@ -378,7 +378,7 @@ E = \frac{c}{4}\frac{8\pi^5 k_B^4}{15h^3c^3}T^4
 Kita boleh sahkan bahawa,
 $$\sigma =  \frac{2\pi^5 k_B^4}{15h^3c^2}.$$
 
-### Kaedah Memperoleh Hukum Sesaran Wien Daripada Hukum Planck
+### Kaedah Memperoleh Hukum Sesaran Wien Daripada Hukum Planck {#sec:planck-sesaran-wien}
 
 Hukum sesaran Wien menerangkan kedudukan puncak lengkung jasad hitam. Puncak lengkung boleh diperoleh daripada pembezaan persamaan Planck. Puncaknya ialah titik yang menghasilkan pembezaan sifar.
 
@@ -431,7 +431,7 @@ dan menggunakan nilai $X$ yang diperoleh sebentar tadi, kita dapati nilai ini se
 W = \frac{hc}{X k_B} = 2.8978\times 10^{-3}\text{m}\cdot\text{K}.
 \end{equation}
 
-### Kaedah Memperoleh Hukum Taburan Wien Daripada Hukum Planck
+### Kaedah Memperoleh Hukum Taburan Wien Daripada Hukum Planck {#sec:planck-taburan-wien}
 
 Hukum taburan Wien boleh menerangkan lengkung jasad hitam dengan baik hanya jika panjang gelombangnya pendek. Ia gagal untuk panjang gelombang panjang. Maka, kita boleh peroleh hukum taburan Wien jika diletakkan syarat panjang gelombang mesti pendek.
 
@@ -455,7 +455,7 @@ U_{\text{Wien}}=\frac{8\pi hce^{-\frac{hc}{\lambda k_BT}}}{\lambda^5},
 yang sepadan dengan hukum taburan Wien. Jika dibandingkan dengan hukum \@ref(def:mu-def-03), kita akan dapat kira nilai pemalar $a$ dan $b$,
 $$a = 8\pi hc,\;b = \frac{hc}{k_B}.$$
 
-### Kaedah Memperoleh Hukum Rayleigh&ndash;Jeans Daripada Hukum Planck
+### Kaedah Memperoleh Hukum Rayleigh&ndash;Jeans Daripada Hukum Planck {#sec:planck-rayleigh-jeans}
 
 Hukum Rayleigh&ndash;Jeans boleh menerangkan lengkung jasad hitam dengan baik hanya jika panjang gelombangnya panjang. Ia gagal untuk panjang gelombang pendek. Maka, kita boleh peroleh hukum Rayleigh&ndash;Jeans jika diletakkan syarat panjang gelombang mesti panjang.
 
@@ -483,7 +483,7 @@ U_{\text{RJ}} = \frac{8\pi}{\lambda^4}{k_BT},
 \end{equation}
 iaitu persamaan Rayleigh&ndash;Jeans yang ingin kita perolehi.  
 
-## Pelbagai Bentuk Persamaan Planck {#sec:mu-5}
+## Pelbagai Bentuk Persamaan Planck {#sec:bentuk-pers-planck}
 
 Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. Khususnya, ada yang menyatakan bahawa pekalinya mendarab $2 hc^2$, ataupun $2\pi hc^2$, dan bukannya $8\pi hc$ seperti yang digunakan dalam catatan ini. Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza (@Webeneger_tt).
 
@@ -493,6 +493,6 @@ Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat p
 
 Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.
 
-Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian \@ref(sec:mu-4-1) ketika mencari hukum Stefan&ndash;Boltzmann, pekali $\frac{c}{4}$ diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.
+Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian \@ref(sec:planck-stefan-boltzmann) ketika mencari hukum Stefan&ndash;Boltzmann, pekali $\frac{c}{4}$ diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.
 
 Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh--Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan $\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0$.

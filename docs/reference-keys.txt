@@ -8,7 +8,6 @@ kaedah-memperoleh-hukum-sesaran-wien-daripada-hukum-planck
 kaedah-memperoleh-hukum-taburan-wien-daripada-hukum-planck
 kaedah-memperoleh-hukum-rayleighjeans-daripada-hukum-planck
 sec:mu-5
-daftar-pemalar
 fig:unnamed-chunk-1
 def:mu-def-01
 fig:mu-jasad
@@ -63,3 +62,11 @@ eq:mu-36
 thm:mu-thm-07
 eq:mu-37
 eq:mu-38
+sec:wien-rayleigh-jeans
+sec:postulat-planck
+sec:kesinambungan
+sec:planck-stefan-boltzmann
+sec:planck-sesaran-wien
+sec:planck-taburan-wien
+sec:planck-rayleigh-jeans
+sec:bentuk-pers-planck
