@@ -1,10 +1,10 @@
 --- 
 title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
-date: "2020-11-01"
+date: "2020-11-08"
 output:
-  pdf_document: default
   bookdown::pdf_book: default
+  pdf_document: default
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike
@@ -63,6 +63,6 @@ Murthadza bin Aznam ialah seorang pelajar Sarjana Muda Fizik Gunaan di Universit
 
 Buku ini, *Catatan Fizik Teori: Mekanik Kuantum*, merupakan catatan penulis sepanjang belajar Mekanik Kuantum di Universiti Kebangsaan Malaysia. Sebahagian besarnya merupakan catatan daripada kuliah Mekanik Kuantum. Namun begitu, ada bahagian yang ditokok tambah daripada pembacaan peribadi penulis yang dirasakan perlu diulas.
 
-Buku ini dihasilkan menggunakan [Bookdown](https://bookdown.org/home/) yang disediakan oleh @xie2015. Ia menggunakan Markdown yang dicampur kefungsian $\LaTeX$. Markdown ialah sejenis alat penulisan yang membantu penulis menumpukan perhatian pada isinya dan bukan rupanya. Rupa bentuk buku akan ditentukan oleh pemprosesnya. Dalam kes ini pemprosesnya ialah Bookdown dan bentuk yang kalian baca inilah hasilnya.
+Buku ini dihasilkan menggunakan [Bookdown](https://bookdown.org/home/) yang disediakan oleh @xie2015. Ia menggunakan Markdown yang dicampur kefungsian LaTeX. Markdown ialah sejenis alat penulisan yang membantu penulis menumpukan perhatian pada isinya dan bukan rupanya. Rupa bentuk buku akan ditentukan oleh pemprosesnya. Dalam kes ini pemprosesnya ialah Bookdown dan bentuk yang kalian baca inilah hasilnya.
 
-$\LaTeX$ pula ialah alat untuk menulis formula dengan mudah dan cantik. Alat ini dikira sebagai piawai antarabangsa untuk menulis formula matematik. Misalnya, wikipedia menulis persamaan-persamaannya menggunakan tatatanda $\LaTeX$. Markdown yang mentah tiada sokongan $\LaTeX$ tetapi Bookdown ada sokongan penulisan $\LaTeX$ yang memadai. Jadi, sebab itulah saya gunakannya untuk menulis buku ini yang sarat Matematik.
+LaTeX pula ialah alat untuk menulis formula dengan mudah dan cantik. Alat ini dikira sebagai piawai antarabangsa untuk menulis formula matematik. Misalnya, wikipedia menulis persamaan-persamaannya menggunakan tatatanda LaTeX. Markdown yang mentah tiada sokongan LaTeX tetapi Bookdown ada sokongan penulisan LaTeX yang memadai. Jadi, sebab itulah saya gunakannya untuk menulis buku ini yang sarat Matematik.

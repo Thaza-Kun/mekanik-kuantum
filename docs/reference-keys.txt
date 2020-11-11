@@ -1,13 +1,3 @@
-malapetaka-ultralembayung
-sinaran-jasad-hitam
-cubaan-wein-rayleigh-dan-jeans
-postulat-planck-tentang-sekuantum-tenaga
-kesinambungan-persamaan-planck-dengan-usaha-sebelumnya
-sec:mu-4-1
-kaedah-memperoleh-hukum-sesaran-wien-daripada-hukum-planck
-kaedah-memperoleh-hukum-taburan-wien-daripada-hukum-planck
-kaedah-memperoleh-hukum-rayleighjeans-daripada-hukum-planck
-sec:mu-5
 fig:unnamed-chunk-1
 def:mu-def-01
 fig:mu-jasad
@@ -62,6 +52,9 @@ eq:mu-36
 thm:mu-thm-07
 eq:mu-37
 eq:mu-38
+fig:fg-bulat-unit
+malapetaka-ultralembayung
+sinaran-jasad-hitam
 sec:wien-rayleigh-jeans
 sec:postulat-planck
 sec:kesinambungan
@@ -70,3 +63,6 @@ sec:planck-sesaran-wien
 sec:planck-taburan-wien
 sec:planck-rayleigh-jeans
 sec:bentuk-pers-planck
+pengenalan-kepada-fungsi-gelombang
+apa-itu-gelombang
+bulatan-unit-fungsi-trigonometri

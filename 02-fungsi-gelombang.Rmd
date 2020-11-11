@@ -1,0 +1,24 @@
+# Pengenalan Kepada Fungsi Gelombang
+
+Persamaan yang dibina oleh Schr&ouml;dinger^[Nama ini ialah nama Jerman. Sebutannya ialah syrodinger (شروديڠر) bukan skrodinger atau syrodinjer.] untuk memahami sistem kuantum ialah sejenis fungsi gelombang. Bab ini akan memperkenalkan ciri-ciri gelombang. Khususnya, bab ini akan menunjukkan peranan fungsi eksponen sebagai sejenis fungsi gelombang serta kelebihannya berbanding fungsi sinus.
+
+## Apa itu gelombang?
+
+Apa itu gelombang? Bagi tujuan bab ini, cukuplah kita takrifkan gelombang sebagai suatu lengkung yang naik dan turun secara berkala. Bentuk gelombang yang unggul diberikan nama gelombang sinus kerana ia diperihalkan oleh fungsi sinus dan kosinus.
+
+Bagi membina jambatan dari fungsi sinus ke fungsi eksponen, kita perlu melihatnya dari sudut pandang geometri. Khususnya, kita akan mengenali makna sinus dan kosinus dalam bulatan unit.
+
+### Bulatan unit: Fungsi Trigonometri
+
+Perkataan 'unit' dalam istilah 'bulatan unit' merujuk kepada nilai 'satu'. Bulatan unit merujuk kepada sejenis bulatan yang mempunyai jejari satu yang dilukis pada satah Kartes. Boleh sahaja kita pilih mana-mana jejari lain tetapi jejari satu ditetapkan sebagai rujukan. 
+
+Sememangnya, nilai satu digunakan sebagai rujukan untuk mana-mana ukuran pun. Misalnya, ukuran panjang pada pembaris ditandakan setiap kali tiba kepanjangan 'satu' meter atau 'satu' sentimeter, dsb. Hal ini yang melayakkan ia memegang nama 'unit'.
+
+```{r fg-bulat-unit, echo=FALSE, fig.align='center',out.width='300px', fig.cap="Bulatan unit ialah bulatan berjejari 1."}
+knitr::include_graphics('./gambar/fungsi/bulat_unit.png')
+```
+
+Ada dua perkara yang kita perasan apabila menilai bulatan unit ini.
+Yang pertama ialah: memandangkan bulatan unit ini dilukis pada satah Kartes, setiap titik ukurlilit bulatan tersebut boleh diungkapkan menggunakan koordinat Kartes. Kalau dipilih satu titik $p$, maka koordinatnya ialah ($x_p$, $y_p$).
+
+Yang kedua pula: memandangkan titik-titik tersebut hanya berada pada ukurlilit bulatan ini, maka titik tersebut juga boleh diungkapkan dengan hanya menggunakan sudut $t$, iaitu sudut yang dilekatkan pada pusatnya dan mengukur pemisahan titik $p$ dengan arah positif paksi $x$. Maknanya sekarang ini, titip $p$ mempunyai tiga nilai mewakili dirinya, $t$, $x_p$, dan $y_p$.

@@ -11,9 +11,9 @@ knitr::include_graphics(".\\gambar\\ultra\\basellaalba.jpg")
 
 Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya dengan sempurna tanpa pantulan. Jasad ini akan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba. Kata kuncinya di sini ialah ia memancarkan kesemua panjang gelombang cahaya daripada sependek-pendek gamma sehinggalah sepanjang-panjang radio. Bintang-bintang di langit memiliki ciri ini.
 
-Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan&ndash;Boltzmann.
+Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan--Boltzmann.
 
-```{definition mu-def-01, name="Hukum Stefan&ndash;Boltzmann"}
+```{definition mu-def-01, name="Hukum Stefan--Boltzmann"}
 Jumlah tenaga, $E$, yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, $T$,
 \begin{equation}
   E = \sigma T^4,
@@ -29,10 +29,10 @@ dengan maksud bahawa,
 \end{equation*}
 ```
 
-Tenaga yang diperihalkan dalam Hukum Stefan&ndash;Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
+Tenaga yang diperihalkan dalam Hukum Stefan--Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
 
 ```{r mu-jasad, echo=FALSE, out.width='600px', fig.align='center', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
-knitr::include_graphics(".\\gambar\\ultra\\jasadhitam.jpg")
+knitr::include_graphics("./gambar/ultra/jasadhitam.jpg")
 ```
 
 Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesuatu bintang mengikut panjang gelombang cahaya. Puncak lengkung itu menunjukkan cahaya mana yang paling banyak dikeluarkan. Puncak itu semakin menghampiri kiri jika suhu bintang semakin panas.
@@ -40,7 +40,7 @@ Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesua
 Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
 ```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
-knitr::include_graphics(".\\gambar\\ultra\\belantik.jpg")
+knitr::include_graphics("./gambar/ultra/belantik.jpg")
 ```
 
 ```{definition mu-def-02, name="Hukum Sesaran Wien"}
@@ -48,7 +48,7 @@ Panjang gelombang puncak sinaran jasad hitam, $\lambda_p$, adalah berkadaran son
 \begin{equation}
 	\lambda_p = \frac{W}{T},
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Sesaran Wien}
+dengan maksud bahawa,
 \begin{equation*}
 \begin{split}
 	\lambda_p & = \text{panjang gelombang puncak,} \\
@@ -61,7 +61,7 @@ dengan maksud bahawa,\margintext{\protect\vspace{-1.5cm}Hukum Sesaran Wien}
 
 Pemerihalan jumlah tenaga dan nilai tenaga puncak itu cukup mantap. Namun, pencarian ahli fizik belum selesai kerana mereka ingin tahu persamaan apakah yang boleh menghasilkan graf tersebut, bukan sekadar jumlah tenaga atau puncaknya sahaja.
 
-Hukum Stefann&ndash;Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Hukum Wien pula hanya menyatakan di mana letaknya puncak graf tersebut. Kedua-duanya tidak mampu menerangkan lengkungan graf tersebut.
+Hukum Stefann--Boltzmann hanya mampu menerangkan jumlah tenaga bintang. Hukum Wien pula hanya menyatakan di mana letaknya puncak graf tersebut. Kedua-duanya tidak mampu menerangkan lengkungan graf tersebut.
 
 ## Cubaan Wein, Rayleigh dan Jeans {#sec:wien-rayleigh-jeans}
 
@@ -83,14 +83,14 @@ a,b & = \text{pemalar}.\\
 \end{equation*}
 ```
 
-Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh&ndash;Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.
+Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh--Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.
 
-```{definition mu-def-04, name="Hukum Rayleigh&ndash;Jeans"}
+```{definition mu-def-04, name="Hukum Rayleigh--Jeans"}
 Ketumpatan tenaga cahaya, $U$, adalah berkadaran terus dengan suhu bintang $T$ dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, $\lambda^4$,
 \begin{equation}
 U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.6cm}Hukum Rayleigh--Jeans}
+dengan maksud bahawa,
 \begin{equation*}
 \begin{split}
 U & = \text{ketumpatan tenaga cahaya},\\
@@ -102,10 +102,10 @@ T & = \text{suhu bintang}.\\
 \end{equation*}
 ```
 
-```{proof, name="Kaedah Memperoleh Persamaan Rayleigh&ndash;Jeans"}
-Bagi memperoleh persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.
+```{proof, name="Kaedah Memperoleh Persamaan Rayleigh--Jeans"}
+Bagi memperoleh persamaan Rayleigh--Jeans (Hukum \@ref(def:mu-def-01)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.
 
-**USUL 1**: Pengayun-pengayun Rayleigh&ndash;Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh&ndash;Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, $E_k$, dan tenaga upaya, $E_v$ dan masing-masing mempunyai nilai $\frac{1}{2}{k_BT}$,
+**USUL 1**: Pengayun-pengayun Rayleigh--Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh--Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, $E_k$, dan tenaga upaya, $E_v$ dan masing-masing mempunyai nilai $\frac{1}{2}{k_BT}$,
 $$E_k = E_v = \frac{1}{2}{k_BT}.$$
 
 Maka, tenaga setiap pengayun tersebut ialah $k_BT$,
@@ -125,7 +125,7 @@ U\left(\lambda,T\right) = n\left(f\right)k_BT.
 (\#eq:mu-2)
 \end{equation}
 
-Persamaan Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-01)) memerihalkan tenaga cahaya dalam bentuk panjang gelombang $\lambda$, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
+Persamaan Rayleigh--Jeans (Hukum \@ref(def:mu-def-01)) memerihalkan tenaga cahaya dalam bentuk panjang gelombang $\lambda$, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
 \begin{equation}
 f = \frac{c}{\lambda},(\#eq:mu-3)
 \end{equation}
@@ -162,17 +162,17 @@ Maka, langkah terakhir kita ialah dengan menggunakan pers. \@ref(eq:mu-7) untuk 
 \begin{equation}
 U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
 \end{equation}
-Inilah persamaan Rayleigh&ndash;Jeans yang ingin diperolehi.
+Inilah persamaan Rayleigh--Jeans yang ingin diperolehi.
 ```
 
-Hasil daripada persamaan Rayleigh&ndash;Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh&ndash;Jeans ialah suatu fungsi salingan, $\frac{1}{x}$, berkuasa 4.
+Hasil daripada persamaan Rayleigh--Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh--Jeans ialah suatu fungsi salingan, $\frac{1}{x}$, berkuasa 4.
 
 Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga! Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.
 
 Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.
 
-```{r echo=FALSE, out.width="500px", fig.align='center', fig.cap="Persamaan Rayleigh&ndash;Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal."}
-knitr::include_graphics(".\\gambar\\ultra\\Rayleigh.png")
+```{r echo=FALSE, out.width="500px", fig.align='center', fig.cap="Persamaan Rayleigh--Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal."}
+knitr::include_graphics("./gambar/ultra/Rayleigh.png")
 ```
 
 ## Postulat Planck Tentang Sekuantum Tenaga {#sec:postulat-planck}
@@ -190,14 +190,14 @@ Adapun begitu, perkara ini bertentangan dengan pandangan ahli fizik tentang caha
 
 Max Planck sendiri menolak postulat yang dikemukakannya. Postulat tersebut hanyalah cubaannya sahaja dan mendapati ia selari dengan hasil cerapan. Baginya, ia adalah ralat dalam dunia Matematik dan ia akan dapat diperbetulkan di kemudian hari.
 
-Namun begitu, dua postulat ini kekal sehingga hari ini setelah banyak ujikaji lain mengesahkannya. Fizikawan mendapati cahaya mempunyai kedua-dua sifat gelombang dan zarah. Pemilikan dua sifat ini dipanggil kedualan gelombang&ndash;zarah dan sifat ini adalah asas kepada Mekanik Kuantum. Pemalar $h$ itu kini dikenali sebagai Pemalar Planck.
+Namun begitu, dua postulat ini kekal sehingga hari ini setelah banyak ujikaji lain mengesahkannya. Fizikawan mendapati cahaya mempunyai kedua-dua sifat gelombang dan zarah. Pemilikan dua sifat ini dipanggil kedualan gelombang--zarah dan sifat ini adalah asas kepada Mekanik Kuantum. Pemalar $h$ itu kini dikenali sebagai Pemalar Planck.
 
 ```{definition mu-def-05, name="Hukum Planck"}
 Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
 \begin{equation}
 U(\lambda, T)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 \end{equation}
-dengan maksud bahawa,\margintext{\protect\vspace{-1.7cm}Hukum Planck}
+dengan maksud bahawa,
 \begin{equation*}
 \begin{split}
 U(\lambda, T) & = \text{ketumpatan tenaga},\\
@@ -222,7 +222,7 @@ Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula
 (\#eq:mu-10)
 \end{equation}
 
-**USUL 2**: Jumlah pengayun dalam jasad hitam mematuhi taburan Maxwell&ndash;Boltzmann,
+**USUL 2**: Jumlah pengayun dalam jasad hitam mematuhi taburan Maxwell--Boltzmann,
 \begin{equation}
 N(n)= N_0\exp\Big\{\frac{-\varepsilon_n}{k_BT}\Big\},
 (\#eq:mu-11)
@@ -320,12 +320,12 @@ U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 ## Kesinambungan Persamaan Planck dengan Usaha Sebelumnya {#sec:kesinambungan}
 Meskipun hanya usaha Planck sahaja yang mampu menerangkan lengkung jasad hitam secara menyeluruh, usaha-usaha sebelumnya hanya mampu menerangkan sebahagian sahaja daripada lengkung tersebut. Jika begitu, maknanya persamaan Planck boleh diubah agar menyerupai persamaan-persamaan ini dengan meletakkan syarat-syarat tertentu.
 
-Ada empat hukum yang dibangunkan sebelum Max Planck. Yang pertama ialah hukum Stefan&ndash;Boltzmann (Hukum \@ref(def:mu-def-01)) yang menerangkan jumlah tenaga yang disinarkan oleh bintang. Yang kedua ialah hukum sesaran Wien (Hukum \@ref(def:mu-def-02)) yang menerangkan puncak lengkung. Yang ketiga ialah hukum taburan Wien (Hukum \@ref(def:mu-def-03)) yang menerangkan lengkung jasad hitam pada panjang gelombang pendek. Yang keempat ialah hukum Rayleigh&ndash;Jeans (Hukum \@ref(def:mu-def-04)) yang menerangkan lengkung jasad hitam pada panjang gelombang panjang.
+Ada empat hukum yang dibangunkan sebelum Max Planck. Yang pertama ialah hukum Stefan--Boltzmann (Hukum \@ref(def:mu-def-01)) yang menerangkan jumlah tenaga yang disinarkan oleh bintang. Yang kedua ialah hukum sesaran Wien (Hukum \@ref(def:mu-def-02)) yang menerangkan puncak lengkung. Yang ketiga ialah hukum taburan Wien (Hukum \@ref(def:mu-def-03)) yang menerangkan lengkung jasad hitam pada panjang gelombang pendek. Yang keempat ialah hukum Rayleigh--Jeans (Hukum \@ref(def:mu-def-04)) yang menerangkan lengkung jasad hitam pada panjang gelombang panjang.
 
 Kita akan cuba memperoleh setiap satu daripadanya menggunakan Hukum Planck mengikut turutan tersebut.
 
-### Kaedah Memperoleh Hukum Stefan&ndash;Boltzmann Daripada Hukum Planck {#sec:planck-stefan-boltzmann}
-Hukum Stefan&ndash;Boltzmann memerihalkan jumlah tenaga yang disinarkan oleh suatu bintang. Hal ini sama seperti mencari luas di bawah lengkung. Maknanya kita perlu kamirkannya terhadap panjang gelombang.
+### Kaedah Memperoleh Hukum Stefan--Boltzmann Daripada Hukum Planck {#sec:planck-stefan-boltzmann}
+Hukum Stefan--Boltzmann memerihalkan jumlah tenaga yang disinarkan oleh suatu bintang. Hal ini sama seperti mencari luas di bawah lengkung. Maknanya kita perlu kamirkannya terhadap panjang gelombang.
 
 **USUL 1**: Luas bawah lengkung ialah hasil kamiran Hukum Planck terhadap panjang gelombang dari sifar ke infiniti,
 \begin{equation}
@@ -377,16 +377,16 @@ E &= \frac{8\pi k_B^4T^4}{h^3c^3}(3!)\left(\frac{\pi^4}{90}\right) \nonumber\\
  (\#eq:mu-25)
 \end{align}
 
-Dengan membandingkan pers. \@ref(eq:mu-25) dengan hukum Stefan&ndash;Boltzmann, maka kita menerka perhubungan ini,
+Dengan membandingkan pers. \@ref(eq:mu-25) dengan hukum Stefan--Boltzmann, maka kita menerka perhubungan ini,
 $$\sigma T^4 \stackrel{?}{=} \frac{8\pi^5 k_B^4}{15h^3c^3}T^4,$$
-tetapi terkaan ini tidak benar kerana jika kita kira setiap satu pemalar tersebut, kita akan dapati nilainya tidak sama dengan pemalar Stefan&ndash;Boltzmann, $\sigma$,
+tetapi terkaan ini tidak benar kerana jika kita kira setiap satu pemalar tersebut, kita akan dapati nilainya tidak sama dengan pemalar Stefan--Boltzmann, $\sigma$,
 \begin{align*}
   \frac{8\pi^5 k_B^4}{15h^3c^3} &= 7.5657\times 10^{-16}\,\text{J}\cdot\text{m}^{-3}\cdot\text{K}^{-4},\\
   \sigma &= 5.6704\times 10^{-8}\,\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4},\\
   \frac{8\pi^5 k_B^4}{15h^3c^3} &\neq \sigma.
 \end{align*}
 
-Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada ketumpatan tenaga cahaya berfrekuensi tertentu (Rujuk bahagian \@ref(sec:bentuk-pers-planck) untuk keterangan lanjut). Oleh itu, kamirannya, $\int U \text{d}\lambda$, itu masih merujuk kepada ketumpatan tenaga tetapi mengambil kira semua frekuensi cahaya. Sedangkan hukum Stefan&ndash;Boltzmann merujuk kepada jumlah tenaga mutlak. Kita perlukan pekali $\frac{c}{4}$ untuk memperbetulkan keadaan (@Nave2017),
+Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada ketumpatan tenaga cahaya berfrekuensi tertentu (Rujuk bahagian \@ref(sec:bentuk-pers-planck) untuk keterangan lanjut). Oleh itu, kamirannya, $\int U \text{d}\lambda$, itu masih merujuk kepada ketumpatan tenaga tetapi mengambil kira semua frekuensi cahaya. Sedangkan hukum Stefan--Boltzmann merujuk kepada jumlah tenaga mutlak. Kita perlukan pekali $\frac{c}{4}$ untuk memperbetulkan keadaan (@Nave2017),
 \begin{equation}
 E = \frac{c}{4}\frac{8\pi^5 k_B^4}{15h^3c^3}T^4
 (\#eq:mu-26)
@@ -475,11 +475,11 @@ U_{\text{Wien}}=\frac{8\pi hce^{-\frac{hc}{\lambda k_BT}}}{\lambda^5},
 yang sepadan dengan hukum taburan Wien. Jika dibandingkan dengan hukum \@ref(def:mu-def-03), kita akan dapat kira nilai pemalar $a$ dan $b$,
 $$a = 8\pi hc,\;b = \frac{hc}{k_B}.$$
 
-### Kaedah Memperoleh Hukum Rayleigh&ndash;Jeans Daripada Hukum Planck {#sec:planck-rayleigh-jeans}
+### Kaedah Memperoleh Hukum Rayleigh--Jeans Daripada Hukum Planck {#sec:planck-rayleigh-jeans}
 
-Hukum Rayleigh&ndash;Jeans boleh menerangkan lengkung jasad hitam dengan baik hanya jika panjang gelombangnya panjang. Ia gagal untuk panjang gelombang pendek. Maka, kita boleh peroleh hukum Rayleigh&ndash;Jeans jika diletakkan syarat panjang gelombang mesti panjang.
+Hukum Rayleigh--Jeans boleh menerangkan lengkung jasad hitam dengan baik hanya jika panjang gelombangnya panjang. Ia gagal untuk panjang gelombang pendek. Maka, kita boleh peroleh hukum Rayleigh--Jeans jika diletakkan syarat panjang gelombang mesti panjang.
 
-**USUL 1**: Hukum Rayleigh&ndash;Jeans boleh diperoleh jika dihadkan panjang gelombang menghampiri infiniti dalam hukum Planck,
+**USUL 1**: Hukum Rayleigh--Jeans boleh diperoleh jika dihadkan panjang gelombang menghampiri infiniti dalam hukum Planck,
 \begin{equation}
 U_{\text{RJ}} = \lim_{\lambda\to\infty}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1},
 (\#eq:mu-36)
@@ -503,7 +503,7 @@ yang setara dengan,
 U_{\text{RJ}} = \frac{8\pi}{\lambda^4}{k_BT},
 (\#eq:mu-38)
 \end{equation}
-iaitu persamaan Rayleigh&ndash;Jeans yang ingin kita perolehi.  
+iaitu persamaan Rayleigh--Jeans yang ingin kita perolehi.  
 
 ## Pelbagai Bentuk Persamaan Planck {#sec:bentuk-pers-planck}
 
@@ -515,6 +515,6 @@ Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat p
 
 Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.
 
-Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian \@ref(sec:planck-stefan-boltzmann) ketika mencari hukum Stefan&ndash;Boltzmann, pekali $\frac{c}{4}$ diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.
+Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian \@ref(sec:planck-stefan-boltzmann) ketika mencari hukum Stefan--Boltzmann, pekali $\frac{c}{4}$ diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.
 
 Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh--Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan $\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0$.

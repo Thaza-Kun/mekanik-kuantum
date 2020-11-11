@@ -1,8 +1,9 @@
 book_filename: "Catatan-Mekanik-Kuantum"
 chapter_name: "Bab "
 repo: https://github.com/thaza-kun/cft-mekanik-kuantum
+delete_merged_file: true
 output_dir: docs
-new_session: yes
+rmd_files: ["index.Rmd", "01-Malapetaka-Ultralembayung.Rmd", "02-fungsi-gelombang.Rmd", "A0-daftar-pemalar.Rmd","AA-daftar-pustaka.Rmd"]
 language:
   label:
     fig: "RAJAH "
