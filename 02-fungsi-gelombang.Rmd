@@ -2,6 +2,7 @@
 
 Pada tahun 1933, Erwin R. J. A. Schr&ouml;dinger berkongsi Hadiah Nobel bidang Fizik bersama Paul A. M. Dirac atas "penemuan bentuk-bentuk produktif yang baharu dalam teori keatoman." Beliau berjaya membina satu persamaan yang menerangkan sistem-sistem kuantum dengan tepat. Persamaan itu dinamakan persamaan Schr&ouml;dinger dan akar persamaan ini ialah fungsi gelombang. Maka dalam bab itu, kita akan mengenali sifat-sifat fungsi gelombang sebelum boleh meneroka persamaan Schr&ouml;dinger. Khususnya, bab ini akan menerangkan perkaitan fungsi eksponen dengan bentuk gelombang.
 
+
 ## Bulatan unit: fungsi trigonometri
 
 Apa itu gelombang? Bagi tujuan bab ini, cukuplah kita takrifkan gelombang sebagai suatu lengkung yang naik dan turun secara berkala. Bentuk gelombang yang unggul diberikan nama gelombang sinus kerana ia diperihalkan oleh fungsi sinus dan kosinus.
