@@ -3,7 +3,7 @@ chapter_name: "Bab "
 repo: https://github.com/thaza-kun/cft-mekanik-kuantum
 delete_merged_file: true
 output_dir: docs
-rmd_files: ["index.Rmd", "01-Malapetaka-Ultralembayung.Rmd", "02-fungsi-gelombang.Rmd", "A0-daftar-pemalar.Rmd","AA-daftar-pustaka.Rmd"]
+rmd_files: ["index.Rmd", "01-Malapetaka-Ultralembayung.Rmd", "02-fungsi-gelombang.Rmd", "A0-daftar-pemalar.Rmd", "A1-kamus.Rmd","AA-daftar-pustaka.Rmd"]
 language:
   label:
     fig: "RAJAH "

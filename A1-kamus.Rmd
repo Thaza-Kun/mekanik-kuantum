@@ -1,0 +1,102 @@
+# Daftar Istilah {-}
+
+cahaya tampak
+: (*visible light*)
+: julat spektrum elektromagnet yang boleh dilihat manusia iaitu di antara 380 sehingga 740nm.
+
+cerun
+: (*slope*)
+: ukuran bagaimana graf menaik atau menurun, iaitu dengan membahagikan perbezaan menegak, $\text{d}y$, terhadap perbezaan mendatar, $\text{d}x$, menjadi $\frac{\text{d}y}{\text{d}x}$.
+
+fizikawan / fizisis / ahli fizik
+: (*physicist*)
+: seseorang yang berkepakaran dalam bidang Fizik.
+
+frekuensi
+: (*frequency*)
+: ukuran berkaitan gelombang atau pengayun yang menunjukkan berapa banyak kali sistem tersebut berada dalam fasa tertentu dalam masa sesaat. Unitnya ialah Hz atau s^-1^.
+
+gamma
+: (*gamma*)
+: huruf Yunani yang melambangkan bunyi /ɣ/ yang setara dengan 'gh' bahasa Melayu. Huruf besarnya ialah $\Gamma$ manakala huruf kecilnya ialah $\gamma$.
+
+hampagas / ruang vakum
+: (*vacuum*)
+: ruang unggul yang tidak mempunyai apa-apa jenis benda sekalipun. Ia adalah lakuran perkataan **hampa** dan **gas** yang secara harfiahnya bermaksud kekosongan gas.
+
+kaedah berangka
+: (*numerical method*)
+: kaedah memperoleh nilai penghampiran menggunakan algoritma tertentu. Lazimnya, kaedah berangka digunakan untuk menilai fungsi-fungsi yang payah dinilai menggunakan kaedah aljabar.
+
+keamatan
+: (*intensity*)
+: ukuran kecerahan cahaya.
+
+kenisbian / kerelatifan / relativiti
+: (*relativity*)
+: merujuk kepada teori yang dikemukakan oleh Albert Einstein pada awal abad ke-20. Ia terbahagi kepada dua jenis: teori kenisbian khas dan teori kenisbian am.
+
+kesinaran
+: (*radiance*)
+: keamatan cahaya dalam satu ruang tertentu.
+
+lembayung
+: (*violet*)
+: warna ungu kebiruan. Boleh bercampur dengan warna lain untuk membentuk warna baharu seperti merah lembayung (*crimson*, *magenta*) dan lembayung ungu (*royal purple*)
+
+lengkung
+: (*curve*)
+: mana-mana garis yang selanjar.
+
+malapetaka ultralembayung
+: (*ultraviolet catastrophe*)
+: permasalahan dalam sinaran jasad hitam yang muncul akibat kiraan Rayleigh&ndash;Jeans. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.
+
+panjang gelombang
+: (*wavelength*)
+: panjang dari satu puncak gelombang ke puncak gelombang seterusnya. Lazimnya dilambangkan dengan simbol $\lambda$ dan menggunakan ukuran meter, m.
+
+pemalar / angkatap
+: (*constant*)
+: nilai yang tetap dan tidak berubah.
+
+pembawah / penyebut
+: (*denominator*)
+: bahagian bawah pecahan. Dalam pecahan satu per dua, nombor dua ialah pembawahnya.
+
+pengangka / pembilang
+: (*numerator*)
+: bahagian atas pecahan. Dalam pecahan satu per dua, nombor satu ialah pengangkanya.
+
+pengayun
+: (*oscillator*)
+: sistem yang berayun, iaitu berpindah-pindah di antara dua keadaan berbeza. Ia tidak semestinya berayun di sekitar suatu pusat. Misalnya, elektron boleh berayun dari dua tahap tenaga berbeza sedangkan tiada pusat nyata yang membahagikan tenaga A dan tenaga B.
+
+postulat
+: (*postulat*)
+: sesuatu yang diusulkan sebagai permulaan hujah atau perbincangan.
+
+salingan
+: (*reciprocal*)
+: nilai pecahan yang meletakkan pembolehubahnya sebagai pembawah. Misalnya, dalam salingan $\frac{1}{x}$, pembawahnya ialah $x$ iaitu suatu pembolehubah.
+
+selanjar
+: (*continuous*)
+: satu set nilai yang berterusan dan tidak mempunyai rongga di antara julat $[x_\text{mula},x_\text{akhir}]$.
+
+sinar gamma / cahaya gamma
+: (*gamma ray, gamma radiation*)
+: sejenis cahaya yang pendek dan sangat bertenaga. Panjang gelombangnya ialah lebih pendek dari 0.1 nm.
+
+taburan
+: (*distribution*)
+: fungsi yang mengagihkan jumlah sesuatu dalam domain tertentu.
+
+teorem pemetakan sama / teorem pemetakan sama tenaga
+: (*equipartition theorem*)
+: teorem yang mengatakan bahawa segala bentuk tenaga dalam sistem haba seimbang akan mempunyai nilai purata tenaga yang sama.
+
+ultralembayung / ultraungu / cahaya ultralembayung / ultraungu
+: (*ultraviolet*)
+: cahaya yang lebih pendek dari cahaya tampak tetapi lebih panjang dari sinar-X.  Julatnya ialah di antara 10 sehingga 400 nm. Jika ia boleh dilihat, warnanya akan menyerupai warna lembayung, iaitu ungu kebiruan.
+

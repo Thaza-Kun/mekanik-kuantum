@@ -64,5 +64,5 @@ sec:planck-taburan-wien
 sec:planck-rayleigh-jeans
 sec:bentuk-pers-planck
 pengenalan-kepada-fungsi-gelombang
-apa-itu-gelombang
 bulatan-unit-fungsi-trigonometri
+sifat-fungsi-trigonometri

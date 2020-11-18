@@ -1,238 +1,224 @@
-{
-    "istilah-kuantum": [
-        {
-            "kata": "cahaya tampak",
-	    "sinonim": [],
-            "terjemahan": [
-                "visible light"
-            ],
-            "makna": "julat spektrum elektromagnet yang boleh dilihat manusia iaitu di antara 380 sehingga 740nm."
-        },
-	{
-            "kata": "cerun",
-	    "sinonim":[],
-            "terjemahan": [
-                "slope"
-            ],
-            "makna": "ukuran bagaimana graf menaik atau menurun, iaitu dengan membahagikan perbezaan menegak, $\text{d}y$, terhadap perbezaan mendatar, $\text{d}x$, menjadi $\frac{\text{d}y}{\text{d}x}$."
-        },
-	{
-            "kata": "fizikawan",
-	    "sinonim":[
-		"fizisis",
-		"ahli fizik"
-	    ],
-            "terjemahan": [
-                "physicist"
-            ],
-            "makna": "seseorang yang berkepakaran dalam bidang Fizik."
-        },
-	{
-            "kata": "frekuensi",
-	    "sinonim":[],
-            "terjemahan": [
-                "frequency"
-            ],
-            "makna": "ukuran berkaitan gelombang atau pengayun yang menunjukkan berapa banyak kali sistem tersebut berada dalam fasa tertentu dalam masa sesaat. Unitnya ialah Hz atau s^-1^."
-        },
-	{
-            "kata": "gamma",
-	    "sinonim":[],
-            "terjemahan": [
-                "gamma"
-            ],
-            "makna": "huruf Yunani yang melambangkan bunyi /ɣ/ yang setara dengan 'gh' bahasa Melayu. Huruf besarnya ialah $\Gamma$ manakala huruf kecilnya ialah $\gamma$."
-        },
-	{
-            "kata": "sinar gamma",
-	    "sinonim":[
-		"cahaya gamma"
-	    ],
-            "terjemahan": [
-                "gamma ray",
-		"gamma radiation"
-            ],
-            "makna": "sejenis cahaya yang pendek dan sangat bertenaga. Panjang gelombangnya ialah lebih pendek dari 0.1 nm."
-        },
-	{
-            "kata": "hampagas",
-	    "sinonim":[
-		"ruang vakum"
-	    ],
-            "terjemahan": [
-		"vacuum"
-            ],
-            "makna": "ruang unggul yang tidak mempunyai apa-apa jenis benda sekalipun. Ia adalah lakuran perkataan **hampa** dan **gas** yang secara harfiahnya bermaksud kekosongan gas."
-        },
-	{
-            "kata": "kaedah berangka",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"numerical method"
-            ],
-            "makna": "kaedah memperoleh nilai penghampiran menggunakan algoritma tertentu. Lazimnya, kaedah berangka digunakan untuk menilai fungsi-fungsi yang payah dinilai menggunakan kaedah aljabar."
-        },
-	{
-            "kata": "keamatan",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"intensity"
-            ],
-            "makna": "ukuran kecerahan cahaya."
-        },
-	{
-            "kata": "kenisbian",
-	    "sinonim":[
-		"kerelatifan",
-		"relativiti"
-	    ],
-            "terjemahan": [
-		"relativity"
-            ],
-            "makna": "merujuk kepada teori yang dikemukakan oleh Albert Einstein pada awal abad ke-20. Ia terbahagi kepada dua jenis: teori kenisbian khas dan teori kenisbian am."
-        },
-	{
-            "kata": "kesinaran",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"radiance"
-            ],
-            "makna": "keamatan cahaya dalam satu ruang tertentu."
-        },
-	{
-            "kata": "lembayung",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"violet"
-            ],
-            "makna": "warna ungu kebiruan. Boleh bercampur dengan warna lain untuk membentuk warna baharu seperti merah lembayung (*crimson*, *magenta*) dan lembayung ungu (*royal purple*)"
-        },
-	{
-            "kata": "lengkung",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"curve"
-            ],
-            "makna": "mana-mana garis yang selanjar."
-        },
-	{
-            "kata": "malapetaka ultralembayung",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"ultraviolet catastrophe"
-            ],
-            "makna": "permasalahan dalam sinaran jasad hitam yang muncul akibat kiraan Rayleigh&ndashJeans. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan."
-        },
-	{
-            "kata": "panjang gelombang",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"wavelength"
-            ],
-            "makna": "panjang dari satu puncak gelombang ke puncak gelombang seterusnya. Lazimnya dilambangkan dengan simbol $\lambda$ dan menggunakan ukuran meter, m."
-        },
-	{
-            "kata": "pemalar",
-	    "sinonim":[
-		"angkatap"
-	    ],
-            "terjemahan": [
-		"constant"
-            ],
-            "makna": "nilai yang tetap dan tidak berubah."
-        },
-	{
-            "kata": "pembawah",
-	    "sinonim":[
-		"penyebut"
-	    ],
-            "terjemahan": [
-		"denominator"
-            ],
-            "makna": "bahagian bawah pecahan. Dalam pecahan satu per dua, nombor dua ialah pembawahnya."
-        },
-	{
-            "kata": "pengangka",
-	    "sinonim":[
-		"pembilang"
-	    ],
-            "terjemahan": [
-		"numerator"
-            ],
-            "makna": "bahagian atas pecahan. Dalam pecahan satu per dua, nombor satu ialah pengangkanya."
-        },
-	{
-            "kata": "pengayun",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"oscillator"
-            ],
-            "makna": "sistem yang berayun, iaitu berpindah-pindah di antara dua keadaan berbeza. Ia tidak semestinya berayun di sekitar suatu pusat. Misalnya, elektron boleh berayun dari dua tahap tenaga berbeza sedangkan tiada pusat nyata yang membahagikan tenaga A dan tenaga B."
-        },
-	{
-            "kata": "postulat",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"postulat"
-            ],
-            "makna": "sesuatu yang diusulkan sebagai permulaan hujah atau perbincangan."
-        },
-	{
-            "kata": "salingan",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"reciprocal"
-            ],
-            "makna": "nilai pecahan yang meletakkan pembolehubahnya sebagai pembawah. Misalnya, dalam salingan $\frac{1}{x}$, pembawahnya ialah $x$ iaitu suatu pembolehubah."
-        },
-	{
-            "kata": "selanjar",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"continuous"
-            ],
-            "makna": "satu set nilai yang berterusan dan tidak mempunyai rongga di antara julat $[x_\text{mula},x_\text{akhir}]$."
-        },
-	{
-            "kata": "taburan",
-	    "sinonim":[
-	    ],
-            "terjemahan": [
-		"distribution"
-            ],
-            "makna": "fungsi yang mengagihkan jumlah sesuatu dalam domain tertentu."
-        },
-	{
-            "kata": "teorem pemetakan sama",
-	    "sinonim":[
-		"teorem pemetakan sama tenaga"
-	    ],
-            "terjemahan": [
-		"equipartition theorem"
-            ],
-            "makna": "teorem yang mengatakan bahawa segala bentuk tenaga dalam sistem haba seimbang akan mempunyai nilai purata tenaga yang sama."
-        },
-	{
-            "kata": "ultralembayung",
-	    "sinonim":[
-		"ultraungu",
-		"cahaya ultralembayung / ultraungu"
-	    ],
-            "terjemahan": [
-		"ultraviolet"
-            ],
-            "makna": " cahaya yang lebih pendek dari cahaya tampak tetapi lebih panjang dari sinar-X.  Julatnya ialah di antara 10 sehingga 400 nm. Jika ia boleh dilihat, warnanya akan menyerupai warna lembayung, iaitu ungu kebiruan."
-        }
-    ]
-}
+[
+    {
+        "kata": "cahaya tampak",
+        "makna": "julat spektrum elektromagnet yang boleh dilihat manusia iaitu di antara 380 sehingga 740nm.",
+        "sinonim": [],
+        "terjemahan": [
+            "visible light"
+        ]
+    },
+    {
+        "kata": "cerun",
+        "makna": "ukuran bagaimana graf menaik atau menurun, iaitu dengan membahagikan perbezaan menegak, $\\text{d}y$, terhadap perbezaan mendatar, $\\text{d}x$, menjadi $\\frac{\\text{d}y}{\\text{d}x}$.",
+        "sinonim": [],
+        "terjemahan": [
+            "slope"
+        ]
+    },
+    {
+        "kata": "fizikawan",
+        "makna": "seseorang yang berkepakaran dalam bidang Fizik.",
+        "sinonim": [
+            "fizisis",
+            "ahli fizik"
+        ],
+        "terjemahan": [
+            "physicist"
+        ]
+    },
+    {
+        "kata": "frekuensi",
+        "makna": "ukuran berkaitan gelombang atau pengayun yang menunjukkan berapa banyak kali sistem tersebut berada dalam fasa tertentu dalam masa sesaat. Unitnya ialah Hz atau s^-1^.",
+        "sinonim": [],
+        "terjemahan": [
+            "frequency"
+        ]
+    },
+    {
+        "kata": "gamma",
+        "makna": "huruf Yunani yang melambangkan bunyi /\u00c9\u00a3/ yang setara dengan 'gh' bahasa Melayu. Huruf besarnya ialah $\\Gamma$ manakala huruf kecilnya ialah $\\gamma$.",
+        "sinonim": [],
+        "terjemahan": [
+            "gamma"
+        ]
+    },
+    {
+        "kata": "hampagas",
+        "makna": "ruang unggul yang tidak mempunyai apa-apa jenis benda sekalipun. Ia adalah lakuran perkataan **hampa** dan **gas** yang secara harfiahnya bermaksud kekosongan gas.",
+        "sinonim": [
+            "ruang vakum"
+        ],
+        "terjemahan": [
+            "vacuum"
+        ]
+    },
+    {
+        "kata": "kaedah berangka",
+        "makna": "kaedah memperoleh nilai penghampiran menggunakan algoritma tertentu. Lazimnya, kaedah berangka digunakan untuk menilai fungsi-fungsi yang payah dinilai menggunakan kaedah aljabar.",
+        "sinonim": [],
+        "terjemahan": [
+            "numerical method"
+        ]
+    },
+    {
+        "kata": "keamatan",
+        "makna": "ukuran kecerahan cahaya.",
+        "sinonim": [],
+        "terjemahan": [
+            "intensity"
+        ]
+    },
+    {
+        "kata": "kenisbian",
+        "makna": "merujuk kepada teori yang dikemukakan oleh Albert Einstein pada awal abad ke-20. Ia terbahagi kepada dua jenis: teori kenisbian khas dan teori kenisbian am.",
+        "sinonim": [
+            "kerelatifan",
+            "relativiti"
+        ],
+        "terjemahan": [
+            "relativity"
+        ]
+    },
+    {
+        "kata": "kesinaran",
+        "makna": "keamatan cahaya dalam satu ruang tertentu.",
+        "sinonim": [],
+        "terjemahan": [
+            "radiance"
+        ]
+    },
+    {
+        "kata": "lembayung",
+        "makna": "warna ungu kebiruan. Boleh bercampur dengan warna lain untuk membentuk warna baharu seperti merah lembayung (*crimson*, *magenta*) dan lembayung ungu (*royal purple*)",
+        "sinonim": [],
+        "terjemahan": [
+            "violet"
+        ]
+    },
+    {
+        "kata": "lengkung",
+        "makna": "mana-mana garis yang selanjar.",
+        "sinonim": [],
+        "terjemahan": [
+            "curve"
+        ]
+    },
+    {
+        "kata": "malapetaka ultralembayung",
+        "makna": "permasalahan dalam sinaran jasad hitam yang muncul akibat kiraan Rayleigh&ndash;Jeans. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.",
+        "sinonim": [],
+        "terjemahan": [
+            "ultraviolet catastrophe"
+        ]
+    },
+    {
+        "kata": "panjang gelombang",
+        "makna": "panjang dari satu puncak gelombang ke puncak gelombang seterusnya. Lazimnya dilambangkan dengan simbol $\\lambda$ dan menggunakan ukuran meter, m.",
+        "sinonim": [],
+        "terjemahan": [
+            "wavelength"
+        ]
+    },
+    {
+        "kata": "pemalar",
+        "makna": "nilai yang tetap dan tidak berubah.",
+        "sinonim": [
+            "angkatap"
+        ],
+        "terjemahan": [
+            "constant"
+        ]
+    },
+    {
+        "kata": "pembawah",
+        "makna": "bahagian bawah pecahan. Dalam pecahan satu per dua, nombor dua ialah pembawahnya.",
+        "sinonim": [
+            "penyebut"
+        ],
+        "terjemahan": [
+            "denominator"
+        ]
+    },
+    {
+        "kata": "pengangka",
+        "makna": "bahagian atas pecahan. Dalam pecahan satu per dua, nombor satu ialah pengangkanya.",
+        "sinonim": [
+            "pembilang"
+        ],
+        "terjemahan": [
+            "numerator"
+        ]
+    },
+    {
+        "kata": "pengayun",
+        "makna": "sistem yang berayun, iaitu berpindah-pindah di antara dua keadaan berbeza. Ia tidak semestinya berayun di sekitar suatu pusat. Misalnya, elektron boleh berayun dari dua tahap tenaga berbeza sedangkan tiada pusat nyata yang membahagikan tenaga A dan tenaga B.",
+        "sinonim": [],
+        "terjemahan": [
+            "oscillator"
+        ]
+    },
+    {
+        "kata": "postulat",
+        "makna": "sesuatu yang diusulkan sebagai permulaan hujah atau perbincangan.",
+        "sinonim": [],
+        "terjemahan": [
+            "postulat"
+        ]
+    },
+    {
+        "kata": "salingan",
+        "makna": "nilai pecahan yang meletakkan pembolehubahnya sebagai pembawah. Misalnya, dalam salingan $\\frac{1}{x}$, pembawahnya ialah $x$ iaitu suatu pembolehubah.",
+        "sinonim": [],
+        "terjemahan": [
+            "reciprocal"
+        ]
+    },
+    {
+        "kata": "selanjar",
+        "makna": "satu set nilai yang berterusan dan tidak mempunyai rongga di antara julat $[x_\\text{mula},x_\\text{akhir}]$.",
+        "sinonim": [],
+        "terjemahan": [
+            "continuous"
+        ]
+    },
+    {
+        "kata": "sinar gamma",
+        "makna": "sejenis cahaya yang pendek dan sangat bertenaga. Panjang gelombangnya ialah lebih pendek dari 0.1 nm.",
+        "sinonim": [
+            "cahaya gamma"
+        ],
+        "terjemahan": [
+            "gamma ray",
+            "gamma radiation"
+        ]
+    },
+    {
+        "kata": "taburan",
+        "makna": "fungsi yang mengagihkan jumlah sesuatu dalam domain tertentu.",
+        "sinonim": [],
+        "terjemahan": [
+            "distribution"
+        ]
+    },
+    {
+        "kata": "teorem pemetakan sama",
+        "makna": "teorem yang mengatakan bahawa segala bentuk tenaga dalam sistem haba seimbang akan mempunyai nilai purata tenaga yang sama.",
+        "sinonim": [
+            "teorem pemetakan sama tenaga"
+        ],
+        "terjemahan": [
+            "equipartition theorem"
+        ]
+    },
+    {
+        "kata": "ultralembayung",
+        "makna": "cahaya yang lebih pendek dari cahaya tampak tetapi lebih panjang dari sinar-X.  Julatnya ialah di antara 10 sehingga 400 nm. Jika ia boleh dilihat, warnanya akan menyerupai warna lembayung, iaitu ungu kebiruan.",
+        "sinonim": [
+            "ultraungu",
+            "cahaya ultralembayung / ultraungu"
+        ],
+        "terjemahan": [
+            "ultraviolet"
+        ]
+    }
+]
