@@ -181,9 +181,9 @@ Istilah *superposition* datang dari akar kata *superpose* yang membawa maksud 'm
 Oleh itu, 'prinsip superposisi' tidaklah seharusnya difahami sebagai prinsip adi (*super*) + kedudukan (*position*) tetapi sebagai prinsip penindihan dua fungsi. Prinsip ini bukanlah khusus untuk sistem kuantum sahaja tetapi ia digunakan dalam Matematik untuk menguji kelinearan fungsi. Fungsi-fungsi kuantum mematuhi kelinearan ini maka ia juga mewarisi kesuperposisian fungsi linear.
 
 ```{lemma lem-fg-02, name="Prinsip Superposisi Kuantum"}
-Suatu sistem kuantum boleh diungkapkan sebagai hasil tambah dua atau lebih fungsi-fungsi keadaan kuantumnya,
+Suatu sistem kuantum, $|\Psi\rangle$ , boleh diungkapkan sebagai hasil tambah dua atau lebih fungsi-fungsi keadaannya, $|\psi\rangle$,
 $$|\Psi\rangle = A|\psi_1\rangle + B|\psi_2\rangle + \cdots.$$
-Perhatikan persamaan prinsip ini dengan prinsip \@ref(lem:lem-fg-01) berkaitan superposisi gelombang. Makna kurungan $|\psi\rangle$ akan diperkenalkan kemudian.
+Perhatikan persamaan prinsip ini dengan prinsip \@ref(lem:lem-fg-01) berkaitan superposisi gelombang.
 ```
 
 ## Nombor Kompleks
