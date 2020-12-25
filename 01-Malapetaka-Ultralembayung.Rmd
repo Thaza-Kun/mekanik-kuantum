@@ -3,10 +3,6 @@
 Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
 Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
-```{r echo=FALSE, fig.cap="Pokok lembayung (*Basella alba*)^[Kamus Dewan Perdana (2020)] ataupun nama lainnya remayung atau gendola ialah sejenis pokok menjalar. Salah satu jenisnya mempunyai batang berwarna ungu gelap. Warna lembayung menyerupai warna pokok ini. Karya: [Obsidian Soul](https://commons.wikimedia.org/wiki/File:Basella_rubra.jpg), [CC0 1.0 Dedikasi Domain Awam](https://creativecommons.org/publicdomain/zero/1.0/deed.en)."}
-knitr::include_graphics(".\\gambar\\ultra\\basellaalba.jpg")
-```
-
 ## Sinaran Jasad Hitam
 
 Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya dengan sempurna tanpa pantulan. Jasad ini akan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba. Kata kuncinya di sini ialah ia memancarkan kesemua panjang gelombang cahaya daripada sependek-pendek gamma sehinggalah sepanjang-panjang radio. Bintang-bintang di langit memiliki ciri ini.
@@ -31,7 +27,7 @@ dengan maksud bahawa,
 
 Tenaga yang diperihalkan dalam Hukum Stefan--Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
 
-```{r mu-jasad, echo=FALSE, out.width='600px', fig.align='center', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
+```{r mu-jasad, echo=FALSE, out.width='400px', fig.cap="Graf keamatan cahaya melawan panjang gelombang yang dipancarkan suatu bintang."}
 knitr::include_graphics("./gambar/ultra/jasadhitam.jpg")
 ```
 
@@ -39,7 +35,7 @@ Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesua
 
 Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
-```{r mu-belantik, out.height="500px", echo=FALSE, fig.align='center', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
+```{r mu-belantik, echo=FALSE, out.height='400px', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
 knitr::include_graphics("./gambar/ultra/belantik.jpg")
 ```
 

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum</title>
+  <title>2.4 Prinsip Superposisi | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta property="og:title" content="2.4 Prinsip Superposisi | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta name="twitter:title" content="2.4 Prinsip Superposisi | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-1-sinaran-jasad-hitam.html"/>
-<link rel="next" href="1-3-sec-postulat-planck.html"/>
+<link rel="prev" href="2-3-kalkulus-fungsi-gelombang.html"/>
+<link rel="next" href="2-5-nombor-kompleks.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -150,106 +150,32 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:wien-rayleigh-jeans" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Cubaan Wein, Rayleigh dan Jeans</h2>
-<p>Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.</p>
+<div id="prinsip-superposisi" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Prinsip Superposisi</h2>
+<p>Prinsip superposisi menyatakan bahawa hasil tambah dua gelombang akan menghasilkan gelombang juga. Penambahan gelombang berlaku apabila dua gelombang bertindih di titik yang sama. Penindihan ini akan menghasilkan sama ada gelombang yang lagi tinggi amplitudnya atau lagi rendah amplitudnya.</p>
 
-<div class="definition">
-<span id="def:mu-def-03" class="definition"><strong>HUKUM 1.3  (Hukum Taburan Wien / Penghampiran Wien)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span> adalah berkadaran eksponensial dengan suhu dan panjang gelombang, <span class="math inline">\(\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}\)</span>, dan berkadaran songsang dengan suhu berkuasa lima, <span class="math inline">\(\lambda^5\)</span>,
-<span class="math display">\[\begin{equation}
-U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U(\lambda,T) &amp; = \text{ketumpatan tenaga cahaya},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang},\\
-a,b &amp; = \text{pemalar}.\\
-\end{split}
-\end{equation*}\]</span>
+<div class="lemma">
+<span id="lem:lem-fg-01" class="lemma"><strong>PRINSIP 2.1  (Prinsip Superposisi Gelombang)  </strong></span>Suatu gelombang boleh diungkapkan sebagai hasil tambah gelombang-gelombang lain,
+<span class="math display">\[\Psi(x,t) = A\psi_1(x_1,t_1) + B\psi_2(x_2,t_2) + \cdots .\]</span>
 </div>
-<p>Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh–Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.</p>
-
-<div class="definition">
-<span id="def:mu-def-04" class="definition"><strong>HUKUM 1.4  (Hukum Rayleigh–Jeans)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span>, adalah berkadaran terus dengan suhu bintang <span class="math inline">\(T\)</span> dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, <span class="math inline">\(\lambda^4\)</span>,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U &amp; = \text{ketumpatan tenaga cahaya},\\
-k_B &amp; = \text{pemalar Boltzmann},\\
-&amp;= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang}.\\
-\end{split}
-\end{equation*}\]</span>
-</div>
-
-<div class="proof">
-<p> <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Persamaan Rayleigh–Jeans) </span> Bagi memperoleh persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.</p>
-<p><strong>USUL 1</strong>: Pengayun-pengayun Rayleigh–Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh–Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, <span class="math inline">\(E_k\)</span>, dan tenaga upaya, <span class="math inline">\(E_v\)</span> dan masing-masing mempunyai nilai <span class="math inline">\(\frac{1}{2}{k_BT}\)</span>,
-<span class="math display">\[E_k = E_v = \frac{1}{2}{k_BT}.\]</span></p>
-<p>Maka, tenaga setiap pengayun tersebut ialah <span class="math inline">\(k_BT\)</span>,
-<span class="math display" id="eq:mu-0">\[\begin{equation}
-\sum E = E_k + E_v = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} =k_BT \tag{1.1}
-\end{equation}\]</span></p>
-<p><strong>USUL 2</strong>: Ketumpatan pengayun ialah berkadaran dengan frekuensi kuasa dua <span class="math inline">\(f^2\)</span>,
-<span class="math display" id="eq:mu-1">\[\begin{equation}
-n(f) = \frac{8\pi f^2}{c^3}.\tag{1.2}
-\end{equation}\]</span>
-Nilai <span class="math inline">\(n(f)\)</span> ini dikenali sebagai nilai Jeans.</p>
-<p>Oleh itu, tenaga yang dibawa oleh setiap frekuensi cahaya, <span class="math inline">\(U\left(\lambda,T\right)\)</span>, boleh diperoleh sebagai hasil darab nilai Jeans (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a>) dengan tenaga pengayun (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-0">(1.1)</a>),
-<span class="math display" id="eq:mu-2">\[\begin{equation}
-U\left(\lambda,T\right) = n\left(f\right)k_BT.
-\tag{1.3}
-\end{equation}\]</span></p>
-<p>Persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>) memerihalkan tenaga cahaya dalam bentuk panjang gelombang <span class="math inline">\(\lambda\)</span>, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
-<span class="math display" id="eq:mu-3">\[\begin{equation}
-f = \frac{c}{\lambda},\tag{1.4}
-\end{equation}\]</span>
-dan kita lakukan pembezaan siap-siap,
-<span class="math display" id="eq:mu-3a">\[\begin{equation}
-\frac{\text{d}f}{\text{d}\lambda} = \frac{-c}{\lambda^2}.
-\tag{1.5}
-\end{equation}\]</span></p>
-<p>Fungsi nilai Jeans pula boleh ditukar menggunakan perhubungan ini,
-<span class="math display" id="eq:mu-4">\[\begin{equation}
-n\left(\lambda\right) = n(f)\left|\frac{\text{d}{f}}{\text{d}{\lambda}}\right|.
-\tag{1.6}
-\end{equation}\]</span>
-Fungsi pembezaan <span class="math inline">\(\frac{\text{d}{f}}{\text{d}{\lambda}}\)</span> dimutlakkan sebab nilai Jeans ialah jumlah pengayun. Jumlah benda fizikal tidak boleh berada dalam julat negatif.</p>
-<p>Dengan memasukkan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a> dan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3a">(1.5)</a> ke dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-4">(1.6)</a>,
-<span class="math display" id="eq:mu-5">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi f^2}{c^3}\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.7}
-\end{equation}\]</span>
-Kemudian, pembolehubah <span class="math inline">\(f\)</span> perlu diganti dengan perkaitan dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3">(1.4)</a>,
-<span class="math display" id="eq:mu-6">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi}{c^3}\left(\frac{c}{\lambda}\right)^2\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.8}
-\end{equation}\]</span>
-Maka, nilai <span class="math inline">\(n(\lambda)\)</span> ialah,
-<span class="math display" id="eq:mu-7">\[\begin{equation}
-n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
-\tag{1.9}
-\end{equation}\]</span></p>
-Maka, langkah terakhir kita ialah dengan menggunakan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-7">(1.9)</a> untuk menyelesaikan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-2">(1.3)</a> di awal kaedah ini tadi,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
-\end{equation}\]</span>
-Inilah persamaan Rayleigh–Jeans yang ingin diperolehi.
-</div>
-<p>Hasil daripada persamaan Rayleigh–Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh–Jeans ialah suatu fungsi salingan, <span class="math inline">\(\frac{1}{x}\)</span>, berkuasa 4.</p>
-<p>Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga! Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.</p>
-<p>Kejadian ini lazimnya diberi nama “Malapetaka Ultralembayung” kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
-<img src="gambar/ultra/Rayleigh.png" alt="Persamaan Rayleigh--Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal." width="500px" />
+<p>Apabila dua gelombang menindih sesama sendiri, fenomenanya disebut interferens. Interferens membina berlaku apabila amplitud akhir lebih tinggi dari amplitud gelombang asal. Interferens memusnah pula berlaku apabila amplitud akhir lebih kecil dari amplitud gelombang asal. Interferens memusnah sepenuhnya berlaku apabila amplitudnya menjadi sifar.</p>
+<p>Cuba bayangkan ujikaji dwicelah Young. Apabila cahaya yang sama warna melalui kedua-dua celah pada masa yang sama, akan muncul corak interferens pada skrin yang diletakkan untuk menangkap cahaya tersebut. Bahagian tengah adalah paling terang kerana amplitud cahaya tersebut telah menjadi dua kali ganda lebih cerah dari sebelum ini. Kawasan-kawasan gelap menunjukkan wujudnya interferens memusnah.</p>
+<div class="figure" style="text-align: center"><span id="fig:fg-dwicelah"></span>
+<img src="gambar/fungsi/corak-interferens-sinar-x.png" alt="Corak interferens ujikaji dwicelah janaan komputer untuk gelombang sinar-x. Gelombang dari celah pertama dan celah kedua saling bertindih lalu menghasilkan kawasan-kawasan gelap dan cerah melalui interferens membina dan memusnah. Karya: [Timm Weitkamp](https://commons.wikimedia.org/wiki/File:Double_slit_x-ray_simulation_monochromatic_blue-white.png), [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/deed.en)." width="400px" />
 <p class="caption">
-RAJAH 1.3: Persamaan Rayleigh–Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal.
+RAJAH 2.6: Corak interferens ujikaji dwicelah janaan komputer untuk gelombang sinar-x. Gelombang dari celah pertama dan celah kedua saling bertindih lalu menghasilkan kawasan-kawasan gelap dan cerah melalui interferens membina dan memusnah. Karya: <a href="https://commons.wikimedia.org/wiki/File:Double_slit_x-ray_simulation_monochromatic_blue-white.png">Timm Weitkamp</a>, <a href="https://creativecommons.org/licenses/by/3.0/de/deed.en">CC BY 3.0 DE</a>.
 </p>
+</div>
+<div id="berkaitan-istilah-superposisi" class="section level3" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Berkaitan Istilah Superposisi</h3>
+<p>Istilah <em>superposition</em> datang dari akar kata <em>superpose</em> yang membawa maksud ‘menindih.’ Hal ini serupa dengan perkataan <em>superimpose</em> yang lazimnya digunakan dalam seni penggambaran dan perfileman yang menindih dua gambar atau filem untuk mencapai kesan khas tertentu.</p>
+<p>Oleh itu, ‘prinsip superposisi’ tidaklah seharusnya difahami sebagai prinsip adi (<em>super</em>) + kedudukan (<em>position</em>) tetapi sebagai prinsip penindihan dua fungsi. Prinsip ini bukanlah khusus untuk sistem kuantum sahaja tetapi ia digunakan dalam Matematik untuk menguji kelinearan fungsi. Fungsi-fungsi kuantum mematuhi kelinearan ini maka ia juga mewarisi kesuperposisian fungsi linear.</p>
+
+<div class="lemma">
+<span id="lem:lem-fg-02" class="lemma"><strong>PRINSIP 2.2  (Prinsip Superposisi Kuantum)  </strong></span>Suatu sistem kuantum boleh diungkapkan sebagai hasil tambah dua atau lebih fungsi-fungsi keadaan kuantumnya,
+<span class="math display">\[|\Psi\rangle = A|\psi_1\rangle + B|\psi_2\rangle + \cdots.\]</span>
+Perhatikan persamaan prinsip ini dengan prinsip <a href="2-4-prinsip-superposisi.html#lem:lem-fg-01">2.1</a> berkaitan superposisi gelombang. Makna kurungan <span class="math inline">\(|\psi\rangle\)</span> akan diperkenalkan kemudian.
+</div>
 </div>
 </div>
             </section>
@@ -257,8 +183,8 @@ RAJAH 1.3: Persamaan Rayleigh–Jeans meramalkan tenaga tidak terhingga untuk ca
           </div>
         </div>
       </div>
-<a href="1-1-sinaran-jasad-hitam.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="1-3-sec-postulat-planck.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="2-3-kalkulus-fungsi-gelombang.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="2-5-nombor-kompleks.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum</title>
+  <title>2.1 Bulatan Unit: Fungsi Trigonometri | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta property="og:title" content="2.1 Bulatan Unit: Fungsi Trigonometri | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta name="twitter:title" content="2.1 Bulatan Unit: Fungsi Trigonometri | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-1-sinaran-jasad-hitam.html"/>
-<link rel="next" href="1-3-sec-postulat-planck.html"/>
+<link rel="prev" href="2-pengenalan-kepada-fungsi-gelombang.html"/>
+<link rel="next" href="2-2-sifat-gelombang.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -150,115 +150,49 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:wien-rayleigh-jeans" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Cubaan Wein, Rayleigh dan Jeans</h2>
-<p>Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.</p>
-
-<div class="definition">
-<span id="def:mu-def-03" class="definition"><strong>HUKUM 1.3  (Hukum Taburan Wien / Penghampiran Wien)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span> adalah berkadaran eksponensial dengan suhu dan panjang gelombang, <span class="math inline">\(\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}\)</span>, dan berkadaran songsang dengan suhu berkuasa lima, <span class="math inline">\(\lambda^5\)</span>,
-<span class="math display">\[\begin{equation}
-U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U(\lambda,T) &amp; = \text{ketumpatan tenaga cahaya},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang},\\
-a,b &amp; = \text{pemalar}.\\
-\end{split}
-\end{equation*}\]</span>
-</div>
-<p>Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh–Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.</p>
-
-<div class="definition">
-<span id="def:mu-def-04" class="definition"><strong>HUKUM 1.4  (Hukum Rayleigh–Jeans)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span>, adalah berkadaran terus dengan suhu bintang <span class="math inline">\(T\)</span> dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, <span class="math inline">\(\lambda^4\)</span>,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U &amp; = \text{ketumpatan tenaga cahaya},\\
-k_B &amp; = \text{pemalar Boltzmann},\\
-&amp;= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang}.\\
-\end{split}
-\end{equation*}\]</span>
-</div>
-
-<div class="proof">
-<p> <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Persamaan Rayleigh–Jeans) </span> Bagi memperoleh persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.</p>
-<p><strong>USUL 1</strong>: Pengayun-pengayun Rayleigh–Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh–Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, <span class="math inline">\(E_k\)</span>, dan tenaga upaya, <span class="math inline">\(E_v\)</span> dan masing-masing mempunyai nilai <span class="math inline">\(\frac{1}{2}{k_BT}\)</span>,
-<span class="math display">\[E_k = E_v = \frac{1}{2}{k_BT}.\]</span></p>
-<p>Maka, tenaga setiap pengayun tersebut ialah <span class="math inline">\(k_BT\)</span>,
-<span class="math display" id="eq:mu-0">\[\begin{equation}
-\sum E = E_k + E_v = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} =k_BT \tag{1.1}
-\end{equation}\]</span></p>
-<p><strong>USUL 2</strong>: Ketumpatan pengayun ialah berkadaran dengan frekuensi kuasa dua <span class="math inline">\(f^2\)</span>,
-<span class="math display" id="eq:mu-1">\[\begin{equation}
-n(f) = \frac{8\pi f^2}{c^3}.\tag{1.2}
-\end{equation}\]</span>
-Nilai <span class="math inline">\(n(f)\)</span> ini dikenali sebagai nilai Jeans.</p>
-<p>Oleh itu, tenaga yang dibawa oleh setiap frekuensi cahaya, <span class="math inline">\(U\left(\lambda,T\right)\)</span>, boleh diperoleh sebagai hasil darab nilai Jeans (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a>) dengan tenaga pengayun (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-0">(1.1)</a>),
-<span class="math display" id="eq:mu-2">\[\begin{equation}
-U\left(\lambda,T\right) = n\left(f\right)k_BT.
-\tag{1.3}
-\end{equation}\]</span></p>
-<p>Persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>) memerihalkan tenaga cahaya dalam bentuk panjang gelombang <span class="math inline">\(\lambda\)</span>, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
-<span class="math display" id="eq:mu-3">\[\begin{equation}
-f = \frac{c}{\lambda},\tag{1.4}
-\end{equation}\]</span>
-dan kita lakukan pembezaan siap-siap,
-<span class="math display" id="eq:mu-3a">\[\begin{equation}
-\frac{\text{d}f}{\text{d}\lambda} = \frac{-c}{\lambda^2}.
-\tag{1.5}
-\end{equation}\]</span></p>
-<p>Fungsi nilai Jeans pula boleh ditukar menggunakan perhubungan ini,
-<span class="math display" id="eq:mu-4">\[\begin{equation}
-n\left(\lambda\right) = n(f)\left|\frac{\text{d}{f}}{\text{d}{\lambda}}\right|.
-\tag{1.6}
-\end{equation}\]</span>
-Fungsi pembezaan <span class="math inline">\(\frac{\text{d}{f}}{\text{d}{\lambda}}\)</span> dimutlakkan sebab nilai Jeans ialah jumlah pengayun. Jumlah benda fizikal tidak boleh berada dalam julat negatif.</p>
-<p>Dengan memasukkan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a> dan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3a">(1.5)</a> ke dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-4">(1.6)</a>,
-<span class="math display" id="eq:mu-5">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi f^2}{c^3}\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.7}
-\end{equation}\]</span>
-Kemudian, pembolehubah <span class="math inline">\(f\)</span> perlu diganti dengan perkaitan dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3">(1.4)</a>,
-<span class="math display" id="eq:mu-6">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi}{c^3}\left(\frac{c}{\lambda}\right)^2\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.8}
-\end{equation}\]</span>
-Maka, nilai <span class="math inline">\(n(\lambda)\)</span> ialah,
-<span class="math display" id="eq:mu-7">\[\begin{equation}
-n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
-\tag{1.9}
-\end{equation}\]</span></p>
-Maka, langkah terakhir kita ialah dengan menggunakan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-7">(1.9)</a> untuk menyelesaikan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-2">(1.3)</a> di awal kaedah ini tadi,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
-\end{equation}\]</span>
-Inilah persamaan Rayleigh–Jeans yang ingin diperolehi.
-</div>
-<p>Hasil daripada persamaan Rayleigh–Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh–Jeans ialah suatu fungsi salingan, <span class="math inline">\(\frac{1}{x}\)</span>, berkuasa 4.</p>
-<p>Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga! Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.</p>
-<p>Kejadian ini lazimnya diberi nama “Malapetaka Ultralembayung” kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
-<img src="gambar/ultra/Rayleigh.png" alt="Persamaan Rayleigh--Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal." width="500px" />
+<div id="bulatan-unit-fungsi-trigonometri" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Bulatan Unit: Fungsi Trigonometri</h2>
+<p>Bagi membina jambatan dari fungsi sinus ke fungsi eksponen, kita perlu melihatnya dari sudut pandang geometri. Lagipun, fungsi sinus memang berasal dari ilmu geometri sebab itulah ia termasuk dalam fungsi-fungsi trigonometri. Mari kita bina bulatan unit.</p>
+<p>Perkataan ‘unit’ dalam istilah ‘bulatan unit’ merujuk kepada nilai ‘satu.’ Bulatan unit merujuk kepada sejenis bulatan yang mempunyai jejari satu yang dilukis pada satah Kartes. Boleh sahaja kita pilih mana-mana jejari lain tetapi jejari satu ditetapkan sebagai rujukan.</p>
+<p>Sememangnya, nilai satu digunakan sebagai rujukan untuk mana-mana ukuran pun. Misalnya, ukuran panjang pada pembaris ditandakan setiap kali tiba kepanjangan ‘satu’ meter atau ‘satu’ sentimeter, dsb. Hal ini yang melayakkan ia memegang nama ‘unit.’</p>
+<div class="figure" style="text-align: center"><span id="fig:fg-bulat-unit"></span>
+<img src="gambar/fungsi/bulat_unit.jpg" alt="Bulatan unit ialah bulatan berjejari 1." width="300px" />
 <p class="caption">
-RAJAH 1.3: Persamaan Rayleigh–Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal.
+RAJAH 2.1: Bulatan unit ialah bulatan berjejari 1.
 </p>
 </div>
+<p>Terdapat dua kaedah untuk memerihalkan kedudukan setiap titik pada ukurlilit bulatan unit ini. Disebabkan bulatan ini dibentangkan pada satah Kartes, maka pastinya titik-titik itu boleh diperihalkan menggunakan koordinat Kartes <span class="math inline">\(x_p\)</span> dan <span class="math inline">\(y_p\)</span>. Itulah kaedah pertamanya.</p>
+<p>Kaedah keduanya ialah dengan menggunakan sudut <span class="math inline">\(\phi\)</span> yang memisahkan arah titik <span class="math inline">\(p\)</span> dengan arah positif paksi–<span class="math inline">\(x\)</span>. Disebabkan titik-titik ini hanya berada pada garis ukurlilit itu sahaja, maka setiap sudut <span class="math inline">\(\phi\)</span> hanya akan dipasangkan pada satu satu titik <span class="math inline">\(p\)</span>. Tidak ada titik lain yang akan berkongsi sudut tersebut.</p>
+<p>Sebetulnya, untuk titik sembarangan pada satah Kartes, kaedah sudutan ini perlu dipasangkan dengan jaraknya dari asalan bagi membezakan titik yang berhampiran daripada titik yang berjauhan. Namun, disebabkan semua titik <span class="math inline">\(p\)</span> pada ukurlilit bulatan mempunyai jarak yang sama dari asalan, maka parameter jarak ini boleh diabaikan.</p>
+<p>Disebabkan kedua-dua kaedah ini merujuk kepada perkara yang sama, wujudnya satu kesepadanan yang memadankan kaedah sudutan dengan kaedah koordinat Kartes. Dalam erti kata lain, terdapat fungsi yang boleh menterjemahkan sudut <span class="math inline">\(\phi\)</span> menjadi sesaran <span class="math inline">\(x_p\)</span> dan sesaran <span class="math inline">\(y_p\)</span>,
+<span class="math display">\[f(\phi) \longrightarrow x_p,\]</span>
+<span class="math display">\[g(\phi) \longrightarrow y_p.\]</span></p>
+<div class="figure" style="text-align: center"><span id="fig:fg-sinus-kosinus"></span>
+<img src="gambar/fungsi/graf-bulatan-unit.jpg" alt="Graf yang dihasilkan oleh fungsi $f(\phi)$ dan $g(\phi)$ terhadap $\phi$. Graf ini membentuk gelombang sinus." width="500px" />
+<p class="caption">
+RAJAH 2.2: Graf yang dihasilkan oleh fungsi <span class="math inline">\(f(\phi)\)</span> dan <span class="math inline">\(g(\phi)\)</span> terhadap <span class="math inline">\(\phi\)</span>. Graf ini membentuk gelombang sinus.
+</p>
+</div>
+<p>Kedua-dua graf ini mempunyai bentuk yang sama tetapi bermula di titik yang berbeza. Oleh itu, kedua-dua graf ini berkongsi nama yang sama, iaitu graf gelombang sinus. Fungsi yang <strong>memetakan <span class="math inline">\(\phi\)</span> terhadap sesaran menaik <span class="math inline">\(y_p\)</span> ialah fungsi sinus</strong> manakala fungsi yang <strong>memetakan <span class="math inline">\(\phi\)</span> terhadap sesaran mengufuk <span class="math inline">\(x_p\)</span> ialah fungsi kosinus</strong><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>,
+<span class="math display" id="eq:fg-01" id="eq:fg-00">\[\begin{align*}
+\sin{(\phi)} &amp;= y_p, \tag{2.1}\\
+\cos{(\phi)} &amp;= x_p. \tag{2.2}
+\end{align*}\]</span></p>
+<p>Hakikat ini penting untuk kita faham, iaitu apa makna sinus dan kosinus, lebih-lebih lagi jika kita ingin faham kaitan fungsi gelombang ini dengan fungsi gelombang dalam bentuk eksponen. Namun, sebelum kita bergerak ke fungsi eksponen, kita akan teroka sifat-sifat gelombang menggunakan fungsi trigonometri.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Kosinus ialah pasangan kepada sinus, daripada imbuhan <em>co-</em> dalam bahasa Inggeris yang bermaksud bersama-sama atau pelengkap.<a href="2-1-bulatan-unit-fungsi-trigonometri.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="1-1-sinaran-jasad-hitam.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="1-3-sec-postulat-planck.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="2-pengenalan-kepada-fungsi-gelombang.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="2-2-sifat-gelombang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

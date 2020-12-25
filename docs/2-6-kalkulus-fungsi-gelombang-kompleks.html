@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum</title>
+  <title>2.6 Kalkulus Fungsi Gelombang Kompleks | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta property="og:title" content="2.6 Kalkulus Fungsi Gelombang Kompleks | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.2 Cubaan Wein, Rayleigh dan Jeans | Mekanik Kuantum" />
+  <meta name="twitter:title" content="2.6 Kalkulus Fungsi Gelombang Kompleks | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-1-sinaran-jasad-hitam.html"/>
-<link rel="next" href="1-3-sec-postulat-planck.html"/>
+<link rel="prev" href="2-5-nombor-kompleks.html"/>
+<link rel="next" href="2-7-fungsi-gelombang-yang-diterima-fizik.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -150,106 +150,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:wien-rayleigh-jeans" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Cubaan Wein, Rayleigh dan Jeans</h2>
-<p>Pada tahun 1897, seorang fizikawan Jerman bernama Wilhelm Wien cuba menyelesaikan masalah ini dengan membina persamaan sinaran jasad hitam berdasarkan pengetahuan keelektromagnetan sedia ada. Persamaan beliau dikenali sebagai Hukum Taburan Wien. Namun, persamaan beliau hanya mampu meramalkan tenaga untuk cahaya-cahaya pendek dan ia tidak meramalkan dengan tepat untuk cahaya-cahaya panjang. Oleh itu, ia juga dikenali sebagai Penghampiran Wien.</p>
+<div id="kalkulus-fungsi-gelombang-kompleks" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Kalkulus Fungsi Gelombang Kompleks</h2>
+<p>Satu sifat yang unik pada fungsi eksponen ialah pembezaan dan kamirannya mudah. Pembezaan eksponen terhadap kuasanya akan menghasilkan dirinya sendiri dengan amplitud yang berbeza. Kamirannya juga begitu kerana kamiran hanyalah songsangan pembezaan.</p>
 
-<div class="definition">
-<span id="def:mu-def-03" class="definition"><strong>HUKUM 1.3  (Hukum Taburan Wien / Penghampiran Wien)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span> adalah berkadaran eksponensial dengan suhu dan panjang gelombang, <span class="math inline">\(\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}\)</span>, dan berkadaran songsang dengan suhu berkuasa lima, <span class="math inline">\(\lambda^5\)</span>,
-<span class="math display">\[\begin{equation}
-U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U(\lambda,T) &amp; = \text{ketumpatan tenaga cahaya},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang},\\
-a,b &amp; = \text{pemalar}.\\
-\end{split}
-\end{equation*}\]</span>
-</div>
-<p>Pada sekitar tahun 1900-an, ahli fizik Lord Rayleigh dan James Jeans mengemukakan persamaan mereka yang disangka boleh menyelesaikan masalah ini. Mereka menganggap bahawa jasad hitam itu terdiri daripada pengayun-pengayun klasik. Hasilnya, persamaan Rayleigh–Jeans hanya mampu meramalkan tenaga untuk cahaya-cahaya panjang sahaja.</p>
-
-<div class="definition">
-<span id="def:mu-def-04" class="definition"><strong>HUKUM 1.4  (Hukum Rayleigh–Jeans)  </strong></span>Ketumpatan tenaga cahaya, <span class="math inline">\(U\)</span>, adalah berkadaran terus dengan suhu bintang <span class="math inline">\(T\)</span> dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, <span class="math inline">\(\lambda^4\)</span>,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
-\end{equation}\]</span>
-dengan maksud bahawa,
-<span class="math display">\[\begin{equation*}
-\begin{split}
-U &amp; = \text{ketumpatan tenaga cahaya},\\
-k_B &amp; = \text{pemalar Boltzmann},\\
-&amp;= 1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1},\\
-\lambda &amp; = \text{panjang gelombang cahaya},\\
-T &amp; = \text{suhu bintang}.\\
-\end{split}
-\end{equation*}\]</span>
+<div class="theorem">
+<span id="thm:fg-thm-03" class="theorem"><strong>PETUA 2.3  (Kalkulus Fungsi Eksponen)  </strong></span>Pembezaan dan kamiran fungsi eksponen hanya akan membawa turun pemalar menjadi pekali atau pembahagi fungsi eksponen yang asal,
+<span class="math display">\[\begin{align*}
+\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} &amp;= iBAe^{iB\phi},\\
+\int Ae^{iB\phi} &amp;= \frac{Ae^{iB\phi}}{iB} + C.
+\end{align*}\]</span>
 </div>
 
 <div class="proof">
-<p> <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Persamaan Rayleigh–Jeans) </span> Bagi memperoleh persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayun.</p>
-<p><strong>USUL 1</strong>: Pengayun-pengayun Rayleigh–Jeans mematuhi teorem pemetakan sama, iaitu semua bentuk tenaga akan memiliki jumlah purata yang sama. Sistem pengayun Rayleigh–Jeans memiliki dua bentuk tenaga iaitu tenaga kinetik, <span class="math inline">\(E_k\)</span>, dan tenaga upaya, <span class="math inline">\(E_v\)</span> dan masing-masing mempunyai nilai <span class="math inline">\(\frac{1}{2}{k_BT}\)</span>,
-<span class="math display">\[E_k = E_v = \frac{1}{2}{k_BT}.\]</span></p>
-<p>Maka, tenaga setiap pengayun tersebut ialah <span class="math inline">\(k_BT\)</span>,
-<span class="math display" id="eq:mu-0">\[\begin{equation}
-\sum E = E_k + E_v = \frac{1}{2}{k_BT} + \frac{1}{2}{k_BT} =k_BT \tag{1.1}
-\end{equation}\]</span></p>
-<p><strong>USUL 2</strong>: Ketumpatan pengayun ialah berkadaran dengan frekuensi kuasa dua <span class="math inline">\(f^2\)</span>,
-<span class="math display" id="eq:mu-1">\[\begin{equation}
-n(f) = \frac{8\pi f^2}{c^3}.\tag{1.2}
-\end{equation}\]</span>
-Nilai <span class="math inline">\(n(f)\)</span> ini dikenali sebagai nilai Jeans.</p>
-<p>Oleh itu, tenaga yang dibawa oleh setiap frekuensi cahaya, <span class="math inline">\(U\left(\lambda,T\right)\)</span>, boleh diperoleh sebagai hasil darab nilai Jeans (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a>) dengan tenaga pengayun (pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-0">(1.1)</a>),
-<span class="math display" id="eq:mu-2">\[\begin{equation}
-U\left(\lambda,T\right) = n\left(f\right)k_BT.
-\tag{1.3}
-\end{equation}\]</span></p>
-<p>Persamaan Rayleigh–Jeans (Hukum <a href="1-1-sinaran-jasad-hitam.html#def:mu-def-01">1.1</a>) memerihalkan tenaga cahaya dalam bentuk panjang gelombang <span class="math inline">\(\lambda\)</span>, maka nilai Jeans tersebut perlu diterjemahkan dalam bentuk panjang gelombang. Hal ini mudah kerana kita tahu hubungan antara frekuensi dan panjang gelombang ialah,
-<span class="math display" id="eq:mu-3">\[\begin{equation}
-f = \frac{c}{\lambda},\tag{1.4}
-\end{equation}\]</span>
-dan kita lakukan pembezaan siap-siap,
-<span class="math display" id="eq:mu-3a">\[\begin{equation}
-\frac{\text{d}f}{\text{d}\lambda} = \frac{-c}{\lambda^2}.
-\tag{1.5}
-\end{equation}\]</span></p>
-<p>Fungsi nilai Jeans pula boleh ditukar menggunakan perhubungan ini,
-<span class="math display" id="eq:mu-4">\[\begin{equation}
-n\left(\lambda\right) = n(f)\left|\frac{\text{d}{f}}{\text{d}{\lambda}}\right|.
-\tag{1.6}
-\end{equation}\]</span>
-Fungsi pembezaan <span class="math inline">\(\frac{\text{d}{f}}{\text{d}{\lambda}}\)</span> dimutlakkan sebab nilai Jeans ialah jumlah pengayun. Jumlah benda fizikal tidak boleh berada dalam julat negatif.</p>
-<p>Dengan memasukkan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-1">(1.2)</a> dan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3a">(1.5)</a> ke dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-4">(1.6)</a>,
-<span class="math display" id="eq:mu-5">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi f^2}{c^3}\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.7}
-\end{equation}\]</span>
-Kemudian, pembolehubah <span class="math inline">\(f\)</span> perlu diganti dengan perkaitan dalam pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-3">(1.4)</a>,
-<span class="math display" id="eq:mu-6">\[\begin{equation}
-n(\lambda) = \left(\frac{8\pi}{c^3}\left(\frac{c}{\lambda}\right)^2\right)\left|\frac{-c}{\lambda^2}\right|.
-  \tag{1.8}
-\end{equation}\]</span>
-Maka, nilai <span class="math inline">\(n(\lambda)\)</span> ialah,
-<span class="math display" id="eq:mu-7">\[\begin{equation}
-n\left(\lambda\right) = \frac{8\pi}{\lambda^4}.
-\tag{1.9}
-\end{equation}\]</span></p>
-Maka, langkah terakhir kita ialah dengan menggunakan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-7">(1.9)</a> untuk menyelesaikan pers. <a href="1-2-sec-wien-rayleigh-jeans.html#eq:mu-2">(1.3)</a> di awal kaedah ini tadi,
-<span class="math display">\[\begin{equation}
-U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4}.
-\end{equation}\]</span>
-Inilah persamaan Rayleigh–Jeans yang ingin diperolehi.
-</div>
-<p>Hasil daripada persamaan Rayleigh–Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek. Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh–Jeans ialah suatu fungsi salingan, <span class="math inline">\(\frac{1}{x}\)</span>, berkuasa 4.</p>
-<p>Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga! Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.</p>
-<p>Kejadian ini lazimnya diberi nama “Malapetaka Ultralembayung” kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya. Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
-<img src="gambar/ultra/Rayleigh.png" alt="Persamaan Rayleigh--Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal." width="500px" />
-<p class="caption">
-RAJAH 1.3: Persamaan Rayleigh–Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal.
-</p>
+<p> <span class="proof"><em>BUKTI</em> (Kaedah Memperoleh Pembezaan Fungsi Eksponen) </span> Untuk lihat kebenaran petua ini, cukuplah sekadar kita buktikan kebenaran pembezaan tersebut. Kamirannya akan menjadi ketara.</p>
+<p><strong>USUL 1</strong>: Fungsi eksponen dihubungkan dengan fungsi sinus dan kosinus melalui formula Euler,
+<span class="math display">\[Ae^{iB\phi} = A\cos{(B\phi)} + iA\sin{(B\phi)}.\]</span></p>
+<p><strong>USUL 2</strong>: Pembezaan fungsi sinus dan kosinus adalah seperti berikut,
+<span class="math display">\[\begin{align*}
+\frac{\text{d}}{\text{d}\phi}A\sin{(B\phi)} &amp;= AB\cos{(B\phi)},\\
+\frac{\text{d}}{\text{d}\phi}A\cos{(B\phi)} &amp;= -AB\sin{(B\phi)}.\\
+\end{align*}\]</span></p>
+Lalu, pembezaan fungsi eksponen ialah hasil tambah pembezaan fungsi sinus dan kosinus,
+<span class="math display">\[\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} = \frac{\text{d}}{\text{d}\phi}A\cos{(B\phi)} + \frac{\text{d}}{\text{d}\phi}Ai\sin{(B\phi)},\]</span>
+maka,
+<span class="math display">\[\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} = -AB\sin{(B\phi)} + AiB\cos{(B\phi)}.\]</span>
+Dengan memfaktorkan keluar <span class="math inline">\(iBA\)</span> pada belah kanan persamaan,
+<span class="math display">\[\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} = iBA(-\frac{1}{i}\sin{(B\phi)} + \cos{(B\phi)}),\]</span>
+dan disebabkan <span class="math inline">\(\frac{-1}{i}=i\)</span>, persamaan tersebut adalah sama dengan
+<span class="math display">\[\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} = iB[A(\cos{(B\phi)}+ i\sin{(B\phi)})].\]</span>
+Sebutan <span class="math inline">\(A(\cos{(B\phi)}+ i\sin{(B\phi)})\)</span> ialah bersamaan dengan <span class="math inline">\(Ae^{iB\phi}\)</span>. Oleh itu,
+<span class="math display">\[\frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} = BiAe^{iB\phi}.\]</span>
+Kita telah tunjukkan kebenaran petua pembezaan dalam petua <a href="2-6-kalkulus-fungsi-gelombang-kompleks.html#thm:fg-thm-03">2.3</a>. Petua kamiran boleh diperoleh dengan kaedah yang sama.
 </div>
 </div>
             </section>
@@ -257,8 +189,8 @@ RAJAH 1.3: Persamaan Rayleigh–Jeans meramalkan tenaga tidak terhingga untuk ca
           </div>
         </div>
       </div>
-<a href="1-1-sinaran-jasad-hitam.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="1-3-sec-postulat-planck.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="2-5-nombor-kompleks.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="2-7-fungsi-gelombang-yang-diterima-fizik.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

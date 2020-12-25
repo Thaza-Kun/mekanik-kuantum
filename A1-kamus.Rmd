@@ -18,7 +18,7 @@ frekuensi
 
 gamma
 : (*gamma*)
-: huruf Yunani yang melambangkan bunyi /ɣ/ yang setara dengan 'gh' bahasa Melayu. Huruf besarnya ialah $\Gamma$ manakala huruf kecilnya ialah $\gamma$.
+: huruf Yunani yang melambangkan bunyi yang setara dengan 'gh' bahasa Melayu. Huruf besarnya ialah $\Gamma$ manakala huruf kecilnya ialah $\gamma$.
 
 hampagas / ruang vakum
 : (*vacuum*)
