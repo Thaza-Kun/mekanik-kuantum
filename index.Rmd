@@ -3,8 +3,10 @@ title: "Mekanik Kuantum"
 author: "Murthadza Aznam"
 date: "`r Sys.Date()`"
 output:
-  bookdown::pdf_book: default
   pdf_document: default
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
+  word_document: default
 documentclass: book
 bibliography: book.bib
 biblio-style: apalike

@@ -457,7 +457,7 @@ U_{\text{Wien}}=\lim_{\lambda\to 0}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc
 
 Lalu, kita perhatikan apa yang terjadi pada sebutan eksponennya. Jika $\lambda$ menghampiri sifar, maknanya $\frac{hc}{\lambda k_BT}$ akan menjadi tersangatlah besar. Maka nilai $1$ itu boleh diabaikan seperti dalam petua \@ref(thm:mu-thm-06).
 
-```{theorem mu-thm-06, name="penghampiran eksponen"}
+```{theorem mu-thm-06, name="Penghampiran Eksponen ke Arah $\\infty$"}
 \begin{equation}
 \lim_{x\to\infty}e^x - 1 \approx e^x.
 \end{equation}
@@ -482,7 +482,7 @@ U_{\text{RJ}} = \lim_{\lambda\to\infty}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\fra
 \end{equation}
 
 Kemudian, bila melihat pada eksponennya, kita dapati $\frac{hc}{\lambda k_BT}$ menghampiri sifar kerana $\lambda$ menghampiri infiniti.
-```{theorem mu-thm-07, name="Penghampiran eksponen"}
+```{theorem mu-thm-07, name="Penghampiran Eksponen ke Arah $0$"}
 $$\lim_{x\to 0} e^x \approx x + 1.$$
 ```
 

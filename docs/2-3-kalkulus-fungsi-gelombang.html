@@ -24,7 +24,7 @@
 <meta name="author" content="Murthadza Aznam" />
 
 
-<meta name="date" content="2020-12-25" />
+<meta name="date" content="2020-12-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -188,11 +188,12 @@ Namun, pembezaan fungsi kosinus terhadap fasanya tidak akan menghasilkan sinus s
 \frac{\text{d}}{\text{d}\phi}A\cos{(\phi)} = -A\sin{(\phi)}.
 \tag{2.13}
 \end{equation}\]</span></p>
-<p>Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pemalar dalam <span class="math inline">\(\phi\)</span>. Hal ini boleh ditunjukkan menggunakan petua berantai,
-<span class="math display">\[\begin{equation}
-\frac{\text{d}}{\text{d} x}A\sin{(\omega x)} = \frac{\text{d}A\sin{(\phi)}}{\text{d}\phi}\frac{\text{d}\phi}{\text{d}x} = A\omega\cos{(\omega x)},
+<p>Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pemalar <span class="math inline">\(B\)</span> yang dipasangkan dengan pembolehubah <span class="math inline">\(\phi\)</span> ke dalam fungsi tersebut lalu membentuk <span class="math inline">\(A\sin{(B\phi)}\)</span> atau <span class="math inline">\(A\cos{(B\phi)}\)</span>. Hal ini boleh ditunjukkan menggunakan petua berantai,
+<span class="math display" id="eq:fg-12">\[\begin{equation}
+\frac{\text{d}}{\text{d} \phi}A\sin{(B\phi)} = \frac{\text{d}A\sin{(f(\phi))}}{\text{d}f(\phi)}\frac{\text{d}f(\phi)}{\text{d}\phi} = AB\cos{(B\phi)},
+\tag{2.14}
 \end{equation}\]</span>
-kerana <span class="math inline">\(\phi = \omega x\)</span> dan <span class="math inline">\(\frac{\text{d}\phi}{\text{d}x} = \omega\)</span>. Oleh itu, kecerunan fungsi sinus dan kosinus juga bergantung kepada frekuensi atau vektor gelombangnya.</p>
+kerana kita telah tetapkan <span class="math inline">\(f(\phi) = B\phi\)</span> serta natijahnya <span class="math inline">\(\frac{\text{d}f(\phi)}{\text{d}\phi} = B\)</span>. Oleh itu, dalam kes lazim <span class="math inline">\(\phi=kx + \omega t\)</span>, hasil kecerunan fungsi sinus dan kosinus terhadap <span class="math inline">\(x\)</span> atau <span class="math inline">\(t\)</span> juga bergantung kepada frekuensi atau vektor gelombangnya.</p>
 <div class="figure"><span id="fig:fg-sinus-beza-amplitud"></span>
 <img src="gambar/fungsi/sinus-beza-amplitud.jpg" alt="Pembezaan sinus terhadap $x$ yang mengubah fasa dan amplitud." width="600px" />
 <p class="caption">
@@ -202,16 +203,25 @@ RAJAH 2.5: Pembezaan sinus terhadap <span class="math inline">\(x\)</span> yang 
 </div>
 <div id="pengamiran-fungsi-gelombang" class="section level3" number="2.3.2">
 <h3><span class="header-section-number">2.3.2</span> Pengamiran Fungsi Gelombang</h3>
-<p>Pengamiran terhadap fungsi gelombang pula akan melengahkan fungsi gelombang sebanyak <span class="math inline">\(\phi = \frac{\pi}{2}\)</span>. Hal ini kerana pengamiran ialah proses yang terbalik dari pembezaan,
-<span class="math display">\[\int \frac{\text{d}\Psi}{\text{d}\phi} \text{d}\phi = \Psi + C.\]</span>
+<p>Pengamiran ialah proses yang terbalik dari pembezaan,
+<span class="math display" id="eq:fg-13">\[\begin{equation}
+\int \frac{\text{d}\Psi}{\text{d}\phi} \text{d}\phi = \Psi + C.
+\tag{2.15}
+\end{equation}\]</span>
 Maka, jika kita sudah tahu petua membezakan fungsi sinus dan kosinus, kita akan tahu petua-petua mengamirkannya.</p>
+<p>Katakan kita ambil pers. <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-12">(2.14)</a> untuk mewakili <span class="math inline">\(\frac{\text{d}\Psi}{\text{d}\phi}\)</span>. Oleh itu, <span class="math inline">\(\Psi = A\sin{(B\phi)}\)</span>. Hasil yang sama boleh diperoleh jika diselitkan <span class="math inline">\(\frac{B}{B}\)</span> ke dalam <span class="math inline">\(\Psi\)</span>. Pengamiran <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-13">(2.15)</a> kini menjadi
+<span class="math display">\[\int AB\cos{(B\phi)}\;\text{d}\phi = \frac{AB}{B}\sin{(B\phi)} + C.\]</span>
+Disebabkan <span class="math inline">\(AB\)</span> ialah suatu pemalar, kita boleh tetapkan ia menjadi apa-apa pemalar, misalnya <span class="math inline">\(AB = A_0\)</span>. Pengamiran tersebut kini ditulis
+<span class="math display">\[\int A_0\cos{(B\phi)}\;\text{d}\phi = \frac{A_0}{B}\sin{(B\phi)} + C,\]</span>
+dan jelaslah di sini bahawa pengamiran adalah proses yang terbalik dari pembezaan. Ketika pembezaan mendarab fungsi baharu dengan pekali <span class="math inline">\(B\)</span>, pengamiran pula membahagi fungsi baharu dengan pekali yang sama.</p>
 
 <div class="theorem">
-<span id="thm:fg-thm-01" class="theorem"><strong>PETUA 2.1  (Petua Pembezaan dan Pengamiran Trigonometri)  </strong></span><span class="math display">\[\begin{align*}
-\frac{\text{d}}{\text{d}x}A\sin{(\omega x)} &amp;= A\omega\cos{(\omega x)},\\
-\frac{\text{d}}{\text{d}x}A\cos{(\omega x)} &amp;= -A\omega\sin{(\omega x)},\\
-\int A\sin{(\omega x)}\text{d}x &amp;= -\frac{A}{\omega}\cos{(\omega x)} + C,\\
-\int A\cos{(\omega x)}\text{d}x &amp;= \frac{A}{\omega}\sin{(\omega x)} + C.
+<span id="thm:fg-thm-01" class="theorem"><strong>PETUA 2.1  (Petua Pembezaan dan Pengamiran Trigonometri)  </strong></span>Katakan <span class="math inline">\(\phi\)</span> ialah pembolehubah dan kedua-dua <span class="math inline">\(A\)</span> dan <span class="math inline">\(B\)</span> ialah pemalar. Maka, pembezaan dan pengamiran fungsi trigonometri ialah
+<span class="math display">\[\begin{align*}
+\frac{\text{d}}{\text{d}\phi}A\sin{(B\phi)} &amp;= AB\cos{(B\phi)},\\
+\frac{\text{d}}{\text{d}\phi}A\cos{(B\phi)} &amp;= -AB\sin{(B\phi)},\\
+\int A\sin{(B\phi)}\text{d}\phi &amp;= -\frac{A}{B}\cos{(B\phi)} + C,\\
+\int A\cos{(B\phi)}\text{d}\phi &amp;= \frac{A}{B}\sin{(B\phi)} + C.
 \end{align*}\]</span>
 </div>
 </div>

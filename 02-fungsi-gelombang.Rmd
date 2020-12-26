@@ -31,8 +31,8 @@ knitr::include_graphics('./gambar/fungsi/graf-bulatan-unit.jpg')
 
 Kedua-dua graf ini mempunyai bentuk yang sama tetapi bermula di titik yang berbeza. Oleh itu, kedua-dua graf ini berkongsi nama yang sama, iaitu graf gelombang sinus. Fungsi yang **memetakan $\phi$ terhadap sesaran menaik $y_p$ ialah fungsi sinus** manakala fungsi yang **memetakan $\phi$ terhadap sesaran mengufuk $x_p$ ialah fungsi kosinus**^[Kosinus ialah pasangan kepada sinus, daripada imbuhan *co-* dalam bahasa Inggeris yang bermaksud bersama-sama atau pelengkap.],
 \begin{align*}
-\sin{(\phi)} &= y_p, (\#eq:fg-00)\\
-\cos{(\phi)} &= x_p. (\#eq:fg-01)
+\sin{(\phi)} &= y_p,\\
+\cos{(\phi)} &= x_p.
 \end{align*}
 
 Hakikat ini penting untuk kita faham, iaitu apa makna sinus dan kosinus, lebih-lebih lagi jika kita ingin faham kaitan fungsi gelombang ini dengan fungsi gelombang dalam bentuk eksponen. Namun, sebelum kita bergerak ke fungsi eksponen, kita akan teroka sifat-sifat gelombang menggunakan fungsi trigonometri.
@@ -135,27 +135,38 @@ Namun, pembezaan fungsi kosinus terhadap fasanya tidak akan menghasilkan sinus s
 (\#eq:fg-11)
 \end{equation}
 
-Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pemalar dalam $\phi$. Hal ini boleh ditunjukkan menggunakan petua berantai,
+Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pemalar $B$ yang dipasangkan dengan pembolehubah $\phi$ ke dalam fungsi tersebut lalu membentuk $A\sin{(B\phi)}$ atau $A\cos{(B\phi)}$. Hal ini boleh ditunjukkan menggunakan petua berantai,
 \begin{equation}
-\frac{\text{d}}{\text{d} x}A\sin{(\omega x)} = \frac{\text{d}A\sin{(\phi)}}{\text{d}\phi}\frac{\text{d}\phi}{\text{d}x} = A\omega\cos{(\omega x)},
+\frac{\text{d}}{\text{d} \phi}A\sin{(B\phi)} = \frac{\text{d}A\sin{(f(\phi))}}{\text{d}f(\phi)}\frac{\text{d}f(\phi)}{\text{d}\phi} = AB\cos{(B\phi)},
+(\#eq:fg-12)
 \end{equation}
-kerana $\phi = \omega x$ dan $\frac{\text{d}\phi}{\text{d}x} = \omega$. Oleh itu, kecerunan fungsi sinus dan kosinus juga bergantung kepada frekuensi atau vektor gelombangnya.
+kerana kita telah tetapkan $f(\phi) = B\phi$ serta natijahnya $\frac{\text{d}f(\phi)}{\text{d}\phi} = B$. Oleh itu, dalam kes lazim $\phi=kx + \omega t$, hasil kecerunan fungsi sinus dan kosinus terhadap $x$ atau $t$ juga bergantung kepada frekuensi atau vektor gelombangnya.
 
 ```{r fg-sinus-beza-amplitud, echo=FALSE, out.width='600px', fig.cap="Pembezaan sinus terhadap $x$ yang mengubah fasa dan amplitud."}
 knitr::include_graphics("./gambar/fungsi/sinus-beza-amplitud.jpg")
 ```
 
 ### Pengamiran Fungsi Gelombang
-Pengamiran terhadap fungsi gelombang pula akan melengahkan fungsi gelombang sebanyak $\phi = \frac{\pi}{2}$. Hal ini kerana pengamiran ialah proses yang terbalik dari pembezaan,
-$$\int \frac{\text{d}\Psi}{\text{d}\phi} \text{d}\phi = \Psi + C.$$
+Pengamiran ialah proses yang terbalik dari pembezaan,
+\begin{equation}
+\int \frac{\text{d}\Psi}{\text{d}\phi} \text{d}\phi = \Psi + C.
+(\#eq:fg-13)
+\end{equation}
 Maka, jika kita sudah tahu petua membezakan fungsi sinus dan kosinus, kita akan tahu petua-petua mengamirkannya.
 
+Katakan kita ambil pers. \@ref(eq:fg-12) untuk mewakili $\frac{\text{d}\Psi}{\text{d}\phi}$. Oleh itu, $\Psi = A\sin{(B\phi)}$. Hasil yang sama boleh diperoleh jika diselitkan $\frac{B}{B}$ ke dalam $\Psi$. Pengamiran \@ref(eq:fg-13) kini menjadi
+$$\int AB\cos{(B\phi)}\;\text{d}\phi = \frac{AB}{B}\sin{(B\phi)} + C.$$
+Disebabkan $AB$ ialah suatu pemalar, kita boleh tetapkan ia menjadi apa-apa pemalar, misalnya $AB = A_0$. Pengamiran tersebut kini ditulis
+$$\int A_0\cos{(B\phi)}\;\text{d}\phi = \frac{A_0}{B}\sin{(B\phi)} + C,$$
+dan jelaslah di sini bahawa pengamiran adalah proses yang terbalik dari pembezaan. Ketika pembezaan mendarab fungsi baharu dengan pekali $B$, pengamiran pula membahagi fungsi baharu dengan pekali yang sama.
+
 ```{theorem fg-thm-01, name="Petua Pembezaan dan Pengamiran Trigonometri"}
+Katakan $\phi$ ialah pembolehubah dan kedua-dua $A$ dan $B$ ialah pemalar. Maka, pembezaan dan pengamiran fungsi trigonometri ialah
 \begin{align*}
-\frac{\text{d}}{\text{d}x}A\sin{(\omega x)} &= A\omega\cos{(\omega x)},\\
-\frac{\text{d}}{\text{d}x}A\cos{(\omega x)} &= -A\omega\sin{(\omega x)},\\
-\int A\sin{(\omega x)}\text{d}x &= -\frac{A}{\omega}\cos{(\omega x)} + C,\\
-\int A\cos{(\omega x)}\text{d}x &= \frac{A}{\omega}\sin{(\omega x)} + C.
+\frac{\text{d}}{\text{d}\phi}A\sin{(B\phi)} &= AB\cos{(B\phi)},\\
+\frac{\text{d}}{\text{d}\phi}A\cos{(B\phi)} &= -AB\sin{(B\phi)},\\
+\int A\sin{(B\phi)}\text{d}\phi &= -\frac{A}{B}\cos{(B\phi)} + C,\\
+\int A\cos{(B\phi)}\text{d}\phi &= \frac{A}{B}\sin{(B\phi)} + C.
 \end{align*}
 ```
 
@@ -164,7 +175,7 @@ Prinsip superposisi menyatakan bahawa hasil tambah dua gelombang akan menghasilk
 
 ```{lemma lem-fg-01, name="Prinsip Superposisi Gelombang"}
 Suatu gelombang boleh diungkapkan sebagai hasil tambah gelombang-gelombang lain,
-$$\Psi(x,t) = A\psi_1(x_1,t_1) + B\psi_2(x_2,t_2) + \cdots .$$
+$$\Psi(x,t) = A\psi_1(x_1,t_1) + B\psi_2(x_2,t_2) + \cdots.$$
 ```
 
 Apabila dua gelombang menindih sesama sendiri, fenomenanya disebut interferens. Interferens membina berlaku apabila amplitud akhir lebih tinggi dari amplitud gelombang asal. Interferens memusnah pula berlaku apabila amplitud akhir lebih kecil dari amplitud gelombang asal. Interferens memusnah sepenuhnya berlaku apabila amplitudnya menjadi sifar.
@@ -212,7 +223,7 @@ Kita dapati terkaan kita salah kerana magnitud suatu benda seharusnya mewakili s
 Bagi menghasilkan nombor skalar, nombor kompleks itu perlu didarabkan dengan konjugatnya, $z^\ast$. Konjugat nombor kompleks ialah nombor yang sama tetapi positif atau negatif komponen khayalannya diterbalikkan, $$z = a + ib,\; z^\ast = a - ib.$$ Ia akan mematikan sebutan-sebutan $i$ supaya hanya ada nilai dalam bentuk nyata sahaja,
 \begin{equation}
 |z|^2 = z^\ast z = (a-ib)(a+ib) = a^2 + b^2.
-(\#eq:fg-12)
+(\#eq:fg-14)
 \end{equation}
 Maka magnitudnya ialah punca kuasa dua persamaan tersebut,
 $$|z| = \sqrt{z^\ast z}.$$
@@ -240,8 +251,8 @@ Maka kita telah faham mengapa formula Euler itu benar. Menurut prinsip superposi
 ## Kalkulus Fungsi Gelombang Kompleks
 Satu sifat yang unik pada fungsi eksponen ialah pembezaan dan kamirannya mudah. Pembezaan eksponen terhadap kuasanya akan menghasilkan dirinya sendiri dengan amplitud yang berbeza. Kamirannya juga begitu kerana kamiran hanyalah songsangan pembezaan.
 
-```{theorem fg-thm-03, name="Kalkulus Fungsi Eksponen"}
-Pembezaan dan kamiran fungsi eksponen hanya akan membawa turun pemalar menjadi pekali atau pembahagi fungsi eksponen yang asal,
+```{theorem fg-thm-03, name="Pembezaan dan Pengamiran Fungsi Eksponen"}
+Katakan $\phi$ ialah pembolehubah, $A$ dan $B$ ialah pemalar, serta $i$ ialah pemalar khayalan, maka pembezaan dan pengamiran fungsi eksponen $Ae^{iB\phi}$ ialah
 \begin{align*}
 \frac{\text{d}}{\text{d}\phi}Ae^{iB\phi} &= iBAe^{iB\phi},\\
 \int Ae^{iB\phi} &= \frac{Ae^{iB\phi}}{iB} + C.

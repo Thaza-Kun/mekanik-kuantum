@@ -68,3 +68,23 @@ h1.title {
 .book .book-body .page-wrapper .page-inner section.normal pre a {
   color: inherit;
 }
+
+div.definition {
+  border: 1px solid #000000;
+  padding: 10px 12px 10px 12px;
+  box-shadow: 10px 10px 1px #000000;
+  margin-bottom: 20px;
+}
+
+div.definition span.definition{
+  display: block;
+  border-bottom: 3px solid #000000;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+div.theorem {
+  border: 1px dotted #000000;
+  padding: 10px 12px 10px 12px;
+  margin-bottom: 20px;
+}
