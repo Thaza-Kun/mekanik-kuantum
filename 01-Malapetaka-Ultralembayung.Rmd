@@ -1,7 +1,6 @@
 # Malapetaka Ultralembayung
 
-Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah.
-Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
+Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah. Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram.
 
 ## Sinaran Jasad Hitam
 
@@ -35,7 +34,7 @@ Rajah \@ref(fig:mu-jasad) menunjukkan taburan cahaya yang dipancarkan oleh sesua
 
 Hal ini yang menentukan warna bintang tersebut. Jika bintangnya panas, maka puncak lengkungnya akan ke arah warna biru. Jika bintangnya sejuk, maka puncak lengkungnya akan ke arah warna merah. Kita boleh lihat perbezaan warna ini dengan mata kasar jika kita teliti. Puncak graf tersebut mematuhi Hukum Sesaran Wien.
 
-```{r mu-belantik, echo=FALSE, out.height='400px', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
+```{r mu-belantik, echo=FALSE, fig.align='center', out.height='400px', fig.cap="Buruj Belantik. Bintang Betelguese (kiri atas) berwarna merah manakala bintang Rigel (kanan bawah) berwarna biru. Dari sini kita boleh simpulkan bahawa bintang Rigel lebih panas berbanding bintang Betelguese. Karya: [Mouser](https://commons.wikimedia.org/wiki/File:Orion_3008_huge.jpg), CC BY--SA 3.0."}
 knitr::include_graphics("./gambar/ultra/belantik.jpg")
 ```
 
@@ -169,6 +168,22 @@ Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelom
 
 ```{r echo=FALSE, out.width="500px", fig.align='center', fig.cap="Persamaan Rayleigh--Jeans meramalkan tenaga tidak terhingga untuk cahaya-cahaya pendek. Hal ini tidak masuk akal."}
 knitr::include_graphics("./gambar/ultra/Rayleigh.png")
+```
+
+```{block2, type='istilah'}
+
+<span class="nama-istilah">Ultralembayung</span>
+
+**Dari segi bahasa**: 
+  
+- Dalam bahasa Melayu, perkataan *lembayung* merujuk kepada warna ungu kejinggaan yang boleh dilihat ketika langit senja atau ketika matahari rendah.
+
+- Imbuhan *ultra-* pula ialah imbuhan daripada bahasa Inggeris yang menunjukkan sifat tersebut melangkaui sifat yang biasa.
+
+**Dari segi istilah**:
+
+- Dalam fizik, istilah *ultralembayung* merujuk kepada warna cahaya yang bertenaga tinggi dalam julat 10 ke 400 nanometer yang lebih pendek daripada warna lembayung (sekitar 400 nanometer).
+
 ```
 
 ## Postulat Planck Tentang Sekuantum Tenaga {#sec:postulat-planck}

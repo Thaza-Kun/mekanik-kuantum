@@ -24,7 +24,7 @@
 <meta name="author" content="Murthadza Aznam" />
 
 
-<meta name="date" content="2020-12-26" />
+<meta name="date" content="2020-12-31" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -114,10 +114,7 @@
 <li class="chapter" data-level="2.3.1" data-path="2-3-kalkulus-fungsi-gelombang.html"><a href="2-3-kalkulus-fungsi-gelombang.html#pembezaan-fungsi-gelombang"><i class="fa fa-check"></i><b>2.3.1</b> Pembezaan Fungsi Gelombang</a></li>
 <li class="chapter" data-level="2.3.2" data-path="2-3-kalkulus-fungsi-gelombang.html"><a href="2-3-kalkulus-fungsi-gelombang.html#pengamiran-fungsi-gelombang"><i class="fa fa-check"></i><b>2.3.2</b> Pengamiran Fungsi Gelombang</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="2-4-prinsip-superposisi.html"><a href="2-4-prinsip-superposisi.html"><i class="fa fa-check"></i><b>2.4</b> Prinsip Superposisi</a>
-<ul>
-<li class="chapter" data-level="2.4.1" data-path="2-4-prinsip-superposisi.html"><a href="2-4-prinsip-superposisi.html#berkaitan-istilah-superposisi"><i class="fa fa-check"></i><b>2.4.1</b> Berkaitan Istilah Superposisi</a></li>
-</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-4-prinsip-superposisi.html"><a href="2-4-prinsip-superposisi.html"><i class="fa fa-check"></i><b>2.4</b> Prinsip Superposisi</a></li>
 <li class="chapter" data-level="2.5" data-path="2-5-nombor-kompleks.html"><a href="2-5-nombor-kompleks.html"><i class="fa fa-check"></i><b>2.5</b> Nombor Kompleks</a>
 <ul>
 <li class="chapter" data-level="2.5.1" data-path="2-5-nombor-kompleks.html"><a href="2-5-nombor-kompleks.html#magnitud-nombor-kompleks"><i class="fa fa-check"></i><b>2.5.1</b> Magnitud Nombor Kompleks</a></li>
@@ -156,11 +153,11 @@
 <h3><span class="header-section-number">2.3.1</span> Pembezaan Fungsi Gelombang</h3>
 <p>Pembezaan fungsi gelombang akan mengubah dua perkara, iaitu amplitudnya dan fasanya tetapi akan mengekalkan bentuknya. Maknanya pembezaan gelombang sinus akan menghasilkan juga gelombang sinus dengan fasa yang berbeza. Khususnya, pembezaan sinus terhadap fasa akan mendahulukannya sebanyak <span class="math inline">\(\frac{\pi}{2}\)</span>,
 <span class="math display" id="eq:fg-09">\[\begin{equation}
-\frac{\text{d}}{\text{d}\phi}\sin{(\phi)} = \sin{(\phi + \frac{\pi}{2})}.\tag{2.10}
+\frac{\text{d}}{\text{d}\phi}\sin{(\phi)} = \sin{(\phi + \frac{\pi}{2})}.\tag{2.8}
 \end{equation}\]</span>
 Simbol <span class="math inline">\(\phi\)</span> dikekalkan untuk mewakili fasa kerana peranannya setara dengan sudut <span class="math inline">\(\phi\)</span> dalam bulatan unit (Rajah <a href="2-1-bulatan-unit-fungsi-trigonometri.html#fig:fg-bulat-unit">2.1</a>).</p>
 <p>Pemendahuluan fasa ini jelas jika kita meneliti pembezaan pada titik-titik penting fungsi sinus. Apabila <span class="math inline">\(\phi = \frac{\pi}{2}\)</span>, fungsi sinus berada pada puncaknya maka pembezaannya semestinya sifar. Apabila <span class="math inline">\(\phi = \pi\)</span>, pembezaannya paling rendah kerana di situlah terletaknya titik balas menurun lengkung tersebut. Apabila <span class="math inline">\(\phi = \frac{3\pi}{2}\)</span>, pembezaannya sifar. Apabila <span class="math inline">\(\phi = 2\pi\)</span>, pembezaannya ialah paling tinggi kerana itulah titik balas menaik lengkung tersebut.</p>
-<p>Hal ini berpadanan dengan pers. <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-09">(2.10)</a> bila digantikan nilai <span class="math inline">\(\phi\)</span>-nya,
+<p>Hal ini berpadanan dengan pers. <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-09">(2.8)</a> bila digantikan nilai <span class="math inline">\(\phi\)</span>-nya,
 <span class="math display">\[\begin{align*}
 \frac{\text{d}}{\text{d}\phi}A\sin{(\phi = \frac{\pi}{2})} &amp;= A\sin{(0)} = 0,\\
 \frac{\text{d}}{\text{d}\phi}A\sin{(\phi = \pi)} &amp;= A\sin{(\frac{3\pi}{2})} = -A,\\
@@ -176,22 +173,22 @@ RAJAH 2.4: Graf pembezaan sinus terhadap <span class="math inline">\(\phi\)</spa
 <p>Graf yang dihasilkan ialah graf fungsi kosinus. Ya, sememangnya pembezaan fungsi sinus terhadap fasa akan menghasilkan fungsi kosinus,
 <span class="math display" id="eq:fg-10">\[\begin{equation}
 \frac{\text{d}}{\text{d}\phi}A\sin{(\phi)} = A\cos{(\phi)},
-\tag{2.11}
+\tag{2.9}
 \end{equation}\]</span>
 kerana kosinus dan sinus mempunyai hubungan sebegini,
 <span class="math display" id="eq:fg-10a">\[\begin{equation}
 \cos{(\phi)} = \sin{(\phi + \frac{\pi}{2})}.
-\tag{2.12}
+\tag{2.10}
 \end{equation}\]</span>
 Namun, pembezaan fungsi kosinus terhadap fasanya tidak akan menghasilkan sinus semata-mata, tetapi akan menghasilkan negatif sinus kerana mendahulukan graf fungsi kosinus sebanyak <span class="math inline">\(\frac{\pi}{2}\)</span> akan menghasilkan graf fungsi sinus yang terbalik,
 <span class="math display" id="eq:fg-11">\[\begin{equation}
 \frac{\text{d}}{\text{d}\phi}A\cos{(\phi)} = -A\sin{(\phi)}.
-\tag{2.13}
+\tag{2.11}
 \end{equation}\]</span></p>
 <p>Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pemalar <span class="math inline">\(B\)</span> yang dipasangkan dengan pembolehubah <span class="math inline">\(\phi\)</span> ke dalam fungsi tersebut lalu membentuk <span class="math inline">\(A\sin{(B\phi)}\)</span> atau <span class="math inline">\(A\cos{(B\phi)}\)</span>. Hal ini boleh ditunjukkan menggunakan petua berantai,
 <span class="math display" id="eq:fg-12">\[\begin{equation}
 \frac{\text{d}}{\text{d} \phi}A\sin{(B\phi)} = \frac{\text{d}A\sin{(f(\phi))}}{\text{d}f(\phi)}\frac{\text{d}f(\phi)}{\text{d}\phi} = AB\cos{(B\phi)},
-\tag{2.14}
+\tag{2.12}
 \end{equation}\]</span>
 kerana kita telah tetapkan <span class="math inline">\(f(\phi) = B\phi\)</span> serta natijahnya <span class="math inline">\(\frac{\text{d}f(\phi)}{\text{d}\phi} = B\)</span>. Oleh itu, dalam kes lazim <span class="math inline">\(\phi=kx + \omega t\)</span>, hasil kecerunan fungsi sinus dan kosinus terhadap <span class="math inline">\(x\)</span> atau <span class="math inline">\(t\)</span> juga bergantung kepada frekuensi atau vektor gelombangnya.</p>
 <div class="figure"><span id="fig:fg-sinus-beza-amplitud"></span>
@@ -206,10 +203,10 @@ RAJAH 2.5: Pembezaan sinus terhadap <span class="math inline">\(x\)</span> yang 
 <p>Pengamiran ialah proses yang terbalik dari pembezaan,
 <span class="math display" id="eq:fg-13">\[\begin{equation}
 \int \frac{\text{d}\Psi}{\text{d}\phi} \text{d}\phi = \Psi + C.
-\tag{2.15}
+\tag{2.13}
 \end{equation}\]</span>
 Maka, jika kita sudah tahu petua membezakan fungsi sinus dan kosinus, kita akan tahu petua-petua mengamirkannya.</p>
-<p>Katakan kita ambil pers. <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-12">(2.14)</a> untuk mewakili <span class="math inline">\(\frac{\text{d}\Psi}{\text{d}\phi}\)</span>. Oleh itu, <span class="math inline">\(\Psi = A\sin{(B\phi)}\)</span>. Hasil yang sama boleh diperoleh jika diselitkan <span class="math inline">\(\frac{B}{B}\)</span> ke dalam <span class="math inline">\(\Psi\)</span>. Pengamiran <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-13">(2.15)</a> kini menjadi
+<p>Katakan kita ambil pers. <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-12">(2.12)</a> untuk mewakili <span class="math inline">\(\frac{\text{d}\Psi}{\text{d}\phi}\)</span>. Oleh itu, <span class="math inline">\(\Psi = A\sin{(B\phi)}\)</span>. Hasil yang sama boleh diperoleh jika diselitkan <span class="math inline">\(\frac{B}{B}\)</span> ke dalam <span class="math inline">\(\Psi\)</span>. Pengamiran <a href="2-3-kalkulus-fungsi-gelombang.html#eq:fg-13">(2.13)</a> kini menjadi
 <span class="math display">\[\int AB\cos{(B\phi)}\;\text{d}\phi = \frac{AB}{B}\sin{(B\phi)} + C.\]</span>
 Disebabkan <span class="math inline">\(AB\)</span> ialah suatu pemalar, kita boleh tetapkan ia menjadi apa-apa pemalar, misalnya <span class="math inline">\(AB = A_0\)</span>. Pengamiran tersebut kini ditulis
 <span class="math display">\[\int A_0\cos{(B\phi)}\;\text{d}\phi = \frac{A_0}{B}\sin{(B\phi)} + C,\]</span>
@@ -274,7 +271,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": ["Catatan-Mekanik-Kuantum.epub"],
 "toc": {
 "collapse": "subsection"
 }

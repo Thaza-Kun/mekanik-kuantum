@@ -186,15 +186,24 @@ Cuba bayangkan ujikaji dwicelah Young. Apabila cahaya yang sama warna melalui ke
 knitr::include_graphics('./gambar/fungsi/corak-interferens-sinar-x.png')
 ```
 
-### Berkaitan Istilah Superposisi
-Istilah *superposition* datang dari akar kata *superpose* yang membawa maksud 'menindih'. Hal ini serupa dengan perkataan *superimpose* yang lazimnya digunakan dalam seni penggambaran dan perfileman yang menindih dua gambar atau filem untuk mencapai kesan khas tertentu.
+```{block2, type="istilah"}
+<span class="nama-istilah">Superposisi</span>
 
-Oleh itu, 'prinsip superposisi' tidaklah seharusnya difahami sebagai prinsip adi (*super*) + kedudukan (*position*) tetapi sebagai prinsip penindihan dua fungsi. Prinsip ini bukanlah khusus untuk sistem kuantum sahaja tetapi ia digunakan dalam Matematik untuk menguji kelinearan fungsi. Fungsi-fungsi kuantum mematuhi kelinearan ini maka ia juga mewarisi kesuperposisian fungsi linear.
+**Dari segi bahasa**: 
 
-```{lemma lem-fg-02, name="Prinsip Superposisi Kuantum"}
-Suatu sistem kuantum, $|\Psi\rangle$ , boleh diungkapkan sebagai hasil tambah dua atau lebih fungsi-fungsi keadaannya, $|\psi\rangle$,
-$$|\Psi\rangle = A|\psi_1\rangle + B|\psi_2\rangle + \cdots.$$
-Perhatikan persamaan prinsip ini dengan prinsip \@ref(lem:lem-fg-01) berkaitan superposisi gelombang.
+- Dalam bahasa Inggeris, perkataan *superposition* ialah bentuk kata nama untuk *superpose* yang bermaksud 'menindih'.  Ia serupa dengan perkataan *superimpose* yang lazim digunakan dalam seni penggambaran atau perfileman untuk mencapai kesan khas tertentu.
+
+**Dari segi istilah**:
+
+- Dalam matematik, prinsip *superposisi* merujuk kepada sifat fungsi yang menepati dua ciri, iaitu ketambahan fungsi dan kehomogenan fungsi.
+
+- Dalam fizik gelombang, *superposisi* gelombang merujuk kepada fenomena interferens yang menghasilkan gelombang baharu daripada hasil tambah dua gelombang yang bertindih.
+  
+- Dalam fizik kuantum, prinsip *superposisi* menyatakan bahawa suatu keadaan kuantum ialah hasil tambah keadaan-keadaan sistem yang boleh berlaku dengan pekali kebarangkalian masing-masing.
+
+```
+```{block2, type="important"}
+Istilah *superposisi* bukanlah hasil gabungan *super* dan *posisi* maka ia tidak boleh diterjemahkan menjadi *adikedudukan* atau *superkedudukan*.
 ```
 
 ## Nombor Kompleks

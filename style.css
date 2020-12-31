@@ -5,12 +5,16 @@
   border: 2px solid orange;
   border-radius: 10px;
 }
-.caution {
-  background-image: url("../images/caution.png");
-}
+
 .important {
-  background-image: url("../images/important.png");
+  background-image: url("../gambar/icons/important.png");
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: lightgray 5px center/3em no-repeat;
+  border: 2px solid red;
+  border-radius: 10px;
 }
+
 .note {
   background-image: url("../images/note.png");
 }
@@ -87,4 +91,19 @@ div.theorem {
   border: 1px dotted #000000;
   padding: 10px 12px 10px 12px;
   margin-bottom: 20px;
+}
+
+.istilah {
+  padding: 1% 1em 0% 2%;
+  margin-bottom: 10px;
+  background: lightgray 5px center/3em no-repeat;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.nama-istilah{
+  font-variant: small-caps;
+  font-weight: 200;
+  font-size: 25px;
+  color: blue;
 }
