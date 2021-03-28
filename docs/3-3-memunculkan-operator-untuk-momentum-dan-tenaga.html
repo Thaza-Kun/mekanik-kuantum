@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum</title>
+  <title>3.3 Memunculkan Operator untuk Momentum dan Tenaga | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta property="og:title" content="3.3 Memunculkan Operator untuk Momentum dan Tenaga | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta name="twitter:title" content="3.3 Memunculkan Operator untuk Momentum dan Tenaga | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-4-sec-kesinambungan.html"/>
-<link rel="next" href="2-pengenalan-kepada-fungsi-gelombang.html"/>
+<link rel="prev" href="3-2-nilai-pembolehcerap-sebagai-operator.html"/>
+<link rel="next" href="3-4-inilah-persamaan-schrödinger.html"/>
 <script src="libs/header-attrs-2.7.2/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -157,27 +157,85 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:bentuk-pers-planck" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Pelbagai Bentuk Persamaan Planck</h2>
-<p>Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. Khususnya, ada yang menyatakan bahawa pekalinya mendarab <span class="math inline">\(2 hc^2\)</span>, ataupun <span class="math inline">\(2\pi hc^2\)</span>, dan bukannya <span class="math inline">\(8\pi hc\)</span> seperti yang digunakan dalam catatan ini. Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza (<span class="citation"><a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">Webeneger</a> (<a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">t.t</a>)</span>).</p>
-<ul>
-<li>Dalam bentuk kesinaran, persamaan Planck ialah <span class="math display">\[L=\frac{2 hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan fluks, persamaan Planck ialah <span class="math display">\[M=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan tenaga pula, <span class="math display">\[U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-</ul>
-<p>Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.</p>
-<p>Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian <a href="1-4-sec-kesinambungan.html#sec:planck-stefan-boltzmann">1.4.1</a> ketika mencari hukum Stefan–Boltzmann, pekali <span class="math inline">\(\frac{c}{4}\)</span> diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.</p>
-<p>Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh–Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan <span class="math inline">\(\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0\)</span>.</p>
+<div id="memunculkan-operator-untuk-momentum-dan-tenaga" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Memunculkan Operator untuk Momentum dan Tenaga</h2>
+<p>Pertama sekali, perlu ditegaskan bahawa fungsi gelombang dalam persamaan Schrödinger ialah fungsi eksponen kompleks <span class="math inline">\(e^{i\phi}\)</span>. Simbol <span class="math inline">\(\phi\)</span> mendukung dua sifat gelombang iaitu kalaan <span class="math inline">\(\omega\)</span> dan vektor gelombang <span class="math inline">\(k\)</span>. Oleh itu,
+<span class="math display" id="eq:scr-01">\[\begin{equation}
+\Psi(x, t) = Ae^{i(kx-\omega t)},
+\tag{3.4}
+\end{equation}\]</span>
+dengan maksud bahawa <span class="math inline">\(A\)</span> ialah pemalar penormal. Jadi, sepanjang perjalanan kita memperoleh operator momentum dan tenaga, fungsi <span class="math inline">\(\Psi\)</span> yang digunakan ialah fungsi yang dinyatakan itu.</p>
+<div id="operator-momentum" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Operator Momentum</h3>
+<p>Bagi memunculkan momentum dalam bentuk operator, kita akan pasangkannya dengan fungsi gelombang <span class="math inline">\(\Psi\)</span>,
+<span class="math display">\[\begin{equation}
+\hat p \Psi(x,t) = \hat p (Ae^{i(kx - \omega t)}).
+\end{equation}\]</span>
+Disebabkan momentum gelombang dikaitkan dengan nilai <span class="math inline">\(k\)</span>, kita perlukan satu operator yang boleh menurunkan nilai <span class="math inline">\(k\)</span> daripada sejenis kuasa menjadi sejenis pekali. Kita tahu bagaimana untuk lakukan hal itu menggunakan petua pembezaan fungsi eksponen (Petua <a href="#thm:fg-thm-03"><strong>??</strong></a>). Maka, kita kenakan pembezaan <span class="math inline">\(\frac{\partial}{\partial x}\)</span> terhadap <span class="math inline">\(\Psi\)</span>,
+<span class="math display" id="eq:scr-02">\[\begin{equation}
+\frac{\partial}{\partial x}\Psi(x, t) = ik\Psi(x, t).
+\tag{3.5}
+\end{equation}\]</span></p>
+<p>Daripada bab <a href="2-2-sifat-gelombang.html#sifat-gelombang">2.2</a>, kita tahu bahawa momentum gelombang ialah <span class="math inline">\(p=\hbar k\)</span>. Apabila kita samakan nilai <span class="math inline">\(k\)</span> dalam persamaan momentum ini dengan nilai <span class="math inline">\(k\)</span> dalam pers. <a href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html#eq:scr-02">(3.5)</a>, kita boleh munculkan nilai <span class="math inline">\(\hat p\)</span>,
+<span class="math display">\[\begin{align}
+p &amp;= \hbar k,\\
+k &amp;= -i\frac{\partial}{\partial x},\\
+\therefore \hat p &amp;= -i\hbar \frac{\partial}{\partial x}.
+\end{align}\]</span>
+Operator tenaga juga boleh diperoleh melalui kaedah yang sama.</p>
+Memandangkan ungkapan Hamiltonian memerlukan sebutan momentum kuasa dua, kita perlu munculkan kuasa dua untuk momentum ini. Disebabkan <span class="math inline">\(p^2=\hbar^2 k^2\)</span>, kita boleh lakukan pembezaan dua kali untuk munculkan persamaan untuk <span class="math inline">\(k^2\)</span>,
+<span class="math display">\[\begin{equation}
+\frac{\partial^2}{\partial^2 x}\Psi(x, t) = -k^2\Psi(x, t),
+\end{equation}\]</span>
+maka,
+<span class="math display">\[\begin{align}
+k^2 &amp;= -\frac{\partial^2}{\partial^2 x},\\
+\therefore \hat p^2 &amp;= -\hbar \frac{\partial^2}{\partial^2 x}
+\end{align}\]</span>
 
+<div class="infobox">
+Untuk memunculkan ungkapan untuk operator, kita dibenarkan membahagi fungsi <span class="math inline">\(\Psi\)</span> dengan dirinya sendiri (<span class="math inline">\(\frac{\Psi}{\Psi}\)</span>) seolah-olah ia adalah kaedah aljabar lazim. Akan tetapi, harus diingatkan bahawa ungkapan yang diperoleh ialah suatu operator, maka ia perlu dipasangkan dengan fungsi <span class="math inline">\(\Psi\)</span> sekiranya ingin mendapatkan nilai yang bermakna.
 </div>
-<!-- </div> -->
+</div>
+<div id="operator-tenaga" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Operator Tenaga</h3>
+<p>Bagi memunculkan momentum dalam bentuk operator, kita akan pasangkannya dengan fungsi gelombang <span class="math inline">\(\Psi\)</span>,
+<span class="math display">\[\begin{equation}
+\hat E \Psi(x,t) = \hat E (Ae^{i(kx - \omega t)}).
+\end{equation}\]</span>
+Disebabkan momentum gelombang dikaitkan dengan nilai <span class="math inline">\(\omega\)</span>, kita akan turunkan nilai <span class="math inline">\(\omega\)</span> daripada sejenis kuasa menjadi sejenis pekali. Sama seperti yang dilakukan untuk operator momentum, kita akan gunakan pembezaan terhadap pembolehubah yang sewajarnya. Untuk tenaga, kita gunakan pembezaan <span class="math inline">\(\frac{\partial}{\partial t}\)</span> terhadap <span class="math inline">\(\Psi\)</span>,
+<span class="math display" id="eq:scr-03">\[\begin{equation}
+\frac{\partial}{\partial t}\Psi(x, t) = -i\omega\Psi(x, t).
+\tag{3.6}
+\end{equation}\]</span></p>
+<p>Daripada bab <a href="2-2-sifat-gelombang.html#sifat-gelombang">2.2</a>, kita tahu bahawa tenaga gelombang ialah <span class="math inline">\(E=\hbar \omega\)</span>. Apabila kita samakan nilai <span class="math inline">\(\omega\)</span> dalam persamaan ini dengan nilai <span class="math inline">\(\omega\)</span> dalam pers. <a href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html#eq:scr-03">(3.6)</a>, kita boleh munculkan nilai <span class="math inline">\(\hat E\)</span>,
+<span class="math display">\[\begin{align}
+E &amp;= \hbar \omega,\\
+\omega &amp;= i\frac{\partial}{\partial t},\\
+\therefore \hat E &amp;= i\hbar \frac{\partial}{\partial t}.
+\end{align}\]</span></p>
+</div>
+<div id="operator-hamiltonian" class="section level3" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Operator Hamiltonian</h3>
+<p>Kita sudah peroleh operator bagi momentum dan bagi tenaga kinetik. Oleh itu, nak dapatkan operator Hamiltonian adalah semudah menggantikan kedua-dua operator tadi ke dalam persamaan Hamiltonian,
+<span class="math display">\[\hat H = \frac{\hat p^2}{2m} + \hat V = \hat E.\]</span>
+Maka,
+<span class="math display">\[\begin{equation}
+\hat H = \frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x} + \hat V = i\hbar\frac{\partial}{\partial t}
+\end{equation}\]</span>.
+Apabila dipasangkan pada fungsi gelombang, kita dapatlah persamaan Schrödinger,
+<span class="math display">\[\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = i\hbar\frac{\partial}{\partial t}\Psi.
+\end{equation}\]</span></p>
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="1-4-sec-kesinambungan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="2-pengenalan-kepada-fungsi-gelombang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="3-2-nilai-pembolehcerap-sebagai-operator.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="3-4-inilah-persamaan-schrödinger.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

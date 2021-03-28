@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum</title>
+  <title>3.2 Nilai Pembolehcerap Sebagai Operator | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta property="og:title" content="3.2 Nilai Pembolehcerap Sebagai Operator | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta name="twitter:title" content="3.2 Nilai Pembolehcerap Sebagai Operator | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-4-sec-kesinambungan.html"/>
-<link rel="next" href="2-pengenalan-kepada-fungsi-gelombang.html"/>
+<link rel="prev" href="3-1-sekilas-pandang-hamiltonian.html"/>
+<link rel="next" href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html"/>
 <script src="libs/header-attrs-2.7.2/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -157,27 +157,45 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:bentuk-pers-planck" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Pelbagai Bentuk Persamaan Planck</h2>
-<p>Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. Khususnya, ada yang menyatakan bahawa pekalinya mendarab <span class="math inline">\(2 hc^2\)</span>, ataupun <span class="math inline">\(2\pi hc^2\)</span>, dan bukannya <span class="math inline">\(8\pi hc\)</span> seperti yang digunakan dalam catatan ini. Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza (<span class="citation"><a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">Webeneger</a> (<a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">t.t</a>)</span>).</p>
-<ul>
-<li>Dalam bentuk kesinaran, persamaan Planck ialah <span class="math display">\[L=\frac{2 hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan fluks, persamaan Planck ialah <span class="math display">\[M=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan tenaga pula, <span class="math display">\[U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-</ul>
-<p>Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.</p>
-<p>Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian <a href="1-4-sec-kesinambungan.html#sec:planck-stefan-boltzmann">1.4.1</a> ketika mencari hukum Stefan–Boltzmann, pekali <span class="math inline">\(\frac{c}{4}\)</span> diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.</p>
-<p>Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh–Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan <span class="math inline">\(\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0\)</span>.</p>
+<div id="nilai-pembolehcerap-sebagai-operator" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Nilai Pembolehcerap Sebagai Operator</h2>
+<p>Suatu sistem kuantum mempunyai dua bahagian, iaitu bahagian yang boleh dicerap dan bahagian yang tidak boleh dicerap. Nilai-nilai seperti tenaga dan momentum mewakili bahagian sistem kuantum yang boleh dicerap. Oleh itu, tenaga dan momentum ini digolongkan sebagai pembolehcerap sistem kuantum.</p>
+<p>Bahagian yang tidak boleh dicerap dalam sistem kuantum ialah keadaan kuantum tersebut. Dalam kaedah Schrödinger, keadaan kuantum ini diwakili oleh fungsi gelombang yang lazimnya diwakili dengan huruf Yunani <span class="math inline">\(\Psi\)</span>. Natijahnya, kita tidak akan mampu cerap bentuk gelombang ini. Namun, kita boleh tahu sifat-sifat gelombang ini melalui pembolehcerap-pembolehcerap yang disebutkan sebelum ini.</p>
+<p>Pembolehcerap ialah suatu kuantiti yang mengubah bentuk fungsi gelombang menjadi bentuk yang boleh dicerap oleh kita. Pembolehcerap ini tidak boleh berdiri sendiri tanpa dipasangkan dengan fungsi gelombang. Kerja pembolehcerap ialah mengubah bentuk fungsi gelombang, maka tidak ada maknalah kalau ia tidak dipasangkan bersama.</p>
+<p>Fungsi yang tiada makna melainkan dipasangkan dengan fungsi lain ialah suatu operator. Kita sudah bertemu dengan operator-operator ini dalam kalkulus. Misalnya, operator pembezaan <span class="math inline">\(\frac{\text{d}}{\text{d}x}\)</span> perlu dipasangkan dengan fungsi <span class="math inline">\(f(x)\)</span> agar boleh dikira nilai akhirnya. Begitulah juga dengan pembolehcerap mekanik kuantum. Dalam mekanik kuantum, semua pembolehcerap adalah operator dan lazimnya dipakaikan terendak, <span class="math inline">\(\hat{\circ}\)</span>, dalam perwakilannya (<span class="math inline">\(\hat p\)</span> untuk momentum, <span class="math inline">\(\hat E\)</span> untuk tenaga, dan sebagainya).</p>
+<p>Hamiltonian juga adalah satu pembolehcerap, maka ia seharusnya dipasangkan dengan fungsi gelombang sistem kuantum, <span class="math inline">\(\Psi\)</span>. Inilah tulang belakang persamaan Schrödinger,
+<span class="math display">\[\begin{equation}
+\hat H\Psi = \frac{\hat p^2}{2m}\Psi + \hat V\Psi.
+\end{equation}\]</span>
+Hamiltonian juga mewakili jumlah tenaga sistem kuantum tersebut, maka persamaan ini juga benar,
+<span class="math display">\[\begin{equation}
+\hat H \Psi = \hat E\Psi.
+\end{equation}\]</span>
+Dua persamaan ini penting untuk memperoleh persamaan Schrödinger.</p>
 
+<div class="istilah">
+<p><span class="nama-istilah">Terendak</span></p>
+<p><strong>Dari segi bahasa:</strong></p>
+<ul>
+<li>Dalam bahasa Melayu, perkataan <em>terendak</em> merujuk kepada penutup kepala yang lebar membulat dan tajam di bahagian atas.</li>
+</ul>
+<p><strong>Dari segi istilah:</strong></p>
+<ul>
+<li>Dalam catatan ini, istilah <em>terendak</em> digunakan untuk simbol tajam yang diletakkan atas pembolehcerap, seperti <span class="math inline">\(\hat x\)</span>, bagi menyatakan bahawa ia adalah suatu operator.</li>
+</ul>
 </div>
-<!-- </div> -->
+
+<div class="infobox">
+Dalam bahasa Inggeris, simbol <span class="math inline">\(\hat{\circ}\)</span> itu disebut <em>hat</em> tapi saya tidak jumpa penulis bahasa Melayu memberikan nama kepadanya, jadi saya berikan nama <em>terendak</em> kerana itulah topi yang paling menyerupai simbol ini.
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="1-4-sec-kesinambungan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="2-pengenalan-kepada-fungsi-gelombang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="3-1-sekilas-pandang-hamiltonian.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

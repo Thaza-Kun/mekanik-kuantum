@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum</title>
+  <title>3.1 Sekilas Pandang Hamiltonian | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta property="og:title" content="3.1 Sekilas Pandang Hamiltonian | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta name="twitter:title" content="3.1 Sekilas Pandang Hamiltonian | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-4-sec-kesinambungan.html"/>
-<link rel="next" href="2-pengenalan-kepada-fungsi-gelombang.html"/>
+<link rel="prev" href="3-persamaan-schrödinger.html"/>
+<link rel="next" href="3-2-nilai-pembolehcerap-sebagai-operator.html"/>
 <script src="libs/header-attrs-2.7.2/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -157,27 +157,36 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:bentuk-pers-planck" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Pelbagai Bentuk Persamaan Planck</h2>
-<p>Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. Khususnya, ada yang menyatakan bahawa pekalinya mendarab <span class="math inline">\(2 hc^2\)</span>, ataupun <span class="math inline">\(2\pi hc^2\)</span>, dan bukannya <span class="math inline">\(8\pi hc\)</span> seperti yang digunakan dalam catatan ini. Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza (<span class="citation"><a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">Webeneger</a> (<a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">t.t</a>)</span>).</p>
-<ul>
-<li>Dalam bentuk kesinaran, persamaan Planck ialah <span class="math display">\[L=\frac{2 hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan fluks, persamaan Planck ialah <span class="math display">\[M=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan tenaga pula, <span class="math display">\[U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-</ul>
-<p>Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.</p>
-<p>Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian <a href="1-4-sec-kesinambungan.html#sec:planck-stefan-boltzmann">1.4.1</a> ketika mencari hukum Stefan–Boltzmann, pekali <span class="math inline">\(\frac{c}{4}\)</span> diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.</p>
-<p>Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh–Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan <span class="math inline">\(\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0\)</span>.</p>
-
+<div id="sekilas-pandang-hamiltonian" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Sekilas Pandang Hamiltonian</h2>
+<p>Pertimbangkan sebiji bola yang bebas bergerak dalam suatu ruang tertentu. Bagaimana kita ingin memerihalkan pergerakan bola tersebut? Mungkin gerak hati pertama kita ialah dengan cuba mengenal pasti daya-daya yang terlibat dalam sistem bola tersebut. Kemudian, dengan berpandukan tiga hukum pergerakan Newton, halaju dan kedudukan bola tersebut boleh diramalkan untuk setiap detik. Memang itulah kaedah yang diajarkan dalam kelas kinematik dan dinamik, khususnya di peringkat awal.</p>
+<p>Adapun begitu, kaedah-kaedah lain untuk memerihalkan pergerakan bola tersebut tetap wujud. Kita boleh bermula dengan mengenalpasti jumlah tenaga yang dipendam dalam sistem. Kemudian, dengan andaian bahawa jumlah tenaga suatu sistem akan diabadikan, maka kita boleh ramalkan tenaga bola tersebut dalam detik-detik seterusnya. Misalnya, dalam kejadian jatuh bebas, kita tahu bahawa bola itu akan sentiasa menambah tenaga kinetik kerana itu sahajalah caranya untuk membuang semua tenaga upaya yang terpendam sambil mematuhi keabadian tenaga.</p>
+<p>Tenaga upaya mewakili keupayaan bola tersebut melakukan kerja. Dalam kes jatuh bebas yang disebutkan tadi, tenaga upaya mewakili keupayaan bola untuk bergerak dalam arah tertentu. Tenaga kinetik pula mewakili pergerakan bola tersebut. Maka, tidak hairanlah tenaga kinetik, <span class="math inline">\(T\)</span>, boleh dikaitkan dengan halaju, <span class="math inline">\(v\)</span>, yang merupakan satu kuantiti pergerakan,
+<span class="math display" id="eq:kinetik">\[\begin{equation}
+T(v) = \frac{1}{2}mv^2,
+\tag{3.1}
+\end{equation}\]</span>
+dengan maksud bahawa <span class="math inline">\(m\)</span> ialah jisim bola. Namun begitu, wujud lagi satu kuantiti yang memerihalkan pergerakan, iaitu momentum, <span class="math inline">\(p\)</span>, bola tersebut. Oleh itu, wujud juga perkaitan tenaga kinetik dengan momentum bola,
+<span class="math display" id="eq:kinetik-momentum">\[\begin{equation}
+T(p) = \frac{p^2}{2m}.
+\tag{3.2}
+\end{equation}\]</span></p>
+<p>Nilai yang mana satu perlu kita pilih? Adakah kita patut pilih halaju bola atau momentumnya? Ketika memerihalkan pergerakan bola, kita telah diberikan kebebasan memilih ingin bermula dengan daya-daya atau tenaga-tenaga. Begitulah juga dalam hal ini. Kita boleh pilih mahu kaitkan tenaga dengan halajunya atau momentumnya. Akan tetapi, pemilihan kita perlu mematuhi kaedah yang sewajarnya sepertimana kaedah penelitian daya perlu mematuhi kaedah Newton.</p>
+<p>Terdapat dua kaedah yang meneliti suatu sistem fizik melalui tenaga-tenaganya. Yang pertama ialah kaedah Lagrangian yang bermula dengan tenaga kinetik yang diperihalkan oleh halaju sistem. Yang kedua ialah kaedah Hamiltonian yang bermula dengan tenaga kinetik yang diperihalkan oleh momentum sistem. Setiap satu kaedah ada kelebihan masing-masing dan ada cara untuk berpindah dari kaedah Lagrangian kepada kaedah Hamiltonian dan sebaliknya, tetapi catatan ini tidak akan mengulas hal ini.</p>
+<p>Apa yang pembaca perlu tahu ialah persamaan Schrödinger yang akan dimunculkan dalam bahagian seterusnya menggunakan kaedah Hamiltonian. Persamaan mendasar kaedah Hamiltonian ialah,
+<span class="math display" id="eq:Hamiltonian">\[\begin{equation}
+H = T(p) + V(x),
+\tag{3.3}
+\end{equation}\]</span>
+yang digelar ‘Hamiltonian’ sistem yang dikaji. Nilai Hamiltonian ini boleh ditafsirkan sebagai jumlah tenaga sistem tersebut. Kita telah memunculkan persamaan untuk momentum dan tenaga gelombang dalam bahagian <a href="2-2-sifat-gelombang.html#sifat-gelombang">2.2</a>. Dalam bab ini, kita akan menggunakan perkaitan tersebut untuk memunculkan momentum dan tenaga sistem kuantum. Kemudian, dapatlah kita peroleh persamaan Schrödinger.</p>
 </div>
-<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="1-4-sec-kesinambungan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="2-pengenalan-kepada-fungsi-gelombang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="3-persamaan-schrödinger.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="3-2-nilai-pembolehcerap-sebagai-operator.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

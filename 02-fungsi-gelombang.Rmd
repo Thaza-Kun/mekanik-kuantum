@@ -91,7 +91,7 @@ Lebih pendek panjang gelombang, lebih pendek vektor gelombangnya, maka lebih bes
 
 Secara umum, fungsi gelombang diungkapkan menggunakan kedua-dua kedudukan $x$ dan masa $t$,
 \begin{equation}
-\Psi(x,t) = A\sin{(kx + \omega t)},
+\Psi(x,t) = A\sin{(kx - \omega t)},
 (\#eq:fg-08)
 \end{equation}
 dan kedua-dua $k$ dan $\omega$ ini penting untuk kita peroleh persamaan Schr&ouml;dinger dalam bab seterusnya. $A$ ialah amplitud, iaitu suatu pekali yang menetapkan ketinggian puncak gelombang.
@@ -140,7 +140,7 @@ Pekali yang menentukan amplitud fungsi sinus pula akan berubah sekiranya ada pem
 \frac{\text{d}}{\text{d} \phi}A\sin{(B\phi)} = \frac{\text{d}A\sin{(f(\phi))}}{\text{d}f(\phi)}\frac{\text{d}f(\phi)}{\text{d}\phi} = AB\cos{(B\phi)},
 (\#eq:fg-12)
 \end{equation}
-kerana kita telah tetapkan $f(\phi) = B\phi$ serta natijahnya $\frac{\text{d}f(\phi)}{\text{d}\phi} = B$. Oleh itu, dalam kes lazim $\phi=kx + \omega t$, hasil kecerunan fungsi sinus dan kosinus terhadap $x$ atau $t$ juga bergantung kepada frekuensi atau vektor gelombangnya.
+kerana kita telah tetapkan $f(\phi) = B\phi$ serta natijahnya $\frac{\text{d}f(\phi)}{\text{d}\phi} = B$. Oleh itu, dalam kes lazim $\phi=kx - \omega t$, hasil kecerunan fungsi sinus dan kosinus terhadap $x$ atau $t$ juga bergantung kepada frekuensi atau vektor gelombangnya.
 
 ```{r fg-sinus-beza-amplitud, echo=FALSE, out.width='600px', fig.cap="Pembezaan sinus terhadap $x$ yang mengubah fasa dan amplitud."}
 knitr::include_graphics("./gambar/fungsi/sinus-beza-amplitud.jpg")

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum</title>
+  <title>3.4 Inilah Persamaan Schrödinger | Mekanik Kuantum</title>
   <meta name="description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta property="og:title" content="3.4 Inilah Persamaan Schrödinger | Mekanik Kuantum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://thaza-kun.github.io/mekanik-kuantum/" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="thaza-Kun/mekanik-kuantum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.5 Pelbagai Bentuk Persamaan Planck | Mekanik Kuantum" />
+  <meta name="twitter:title" content="3.4 Inilah Persamaan Schrödinger | Mekanik Kuantum" />
   
   <meta name="twitter:description" content="Catatan ilmiah teknikal Mekanik Kuantum" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="1-4-sec-kesinambungan.html"/>
-<link rel="next" href="2-pengenalan-kepada-fungsi-gelombang.html"/>
+<link rel="prev" href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html"/>
+<link rel="next" href="daftar-pemalar.html"/>
 <script src="libs/header-attrs-2.7.2/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -157,17 +157,22 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sec:bentuk-pers-planck" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Pelbagai Bentuk Persamaan Planck</h2>
-<p>Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. Khususnya, ada yang menyatakan bahawa pekalinya mendarab <span class="math inline">\(2 hc^2\)</span>, ataupun <span class="math inline">\(2\pi hc^2\)</span>, dan bukannya <span class="math inline">\(8\pi hc\)</span> seperti yang digunakan dalam catatan ini. Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza (<span class="citation"><a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">Webeneger</a> (<a href="daftar-pustaka.html#ref-Webeneger_tt" role="doc-biblioref">t.t</a>)</span>).</p>
-<ul>
-<li>Dalam bentuk kesinaran, persamaan Planck ialah <span class="math display">\[L=\frac{2 hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan fluks, persamaan Planck ialah <span class="math display">\[M=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-<li>Dalam bentuk ketumpatan tenaga pula, <span class="math display">\[U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.\]</span></li>
-</ul>
-<p>Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. Setiap satunya akan menghasilkan bentuk lengkung yang sama. Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.</p>
-<p>Ia juga membawa takrifan tepat yang berbeza. Seperti yang dilihat dalam bahagian <a href="1-4-sec-kesinambungan.html#sec:planck-stefan-boltzmann">1.4.1</a> ketika mencari hukum Stefan–Boltzmann, pekali <span class="math inline">\(\frac{c}{4}\)</span> diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.</p>
-<p>Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya. Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh–Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan <span class="math inline">\(\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0\)</span>.</p>
+<div id="inilah-persamaan-schrödinger" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Inilah Persamaan Schrödinger</h2>
+<p>Dengan ini, kita telah berjaya memunculkan persamaan Schrödinger berdasarkan beberapa andaian mendasar. Persamaan Schrödinger ada dua: yang pertama ialah <strong>persamaan Schrödinger bersandar masa</strong> yang melibatkan pembezaan terhadap masa,
+<span class="math display">\[\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = i\hbar\frac{\partial}{\partial t}\Psi,
+\end{equation}\]</span>
+dan <strong>persamaan Schrödinger tak bersandar masa</strong> yang tidak melibatkan pembezaan terhadap masa,
+<span class="math display">\[\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = \hat H\Psi.
+\end{equation}\]</span></p>
+<p>Terdapat dua andaian yang mendasari persamaan Schrödinger ini iaitu:</p>
+<ol style="list-style-type: decimal">
+<li><p>Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga dan frekuensi yang digariskan oleh Planck, <span class="math inline">\(E = hf = \hbar \omega\)</span>.</p></li>
+<li><p>Bahawa momentum sistem kuantum mematuhi hipotesis de Broglie yang mengaitkan momentum jisim dan momentum gelombang, <span class="math inline">\(p = \hbar k\)</span>.</p></li>
+</ol>
+<p>Kedua-dua perhubungan yang disebutkan itupun boleh dimunculkan daripada fungsi gelombang <span class="math inline">\(\Psi(x,t)\)</span>. Sistem-sistem kuantum mematuhi fungsi gelombang ini maka persamaan Schrödinger adalah sah untuk sistem-sistem kuantum tersebut.</p>
 
 </div>
 <!-- </div> -->
@@ -176,8 +181,8 @@
           </div>
         </div>
       </div>
-<a href="1-4-sec-kesinambungan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="2-pengenalan-kepada-fungsi-gelombang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="3-3-memunculkan-operator-untuk-momentum-dan-tenaga.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="daftar-pemalar.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

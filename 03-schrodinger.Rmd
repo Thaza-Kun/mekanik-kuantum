@@ -1,7 +1,156 @@
 # Persamaan Schr&ouml;dinger
+Berpandukan hipotesis de Broglie yang mengatakan setiap jasad berjisim mempunyai sifat kegelombangan masing-masing, Erwin Schr&ouml;dinger membangunkan persamaan beliau yang kini menjadi persamaan pokok mekanik kuantum. Peranan persamaan Schr&ouml;dinger dalam mekanik kuantum adalah setara dengan peranan hukum pergerakan Newton dalam mekanik klasik. Dalam bab-bab selanjutnya, kita akan lihat bagaimana persamaan ini digunakan untuk mencari bentuk atom.
 
 ## Sekilas Pandang Hamiltonian
 
-## Persamaan Schr&ouml;dinger Bersandarkan Masa
+Pertimbangkan sebiji bola yang bebas bergerak dalam suatu ruang tertentu. Bagaimana kita ingin memerihalkan pergerakan bola tersebut? Mungkin gerak hati pertama kita ialah dengan cuba mengenal pasti daya-daya yang terlibat dalam sistem bola tersebut. Kemudian, dengan berpandukan tiga hukum pergerakan Newton, halaju dan kedudukan bola tersebut boleh diramalkan untuk setiap detik. Memang itulah kaedah yang diajarkan dalam kelas kinematik dan dinamik, khususnya di peringkat awal.
 
-## Persamaan Schr&ouml;dinger Tak Bersandarkan Masa
+Adapun begitu, kaedah-kaedah lain untuk memerihalkan pergerakan bola tersebut tetap wujud. Kita boleh bermula dengan mengenalpasti jumlah tenaga yang dipendam dalam sistem. Kemudian, dengan andaian bahawa jumlah tenaga suatu sistem akan diabadikan, maka kita boleh ramalkan tenaga bola tersebut dalam detik-detik seterusnya. Misalnya, dalam kejadian jatuh bebas, kita tahu bahawa bola itu akan sentiasa menambah tenaga kinetik kerana itu sahajalah caranya untuk membuang semua tenaga upaya yang terpendam sambil mematuhi keabadian tenaga.
+
+Tenaga upaya mewakili keupayaan bola tersebut melakukan kerja. Dalam kes jatuh bebas yang disebutkan tadi, tenaga upaya mewakili keupayaan bola untuk bergerak dalam arah tertentu. Tenaga kinetik pula mewakili pergerakan bola tersebut. Maka, tidak hairanlah tenaga kinetik, $T$, boleh dikaitkan dengan halaju, $v$, yang merupakan satu kuantiti pergerakan,
+\begin{equation}
+T(v) = \frac{1}{2}mv^2,
+(\#eq:kinetik)
+\end{equation}
+dengan maksud bahawa $m$ ialah jisim bola. Namun begitu, wujud lagi satu kuantiti yang memerihalkan pergerakan, iaitu momentum, $p$, bola tersebut. Oleh itu, wujud juga perkaitan tenaga kinetik dengan momentum bola,
+\begin{equation}
+T(p) = \frac{p^2}{2m}.
+(\#eq:kinetik-momentum)
+\end{equation}
+
+Nilai yang mana satu perlu kita pilih? Adakah kita patut pilih halaju bola atau momentumnya? Ketika memerihalkan pergerakan bola, kita telah diberikan kebebasan memilih ingin bermula dengan daya-daya atau tenaga-tenaga. Begitulah juga dalam hal ini. Kita boleh pilih mahu kaitkan tenaga dengan halajunya atau momentumnya. Akan tetapi, pemilihan kita perlu mematuhi kaedah yang sewajarnya sepertimana kaedah penelitian daya perlu mematuhi kaedah Newton.
+
+Terdapat dua kaedah yang meneliti suatu sistem fizik melalui tenaga-tenaganya. Yang pertama ialah kaedah Lagrangian yang bermula dengan tenaga kinetik yang diperihalkan oleh halaju sistem. Yang kedua ialah kaedah Hamiltonian yang bermula dengan tenaga kinetik yang diperihalkan oleh momentum sistem. Setiap satu kaedah ada kelebihan masing-masing dan ada cara untuk berpindah dari kaedah Lagrangian kepada kaedah Hamiltonian dan sebaliknya, tetapi catatan ini tidak akan mengulas hal ini.
+
+Apa yang pembaca perlu tahu ialah persamaan Schr&ouml;dinger yang akan dimunculkan dalam bahagian seterusnya menggunakan kaedah Hamiltonian. Persamaan mendasar kaedah Hamiltonian ialah,
+\begin{equation}
+H = T(p) + V(x),
+(\#eq:Hamiltonian)
+\end{equation}
+yang digelar 'Hamiltonian' sistem yang dikaji. Nilai Hamiltonian ini boleh ditafsirkan sebagai jumlah tenaga sistem tersebut. Kita telah memunculkan persamaan untuk momentum dan tenaga gelombang dalam bahagian \@ref(sifat-gelombang). Dalam bab ini, kita akan menggunakan perkaitan tersebut untuk memunculkan momentum dan tenaga sistem kuantum. Kemudian, dapatlah kita peroleh persamaan Schr&ouml;dinger.
+
+## Nilai Pembolehcerap Sebagai Operator
+
+Suatu sistem kuantum mempunyai dua bahagian, iaitu bahagian yang boleh dicerap dan bahagian yang tidak boleh dicerap. Nilai-nilai seperti tenaga dan momentum mewakili bahagian sistem kuantum yang boleh dicerap. Oleh itu, tenaga dan momentum ini digolongkan sebagai pembolehcerap sistem kuantum.
+
+Bahagian yang tidak boleh dicerap dalam sistem kuantum ialah keadaan kuantum tersebut. Dalam kaedah Schr&ouml;dinger, keadaan kuantum ini diwakili oleh fungsi gelombang yang lazimnya diwakili dengan huruf Yunani $\Psi$. Natijahnya, kita tidak akan mampu cerap bentuk gelombang ini. Namun, kita boleh tahu sifat-sifat gelombang ini melalui pembolehcerap-pembolehcerap yang disebutkan sebelum ini. 
+
+Pembolehcerap ialah suatu kuantiti yang mengubah bentuk fungsi gelombang menjadi bentuk yang boleh dicerap oleh kita. Pembolehcerap ini tidak boleh berdiri sendiri tanpa dipasangkan dengan fungsi gelombang. Kerja pembolehcerap ialah mengubah bentuk fungsi gelombang, maka tidak ada maknalah kalau ia tidak dipasangkan bersama.
+
+Fungsi yang tiada makna melainkan dipasangkan dengan fungsi lain ialah suatu operator. Kita sudah bertemu dengan operator-operator ini dalam kalkulus. Misalnya, operator pembezaan $\frac{\text{d}}{\text{d}x}$ perlu dipasangkan dengan fungsi $f(x)$ agar boleh dikira nilai akhirnya. Begitulah juga dengan pembolehcerap mekanik kuantum. Dalam mekanik kuantum, semua pembolehcerap adalah operator dan lazimnya dipakaikan terendak, $\hat{\circ}$, dalam perwakilannya ($\hat p$ untuk momentum, $\hat E$ untuk tenaga, dan sebagainya).
+
+Hamiltonian juga adalah satu pembolehcerap, maka ia seharusnya dipasangkan dengan fungsi gelombang sistem kuantum, $\Psi$. Inilah tulang belakang persamaan Schr&ouml;dinger,
+\begin{equation}
+\hat H\Psi = \frac{\hat p^2}{2m}\Psi + \hat V\Psi.
+\end{equation}
+Hamiltonian juga mewakili jumlah tenaga sistem kuantum tersebut, maka persamaan ini juga benar,
+\begin{equation}
+\hat H \Psi = \hat E\Psi.
+\end{equation}
+Dua persamaan ini penting untuk memperoleh persamaan Schr&ouml;dinger.
+
+```{block2, type="istilah"}
+
+<span class="nama-istilah">Terendak</span>
+
+**Dari segi bahasa:**
+
+- Dalam bahasa Melayu, perkataan *terendak* merujuk kepada penutup kepala yang lebar membulat dan tajam di bahagian atas.
+
+**Dari segi istilah:**
+
+- Dalam catatan ini, istilah *terendak* digunakan untuk simbol tajam yang diletakkan atas pembolehcerap, seperti $\hat x$, bagi menyatakan bahawa ia adalah suatu operator. 
+
+```
+
+```{block2, type="infobox"}
+Dalam bahasa Inggeris, simbol $\hat{\circ}$ itu disebut *hat* tapi saya tidak jumpa penulis bahasa Melayu memberikan nama kepadanya, jadi saya berikan nama *terendak* kerana itulah topi yang paling menyerupai simbol ini.
+```
+
+## Memunculkan Operator untuk Momentum dan Tenaga
+Pertama sekali, perlu ditegaskan bahawa fungsi gelombang dalam persamaan Schr&ouml;dinger ialah fungsi eksponen kompleks $e^{i\phi}$. Simbol $\phi$ mendukung dua sifat gelombang iaitu kalaan $\omega$ dan vektor gelombang $k$. Oleh itu,
+\begin{equation}
+\Psi(x, t) = Ae^{i(kx-\omega t)},
+(\#eq:scr-01)
+\end{equation}
+dengan maksud bahawa $A$ ialah pemalar penormal. Jadi, sepanjang perjalanan kita memperoleh operator momentum dan tenaga, fungsi $\Psi$ yang digunakan ialah fungsi yang dinyatakan itu.
+
+### Operator Momentum
+Bagi memunculkan momentum dalam bentuk operator, kita akan pasangkannya dengan fungsi gelombang $\Psi$,
+\begin{equation}
+\hat p \Psi(x,t) = \hat p (Ae^{i(kx - \omega t)}).
+\end{equation}
+Disebabkan momentum gelombang dikaitkan dengan nilai $k$, kita perlukan satu operator yang boleh menurunkan nilai $k$ daripada sejenis kuasa menjadi sejenis pekali. Kita tahu bagaimana untuk lakukan hal itu menggunakan petua pembezaan fungsi eksponen (Petua \@ref(thm:fg-thm-03)). Maka, kita kenakan pembezaan $\frac{\partial}{\partial x}$ terhadap $\Psi$,
+\begin{equation}
+\frac{\partial}{\partial x}\Psi(x, t) = ik\Psi(x, t).
+(\#eq:scr-02)
+\end{equation}
+
+Daripada bab \@ref(sifat-gelombang), kita tahu bahawa momentum gelombang ialah $p=\hbar k$. Apabila kita samakan nilai $k$ dalam persamaan momentum ini dengan nilai $k$ dalam pers. \@ref(eq:scr-02), kita boleh munculkan nilai $\hat p$,
+\begin{align}
+p &= \hbar k,\\
+k &= -i\frac{\partial}{\partial x},\\
+\therefore \hat p &= -i\hbar \frac{\partial}{\partial x}.
+\end{align}
+Operator tenaga juga boleh diperoleh melalui kaedah yang sama.
+
+Memandangkan ungkapan Hamiltonian memerlukan sebutan momentum kuasa dua, kita perlu munculkan kuasa dua untuk momentum ini. Disebabkan $p^2=\hbar^2 k^2$, kita boleh lakukan pembezaan dua kali untuk munculkan persamaan untuk $k^2$,
+\begin{equation}
+\frac{\partial^2}{\partial^2 x}\Psi(x, t) = -k^2\Psi(x, t),
+\end{equation}
+maka,
+\begin{align}
+k^2 &= -\frac{\partial^2}{\partial^2 x},\\
+\therefore \hat p^2 &= -\hbar \frac{\partial^2}{\partial^2 x}
+\end{align}
+```{block2, type="infobox"}
+Untuk memunculkan ungkapan untuk operator, kita dibenarkan membahagi fungsi $\Psi$ dengan dirinya sendiri ($\frac{\Psi}{\Psi}$) seolah-olah ia adalah kaedah aljabar lazim. Akan tetapi, harus diingatkan bahawa ungkapan yang diperoleh ialah suatu operator, maka ia perlu dipasangkan dengan fungsi $\Psi$ sekiranya ingin mendapatkan nilai yang bermakna.
+```
+
+### Operator Tenaga
+Bagi memunculkan momentum dalam bentuk operator, kita akan pasangkannya dengan fungsi gelombang $\Psi$,
+\begin{equation}
+\hat E \Psi(x,t) = \hat E (Ae^{i(kx - \omega t)}).
+\end{equation}
+Disebabkan momentum gelombang dikaitkan dengan nilai $\omega$, kita akan turunkan nilai $\omega$ daripada sejenis kuasa menjadi sejenis pekali. Sama seperti yang dilakukan untuk operator momentum, kita akan gunakan pembezaan terhadap pembolehubah yang sewajarnya. Untuk tenaga, kita gunakan pembezaan $\frac{\partial}{\partial t}$ terhadap $\Psi$,
+\begin{equation}
+\frac{\partial}{\partial t}\Psi(x, t) = -i\omega\Psi(x, t).
+(\#eq:scr-03)
+\end{equation}
+
+Daripada bab \@ref(sifat-gelombang), kita tahu bahawa tenaga gelombang ialah $E=\hbar \omega$. Apabila kita samakan nilai $\omega$ dalam persamaan ini dengan nilai $\omega$ dalam pers. \@ref(eq:scr-03), kita boleh munculkan nilai $\hat E$,
+\begin{align}
+E &= \hbar \omega,\\
+\omega &= i\frac{\partial}{\partial t},\\
+\therefore \hat E &= i\hbar \frac{\partial}{\partial t}.
+\end{align}
+
+### Operator Hamiltonian
+Kita sudah peroleh operator bagi momentum dan bagi tenaga kinetik. Oleh itu, nak dapatkan operator Hamiltonian adalah semudah menggantikan kedua-dua operator tadi ke dalam persamaan Hamiltonian,
+$$\hat H = \frac{\hat p^2}{2m} + \hat V = \hat E.$$
+Maka,
+\begin{equation}
+\hat H = \frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x} + \hat V = i\hbar\frac{\partial}{\partial t}
+\end{equation}.
+Apabila dipasangkan pada fungsi gelombang, kita dapatlah persamaan Schr&ouml;dinger,
+\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = i\hbar\frac{\partial}{\partial t}\Psi.
+\end{equation}
+
+## Inilah Persamaan Schr&ouml;dinger
+Dengan ini, kita telah berjaya memunculkan persamaan Schr&ouml;dinger berdasarkan beberapa andaian mendasar. Persamaan Schr&ouml;dinger ada dua: yang pertama ialah **persamaan Schr&ouml;dinger bersandar masa** yang melibatkan pembezaan terhadap masa,
+\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = i\hbar\frac{\partial}{\partial t}\Psi,
+\end{equation}
+dan **persamaan Schr&ouml;dinger tak bersandar masa** yang tidak melibatkan pembezaan terhadap masa,
+\begin{equation}
+\frac{-\hbar}{2m}\frac{\partial^2}{\partial^2 x}\Psi + \hat V(x)\Psi = \hat H\Psi.
+\end{equation}
+
+Terdapat dua andaian yang mendasari persamaan Schr&ouml;dinger ini iaitu:
+
+1. Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga dan frekuensi yang digariskan oleh Planck, $E = hf = \hbar \omega$.
+
+2. Bahawa momentum sistem kuantum mematuhi hipotesis de Broglie yang mengaitkan momentum jisim dan momentum gelombang, $p = \hbar k$.
+
+Kedua-dua perhubungan yang disebutkan itupun boleh dimunculkan daripada fungsi gelombang $\Psi(x,t)$. Sistem-sistem kuantum mematuhi fungsi gelombang ini maka persamaan Schr&ouml;dinger adalah sah untuk sistem-sistem kuantum tersebut.
