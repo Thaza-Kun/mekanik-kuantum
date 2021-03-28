@@ -3,7 +3,7 @@
 ## Ringkasan Perjalanan
 - [x] Bab 1: Malapetaka Ultralembayung
 - [x] Bab 2: Pengenalan Fungsi Gelombang
-- [ ] Bab 3: Persamaan Schr&ouml;dinger
+- [ ] Bab 3: Persamaan Schr&ouml;dinger (separuh)
 - [ ] Bab 4
 - [ ] Bab 5
 - [ ] Bab 6
