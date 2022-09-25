@@ -7,6 +7,11 @@ repos:
         language: system
         always_run: true
         pass_filenames: false
+      - id: clean book
+        name: clean book
+        entry: jupyter-book clean ./mekanik-kuantum/ --all
+        language: system
+        pass_filenames: false
   # START 👇 Follows https://github.com/executablebooks/mdformat-myst
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: 38b88246ccc552bffaaf54259d064beeee434539 # frozen: v4.0.1
