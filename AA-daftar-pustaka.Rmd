@@ -1,4 +1,0 @@
----
-nocite: '@*'
----
-# Daftar Pustaka {-}

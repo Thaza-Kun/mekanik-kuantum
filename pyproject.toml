@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mekanik-kuantum"
+version = "0.1.0"
+description = ""
+authors = ["Thaza_Kun <61819672+Thaza-Kun@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter-book = "^0.13.1"
+matplotlib = ""
+numpy = "^1.23"
+ghp-import = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+mdformat_myst = ""
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
