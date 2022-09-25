@@ -8,6 +8,8 @@ Nota ini merupakan catatan penulis sepanjang belajar kursus Mekanik Kuantum di U
 
 If you'd like to develop and/or build the Mekanik Kuantum book, you should:
 
+<!-- TODO Find a way to make consecutive numbering works in mdformat -->
+
 1. Clone this repository
 1. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 1. (Optional) Edit the books source files located in the `mekanik-kuantum/` directory
