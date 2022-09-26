@@ -49,5 +49,5 @@ repos:
       - id: mdformat
         additional_dependencies:
           - mdformat-myst
-        files: "README.md"
+        files: .*\.md$
   # END 👆 Follow https://github.com/executablebooks/mdformat-myst
