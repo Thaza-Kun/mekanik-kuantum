@@ -1,0 +1,1 @@
+# Fungsi Gelombang $\Psi(x)$

@@ -9,7 +9,7 @@ repos:
       #   pass_filenames: false
       - id: clean book
         name: clean book
-        entry: jupyter-book clean ./mekanik-kuantum/ --all
+        entry: jupyter-book clean ./book/ --all
         language: system
         pass_filenames: false
   # START 👇 Follows https://github.com/executablebooks/mdformat-myst
