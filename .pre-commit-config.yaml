@@ -1,12 +1,12 @@
 repos:
   - repo: local
     hooks:
-      - id: create requirements
-        name: create requirements
-        entry: poetry export -o requirements.txt --without-hashes
-        language: system
-        always_run: true
-        pass_filenames: false
+      # - id: create requirements
+      #   name: create requirements
+      #   entry: poetry export -o requirements.txt --without-hashes
+      #   language: system
+      #   always_run: true
+      #   pass_filenames: false
       - id: clean book
         name: clean book
         entry: jupyter-book clean ./mekanik-kuantum/ --all
