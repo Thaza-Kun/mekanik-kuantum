@@ -22,11 +22,21 @@ parts:
           - file: eksperimen/serakan-Compton
   - caption: Persamaan Schrödinger
     chapters:
+      - file: gelombang
+        sections:
+          - file: gelombang/nombor-kompleks
+          - file: gelombang/bulatan-unit
+          - file: gelombang/sifat-gelombang
+          - file: gelombang/kalkulus
+          - file: gelombang/fungsi-yang-diterima
       - file: schroedinger
         sections:
           - file: schroedinger/andaian
           - file: schroedinger/fungsi-gelombang
           - file: schroedinger/operator
+          - file: schroedinger/hamiltonan
+          - file: schroedinger/nilai-jangkaan
+          - file: schroedinger/arus-kebarangkalian
   - caption: Penyelesaian Persamaan Schrödinger
     chapters:
       - file: penyelesaian
