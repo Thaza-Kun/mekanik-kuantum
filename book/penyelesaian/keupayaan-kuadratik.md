@@ -1,0 +1,1 @@
+# Keupayaan Kuadratik

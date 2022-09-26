@@ -1,0 +1,1 @@
+# Hukum Stefan--Boltzmann
