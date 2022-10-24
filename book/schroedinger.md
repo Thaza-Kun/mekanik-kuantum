@@ -22,7 +22,7 @@ $$
 | $x$ | kedudukan | pembolehubah tidak bersandar |
 | $t$ | masa | pembolehubah tidak bersandar |
 | $V(x, t)$ | keupayaan | fungsi bersandar $x$ dan $t$ |
-| $\Psi(x, t)$ | fungsi gelombang | fungsi bersandar $x$ dan $t$ |
+| $\Psi(x, t)$ | fungsi gerlombang | fungsi bersandar $x$ dan $t$ |
 
 :::
 ::::
