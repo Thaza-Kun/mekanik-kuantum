@@ -1,1 +1,0 @@
-# Hukum Sesaran Wien

@@ -1,0 +1,10 @@
+# Hukum Sesaran Wien
+
+:::{#def-sesaran-wien}
+<!-- TODO Hukum Sesaran Wien -->
+:::
+
+## Kaitannya Dengan Hukum Planck
+
+:::{.proof}
+:::

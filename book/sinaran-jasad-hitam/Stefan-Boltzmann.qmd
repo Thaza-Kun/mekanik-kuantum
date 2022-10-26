@@ -1,0 +1,10 @@
+# Hukum Stefan--Boltzmann
+
+:::{#def-stefan-boltzmann}
+<!-- TODO Hukum Stefan Boltzmann -->
+:::
+
+## Kaitannya Dengan Hukum Planck
+
+:::{.proof}
+:::

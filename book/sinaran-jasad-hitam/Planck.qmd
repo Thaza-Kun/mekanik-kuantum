@@ -1,16 +1,17 @@
 # Hukum Planck
 
-```{prf:definition} Hukum Planck
----
-label: hukum-planck
----
+:::::{.callout-note appearance="simple" icon=false}
+##
+::::{#def-planck}
+## Hukum Planck
 Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
 
 $$
 U(\lambda, T)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}
 $$
 
-:::{dropdown} dengan maksud bahawa...
+:::{.callout-tip collapse=true} 
+## dengan maksud bahawa...
 
 | simbol | maksud | nilai |
 | :---: | :--- | :--- |
@@ -22,4 +23,21 @@ $$
 | $k_B$ | pemalar Boltzmann | $1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}$| 
 
 :::
-```
+::::
+:::::
+
+<!-- TODO Report this behaviour 👇 -->
+<!-- ::::{#def-planck .callout-note appearance="simple" icon=false} -->
+
+## Postulat Planck Tentang Sekuantum Cahaya
+
+<!-- Senarai postulat di sini -->
+
+:::{.callout-important}
+These postulates are counter intuitive to the wave model of light
+:::
+
+## Pemerolehan Hukum Planck
+
+:::{.proof}
+:::

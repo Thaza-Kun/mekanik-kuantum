@@ -1,0 +1,18 @@
+# Hukum Rayleigh--Jeans
+
+<!-- TODO Hukum Rayleigh-Jeans -->
+
+## Pemerolehan Hukum Rayleigh--Jeans
+
+:::{.proof}
+:::
+
+:::{.callout-important}
+## Malapetaka Ultralembayung!
+<!-- TODO -->
+:::
+
+## Kaitannya dengan Hukum Planck
+
+:::{.proof}
+:::

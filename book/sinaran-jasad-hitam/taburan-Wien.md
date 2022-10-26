@@ -1,1 +1,0 @@
-# Hukum Taburan Wien
