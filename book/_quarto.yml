@@ -1,0 +1,72 @@
+project:
+  type: book
+  preview: 
+      port: 6969
+book:
+  title: "✨ Mekanik Kuantum 🐈"
+  author: "Murthadza bin Aznam"
+  date: now
+  language: ms-MY
+  search: true
+  reader-mode: true
+  repo-url: https://github.com/thaza-kun/mekanik-kuantum
+  repo-actions: ['source']
+  sharing: ['twitter', 'facebook']
+  chapters:
+    - index.qmd
+    - part: sinaran-jasad-hitam.qmd
+      chapters:
+        - sinaran-jasad-hitam/sejarah.md
+        - sinaran-jasad-hitam/Planck.md
+        - sinaran-jasad-hitam/taburan-Wien.md
+        - sinaran-jasad-hitam/Rayleigh-Jeans.md
+        - sinaran-jasad-hitam/sesaran-Wien.md
+        - sinaran-jasad-hitam/Stefan-Boltzmann.md
+        - sinaran-jasad-hitam/selingan.md
+    - part: eksperimen
+      chapters: 
+        - eksperimen/kesan-fotoelektrik.md
+        - eksperimen/postulat-de-broglie.md
+        - eksperimen/Davisson-Germer.md
+        - eksperimen/Davisson-Thompson.md
+        - eksperimen/serakan-Compton.md
+    - part: gelombang
+      chapters:
+        - gelombang/nombor-kompleks.md
+        - gelombang/bulatan-unit.md
+        - gelombang/sifat-gelombang.md
+        - gelombang/kalkulus.md
+        - gelombang/fungsi-yang-diterima.md
+    - part: schroedinger
+      chapters:
+        - schroedinger/andaian.md
+        - schroedinger/fungsi-gelombang.md
+        - schroedinger/operator.md
+        - schroedinger/hamiltonan.md
+        - schroedinger/nilai-jangkaan.md
+        - schroedinger/arus-kebarangkalian.md
+    - part: penyelesaian
+      chapters:
+        - penyelesaian/zarah-bebas.md
+        - penyelesaian/keupayaan-tangga.md
+        - penyelesaian/sawar-keupayaan-tentu.md
+        - penyelesaian/perigi-keupayaan-tentu.md
+        - penyelesaian/perigi-keupayaan-infiniti.md
+        - penyelesaian/keupayaan-kuadratik.md
+        - penyelesaian/degenerat.md
+    - part: hidrogen
+      chapters:
+        - hidrogen/atom-Bohr.md
+        - hidrogen/momentum-sudutan.md
+        - hidrogen/fungsi-gelombang.md
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

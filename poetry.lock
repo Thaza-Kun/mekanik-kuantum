@@ -458,6 +458,26 @@ docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinxcontrib-github-al
 test = ["flaky", "ipyparallel", "pre-commit", "pytest-cov", "pytest-timeout", "pytest (>=7.0)"]
 
 [[package]]
+name = "ipympl"
+version = "0.9.2"
+description = "Matplotlib Jupyter Extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+ipython = "<9"
+ipython-genutils = "*"
+ipywidgets = ">=7.6.0,<9"
+matplotlib = ">=3.4.0,<4"
+numpy = "*"
+pillow = "*"
+traitlets = "<6"
+
+[package.extras]
+docs = ["myst-nb", "Sphinx (>=1.5)", "sphinx-copybutton", "sphinx-thebe", "sphinx-togglebutton", "sphinx-book-theme"]
+
+[[package]]
 name = "ipython"
 version = "8.5.0"
 description = "IPython: Productive Interactive Computing"
@@ -809,7 +829,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "matplotlib"
-version = "3.6.1"
+version = "3.6.0"
 description = "Python plotting package"
 category = "main"
 optional = false
@@ -1179,6 +1199,25 @@ python-versions = ">=3.6"
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
+name = "pandas"
+version = "1.5.1"
+description = "Powerful data structures for data analysis, time series, and statistics"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+numpy = [
+    {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
+    {version = ">=1.20.3", markers = "python_version < \"3.10\""},
+]
+python-dateutil = ">=2.8.1"
+pytz = ">=2020.1"
+
+[package.extras]
+test = ["pytest-xdist (>=1.31)", "pytest (>=6.0)", "hypothesis (>=5.5.3)"]
+
+[[package]]
 name = "pandocfilters"
 version = "1.5.0"
 description = "Utilities for writing pandoc filters in python"
@@ -1498,6 +1537,24 @@ description = "C version of reader, parser and emitter for ruamel.yaml derived f
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[[package]]
+name = "seaborn"
+version = "0.12.1"
+description = "Statistical data visualization"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+matplotlib = ">=3.1,<3.6.1 || >3.6.1"
+numpy = ">=1.17"
+pandas = ">=0.25"
+
+[package.extras]
+dev = ["pytest", "pytest-cov", "pytest-xdist", "flake8", "mypy", "pandas-stubs", "pre-commit"]
+docs = ["numpydoc", "nbconvert", "ipykernel", "sphinx-copybutton", "sphinx-issues", "sphinx-design", "pyyaml", "pydata_sphinx_theme (==0.10.0rc2)"]
+stats = ["scipy (>=1.3)", "statsmodels (>=0.10)"]
 
 [[package]]
 name = "send2trash"
@@ -2077,7 +2134,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bdf77068cbb47e92f3a1db57d5b8c54e8ecc6936d333f5dae772fc2478866c1e"
+content-hash = "5d718d8e6cb1332267c6fa7e3abd7c38db103b4c85574d5a2029cfd8e3d5ae7c"
 
 [metadata.files]
 alabaster = [
@@ -2140,6 +2197,7 @@ imagesize = [
 importlib-metadata = []
 importlib-resources = []
 ipykernel = []
+ipympl = []
 ipython = []
 ipython-genutils = []
 ipywidgets = [
@@ -2313,6 +2371,7 @@ notebook = []
 notebook-shim = []
 numpy = []
 packaging = []
+pandas = []
 pandocfilters = []
 parso = []
 pexpect = []
@@ -2354,6 +2413,7 @@ requests = []
     {file = "ruamel.yaml-0.17.21.tar.gz", hash = "sha256:8b7ce697a2f212752a35c1ac414471dc16c424c9573be4926b56ff3f5d23b7af"},
 ]
 "ruamel.yaml.clib" = []
+seaborn = []
 send2trash = []
 setuptools-scm = []
 six = []

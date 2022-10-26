@@ -6,3 +6,7 @@ _build
 
 # ignore environment files
 .venv
+
+*/.quarto/
+*/_book/
+*/_freeze/

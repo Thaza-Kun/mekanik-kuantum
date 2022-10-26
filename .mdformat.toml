@@ -1,3 +1,0 @@
-wrap = "keep"           # possible values: {"keep", "no", INTEGER}
-number = true           # possible values: {false, true}
-end_of_line = "keep"    # possible values: {"lf", "crlf", "keep"}
