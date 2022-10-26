@@ -8,10 +8,12 @@ parts:
     chapters:
       - file: sinaran-jasad-hitam
         sections:
+          - file: sinaran-jasad-hitam/sejarah
           - file: sinaran-jasad-hitam/Planck
-          - file: sinaran-jasad-hitam/Stefan-Boltzmann
-          - file: sinaran-jasad-hitam/Wien
+          - file: sinaran-jasad-hitam/taburan-Wien
           - file: sinaran-jasad-hitam/Rayleigh-Jeans
+          - file: sinaran-jasad-hitam/sesaran-Wien
+          - file: sinaran-jasad-hitam/Stefan-Boltzmann
           - file: sinaran-jasad-hitam/selingan
       - file: eksperimen
         sections:

@@ -1,1 +1,1 @@
-# Hukum Rayleigh—Jeans
+# Hukum Rayleigh--Jeans

@@ -1,1 +1,1 @@
-# Heading: gelombang.md
+# Sekilas Pandang Sifat Gelombang
