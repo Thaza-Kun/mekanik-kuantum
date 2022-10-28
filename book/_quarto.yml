@@ -31,7 +31,7 @@ book:
         - sinaran-jasad-hitam/selingan.qmd
     - part: eksperimen
       chapters: 
-        - eksperimen/kesan-fotoelektrik.md
+        - eksperimen/kesan-fotoelektrik.qmd
         - eksperimen/postulat-de-broglie.md
         - eksperimen/Davisson-Germer.md
         - eksperimen/Davisson-Thompson.md

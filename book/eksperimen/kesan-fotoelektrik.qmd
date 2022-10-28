@@ -1,0 +1,40 @@
+# Kesan Fotoelektrik
+
+Antara yang terawal menyahut [postulat kuantum Planck](../sinaran-jasad-hitam/Planck.qmd#postulat-planck-tentang-sekuantum-cahaya) ialah Albert Einstein pada tahun 1905 dalam makalahnya bertajuk _Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt_^[maksud: Tentang Penghasilan dan Penukaran Cahaya Dari Sudut Pandang Heuristik] yang diterbitkan dalam jurnal masyhur 'Annalen der Physik'.
+
+Kesan fotoelektrik ialah kejadian elektron yang diterujakan apabila disinari cahaya sehingga bebas dari ikatan atomnya.
+Tenaga yang diterima oleh elektron berkadaran dengan frekuensi cahaya.
+Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam [postulat kuantum Planck](../sinaran-jasad-hitam/Planck.qmd#postulat-planck-tentang-sekuantum-cahaya).
+
+:::::{.callout-note appearance="simple" icon=false}
+##
+::::{#def-fotoelektrik}
+## Kesan Fotoelektrik
+
+Tenaga, $E$, yang diterima elektron dari cahaya berfrekuensi $f$ setelah membebaskan diri dari permukaan logam berfungsi kerja $\Phi$ ialah
+$$
+    E = hf - \Phi
+$$
+
+:::{.callout-tip collapse=true} 
+## dengan maksud bahawa...
+
+| simbol | maksud | nilai |
+| :---: | :--- | :--- |
+| E | tenaga kinetik yang diterima elektron | pembolehubah bersandar $f$ dan $\Phi$ |
+| $h$ | pemalar Planck | $6.62607015\times 10^{-34}\text{J}\cdot\text{s}$ |
+| $f$ | frekuensi cahaya | pembolehubah tidak bersandar |
+| $\Phi$ | fungsi kerja logam | pembolehubah tidak bersandar |
+
+:::
+
+::::
+:::::
+
+## Sejarah Kesan Fotoelektrik
+
+Kesan ini mula diperhatikan oleh Phillip Lenard pada tahun 1902 dalam makalahnya, [_Über die lichtelektrische Wirkung_](https://onlinelibrary.wiley.com/doi/10.1002/andp.19023130510)^[maksud: Tentang Kesan Fotoelektrik].
+
+### Kehairanan Tenaga Cahaya
+
+### Peranan Postulat Planck
