@@ -8,7 +8,7 @@ Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam [postulat k
 
 :::::{.callout-note appearance="simple" icon=false}
 ##
-::::{#def-fotoelektrik}
+::::{#thm-fotoelektrik}
 ## Kesan Fotoelektrik
 
 Tenaga, $E$, yang diterima elektron dari cahaya berfrekuensi $f$ setelah membebaskan diri dari permukaan logam berfungsi kerja $\Phi$ ialah

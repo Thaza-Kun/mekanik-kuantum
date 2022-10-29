@@ -1,5 +1,1 @@
 # Ujikaji Kuantum
-
-```{tableofcontents}
-
-```

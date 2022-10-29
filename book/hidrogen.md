@@ -1,5 +1,1 @@
 # Atom Hidrogen
-
-```{tableofcontents}
-
-```

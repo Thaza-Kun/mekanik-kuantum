@@ -3,7 +3,7 @@
 <!-- TODO Hukum Sesaran Wien -->
 :::::{.callout-note appearance="minimal"}
 ##
-::::{#def-sesaran-wien}
+::::{#thm-sesaran-wien}
 ## Hukum Sesaran Wien
 Panjang gelombang puncak sinaran jasad hitam, $\lambda_p$, adalah berkadaran songsang dengan suhu bintang tersebut, $T$:
 $$
@@ -26,6 +26,7 @@ $$
 ```{python}
 #| echo: false
 #| fig-align: center
+#| freeze: true
  
 import numpy as np
 import matplotlib.pyplot as plt
@@ -53,7 +54,8 @@ y_wien: np.ndarray = Planck(sesaran, temperatures)
 
 plt.plot(sesaran, y_wien, label='puncak lengkung', linestyle='dotted')
 def plot_planck(temperature: int):
-    plt.plot(wavelength, Planck(wavelength, temperature), label=f'suhu = {temperature} K')
+    planck = Planck(wavelength, temperature)
+    plt.plot(wavelength, planck, label=f'suhu = {temperature} K')
 
 for temp in [temperature, temperature + _step, temperature + _step*2, temperature + _step*3, temperature + _step*4][::-1]:
     plot_planck(temp)

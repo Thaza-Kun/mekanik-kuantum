@@ -1,5 +1,1 @@
 # Penyelesaian Persamaan Schrödinger
-
-```{tableofcontents}
-
-```

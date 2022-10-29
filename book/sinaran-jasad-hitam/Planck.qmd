@@ -1,8 +1,8 @@
 # Hukum Planck
 
-:::::{.callout-note appearance="simple" icon=false}
+:::::{.callout-note appearance="minimal"}
 ##
-::::{#def-planck}
+::::{#thm-planck}
 ## Hukum Planck
 Ketumpatan tenaga cahaya, $U$, adalah berkadaran songsang terhadap panjang gelombang kuasa 5, $\lambda^5$, dan berkadaran songsang terhadap eksponen $\lambda T$ tolak satu, $\text{exp}\Big\{\frac{1}{\lambda T}\Big\} - 1$,
 
@@ -27,7 +27,7 @@ $$
 :::::
 
 <!-- TODO Report this behaviour 👇 -->
-<!-- ::::{#def-planck .callout-note appearance="simple" icon=false} -->
+<!-- ::::{#thm-planck .callout-note appearance="simple" icon=false} -->
 
 ## Postulat Planck Tentang Sekuantum Cahaya
 

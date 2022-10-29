@@ -1,7 +1,7 @@
 # Hukum Stefan--Boltzmann
 
 <!-- TODO Hukum Stefan Boltzmann -->
-:::{#def-stefan-boltzmann}
+:::{#thm-stefan-boltzmann}
 :::
 
 ## Kaitannya Dengan Hukum Planck
