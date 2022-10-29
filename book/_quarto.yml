@@ -4,8 +4,10 @@ project:
       port: 6969
 
 crossref: 
-  def-title: Hukum
-  def-prefix: hukum
+  def-title: Takrif
+  def-prefix: takrif
+  thm-title: Hukum
+  thm-prefix: hukum
 
 
 book:
@@ -29,6 +31,7 @@ book:
         - sinaran-jasad-hitam/sesaran-Wien.qmd
         - sinaran-jasad-hitam/Stefan-Boltzmann.qmd
         - sinaran-jasad-hitam/selingan.qmd
+        - sinaran-jasad-hitam/pemalar-Planck.qmd
     - part: eksperimen
       chapters: 
         - eksperimen/kesan-fotoelektrik.qmd
@@ -66,7 +69,7 @@ book:
         - hidrogen/momentum-sudutan.md
         - hidrogen/fungsi-gelombang.md
 
-# bibliography: references.bib
+bibliography: references.bib
 
 format:
   html:
