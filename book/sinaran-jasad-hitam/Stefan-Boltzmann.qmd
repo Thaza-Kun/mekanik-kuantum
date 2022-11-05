@@ -79,25 +79,23 @@ Dipetik dari [@spiegel2009]: contoh 21.20.
 :::
 
 Maka, kita akan peroleh,
-$$
-\begin{align}
+[
+    \begin{align}
     E &= \frac{8\pi k_B^4T^4}{h^3c^3}(3!)\left(\frac{\pi^4}{90}\right) \nonumber\\
         & = \frac{8\pi^5 k_B^4T^4}{15h^3c^3}.
-\end{align}
-$${#eq-proof-stefan-boltzmann-06}
+    \end{align}
+]{#eq-proof-stefan-boltzmann-06}
 
 Dengan membandingkan [@eq-proof-stefan-boltzmann-06] dengan hukum Stefan--Boltzmann, maka kita akan menerka perhubungan ini:
 $$
     \sigma T^4 \stackrel{?}{=} \frac{8\pi^5 k_B^4}{15h^3c^3}T^4,
 $$
 tetapi terkaan ini tidak benar kerana jika kita kira setiap satu pemalar tersebut, kita akan dapati nilainya tidak sama dengan pemalar Stefan--Boltzmann, $\sigma$,
-$$
 \begin{align*}
   \frac{8\pi^5 k_B^4}{15h^3c^3} &= 7.5657\times 10^{-16}\,\text{J}\cdot\text{m}^{-3}\cdot\text{K}^{-4},\\
   \sigma &= 5.6704\times 10^{-8}\,\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4},\\
   \frac{8\pi^5 k_B^4}{15h^3c^3} &\neq \sigma.
 \end{align*}
-$$
 
 Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada **ketumpatan tenaga cahaya** berfrekuensi tertentu (Rujuk bahagian ['Bentuk-Bentuk Lain Persamaan Planck'](./selingan.qmd#bentuk-bentuk-lain-persamaan-planck) untuk keterangan lanjut). 
 Oleh itu, kamirannya, iaitu $\int U \text{d}\lambda$, masih merujuk kepada ketumpatan tenaga cahaya tetapi dijumlahkan untuk semua frekuensi. 
