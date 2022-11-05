@@ -151,7 +151,7 @@
     "href": "schroedinger/andaian.html",
     "title": "10  Andaian-Andaian Persamaan Schrödinger",
     "section": "",
-    "text": "Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga, \\(E\\), dan frekuensi, \\(f\\) seperti yang digariskan oleh postulat Planck, \\(E=hf=\\hbar\\omega\\); % TODO Hubungkait Planck\nBahawa momentum sistem kuantum mematuhi perhubungan momentum jisim, \\(p\\), dan momentum gelombang, \\(k\\), seperti yang digariskan oleh hipotesis deBroglie, \\(p=hk\\); % TODO De Broglie\nBahawa sistem kuantum mematuhi prinsip keabadian tenaga;\nBahawa fungsi gelombang \\(\\Psi(r,t)\\) bersifat linear; dan % TODO terangkan kelinearan\nBahawa fungsi keupayaan \\(V(r,t)\\) bersandarkan ruang dan masa."
+    "text": "Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga, \\(E\\), dan frekuensi, \\(f\\) seperti yang digariskan oleh postulat Planck, \\(E=hf=\\hbar\\omega\\); \nBahawa momentum sistem kuantum mematuhi perhubungan momentum jisim, \\(p\\), dan momentum gelombang, \\(k\\), seperti yang digariskan oleh hipotesis deBroglie, \\(p=hk\\); \nBahawa sistem kuantum mematuhi prinsip keabadian tenaga;\nBahawa fungsi gelombang \\(\\Psi(r,t)\\) bersifat linear; dan \nBahawa fungsi keupayaan \\(V(r,t)\\) bersandarkan ruang dan masa."
   },
   {
     "objectID": "schroedinger/fungsi-gelombang.html",
