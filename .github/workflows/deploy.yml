@@ -22,8 +22,6 @@ jobs:
         with:
           python-version: "3.8"
           cache: "pip"
-      - run: pip install poetry
-      - run: poetry export -o requirements.txt --without-hashes --with dev
       - run: pip install -r requirements.txt
 
       - name: Render and Publish
