@@ -11,5 +11,6 @@ _build
 */.quarto/
 */_book/
 */_freeze/
+*_files/
 
 .vscode

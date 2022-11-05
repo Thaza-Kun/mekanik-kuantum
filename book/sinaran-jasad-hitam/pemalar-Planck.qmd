@@ -24,6 +24,9 @@ $$
 $$
 :::
 
+Pemalar $\hbar$ ini juga dipanggil 'pemalar Dirac' kerana digunakan dalam kaedah pengkuantuman berkanun Dirac. 
+
+<!-- 
 ## Penentuan Nilai
 
 Usaha pertama menentukan nilai $h$ boleh disurih ke makalah Robert A. Milikan pada tahun 1916, "_A Direct Photoelectric Determination of
@@ -35,4 +38,4 @@ Kalau dibandingkan dengan takrifan moden, nilai tersebut tersasar sekitar 0.85%.
 ![](millikan-1916-fotoelektrik.png)
 
 Salah satu daripada banyak graf yang dilukis Millikan dalam makalahnya [@Millikan1916]. Robert Millikan merupakan seorang fizikawan ujikaji yang disegani sejarah. Ada baiknya kita meneladani ketelitian beliau!
-:::
+::: -->

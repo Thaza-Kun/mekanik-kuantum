@@ -1,18 +1,83 @@
 # Hukum Rayleigh--Jeans
 
-<!-- TODO Hukum Rayleigh-Jeans -->
+:::::{.callout-note appearance="minimal"}
+##
+::::{#thm-rayleigh-jeans}
+## Hukum Rayleigh--Jeans
+Ketumpatan tenaga cahaya, $U$, adalah berkadaran terus dengan suhu bintang $T$ dan berkadaran songsang dengan panjang gelombang cahaya kuasa empat, $\lambda^4$,
+$$
+    U\left(\lambda,T\right) = 8\pi\frac{k_BT}{\lambda^4},
+$$
 
-## Pemerolehan Hukum Rayleigh--Jeans
-
-:::{.proof}
+:::{.callout-tip collapse="true"}
+## dengan maksud bahawa...
+| simbol | maksud | nilai |
+| :---: | :--- | :--- |
+| $U\left(\lambda,T\right)$ | ketumpatan tenaga cahaya | pembolehubah bersandar $\lambda$ dan $T$ |
+| $k_B$ | pemalar Boltzmann | $1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}$|
+| $\lambda$ | panjang gelombang cahaya | pembolehubah tak bersandar |
+| $T$ | suhu bintang | pembolehubah tak bersandar |
 :::
+::::
+:::::
+
+```{python}
+#| echo: false
+#| fig-align: center
+
+from scripts.blackbody import RayleighJeans
+from scripts.graphing import blackbody_by_wavelength
+
+blackbody_by_wavelength(models=[(RayleighJeans, None)], title='Lengkung sinaran jasad hitam berdasarkan model Rayleigh-Jeans', mock_data='data contoh')
+```
 
 :::{.callout-important}
 ## Malapetaka Ultralembayung!
-<!-- TODO -->
+Hasil daripada persamaan Rayleigh–Jeans ialah suatu graf yang menghampiri sifar untuk panjang gelombang yang panjang, tetapi akan menghampiri infiniti untuk panjang gelombang pendek.
+Hakikat ini nyata bagi yang celik Matematik kerana persamaan Rayleigh–Jeans ialah suatu fungsi salingan, $\frac{1}{x}$, berkuasa 4.
+
+Maknanya, menurut persamaan ini, bintang akan memancarkan cahaya berpanjang gelombang pendek dengan tenaga yang tidak terhingga!
+Perkara ini adalah mustahil kerana ia melanggar hukum keabadian tenaga seolah-olah jisim yang terbatas boleh menghasilkan tenaga yang tidak terbatas.
+
+Kejadian ini lazimnya diberi nama "Malapetaka Ultralembayung" kerana sifat gelombang ultralembayung yang pendek panjang gelombangnya.
+Walaupun tiada malapetaka sebenar yang meragut mana-mana nyawa, nama itu sedap disebut dan selari dengan naluri manusia yang sukakan cerita menarik maka ia melekat dalam lidah para fizikawan.
 :::
 
 ## Kaitannya dengan Hukum Planck
 
-:::{.proof}
+::::::{.proof}
+Hukum Rayleigh--Jeans boleh menerangkan lengkung jasad hitam pada panjang gelombang panjang. 
+Oleh itu, kita boleh peroleh hukum Rayleigh--Jeans jika diletakkan syarat panjang gelombang mesti panjang.
+
+:::{.callout-tip}
+## Usul
+Hukum Rayleigh--Jeans boleh diperoleh jika dihadkan panjang gelombang, $\lambda$ menghampiri infiniti dalam [hukum Planck](./Planck.qmd#hukum-planck),
+$$
+    U_{\text{RJ}} = \lim_{\lambda\to\infty}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1},
+$${#eq-proof-rayleigh-jeans-01}
 :::
+
+Kemudian, apabila melihat pada eksponennya, kita dapati $\frac{hc}{\lambda k_BT}$ menghampiri sifar kerana $\lambda$ menghampiri infiniti.
+
+:::{#lem-e-to-0 .column-margin}
+## Penghampiran Eksponen ke Arah 0
+$$
+    \lim_{x\to 0} e^x \approx x + 1.
+$$
+:::
+
+Bila [@lem-lem-e-to-0] digunakan terhadap [@eq-proof-eq-proof-rayleigh-jeans-01], kita dapati bahawa hanya sebutan $\frac{hc}{\lambda k_BT}$ sahaja yang tinggal,
+$$
+    \lim_{\lambda\to\infty} e^{\frac{hc}{\lambda k_BT}}-1 \approx \frac{hc}{\lambda k_BT}+1 -1=\frac{hc}{\lambda k_BT}.
+$${#eq-proof-rayleigh-jeans-02}
+
+Kita peroleh persamaan ini,
+$$
+    U_{\text{RJ}} = \frac{8\pi hc}{\lambda^5}\frac{1}{\frac{hc}{\lambda k_BT}},
+$$
+yang setara dengan,
+$$
+    U_{\text{RJ}} = \frac{8\pi}{\lambda^4}{k_BT},
+$$
+iaitu persamaan Rayleigh--Jeans yang ingin kita perolehi.  
+::::::

@@ -31,10 +31,10 @@ $$
 ::::
 :::::
 
-## Sejarah Kesan Fotoelektrik
+<!-- ## Sejarah Kesan Fotoelektrik
 
 Kesan ini mula diperhatikan oleh Phillip Lenard pada tahun 1902 dalam makalahnya, [_Über die lichtelektrische Wirkung_](https://onlinelibrary.wiley.com/doi/10.1002/andp.19023130510)^[maksud: Tentang Kesan Fotoelektrik].
 
 ### Kehairanan Tenaga Cahaya
 
-### Peranan Postulat Planck
+### Peranan Postulat Planck -->

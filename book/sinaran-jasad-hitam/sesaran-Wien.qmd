@@ -1,6 +1,5 @@
 # Hukum Sesaran Wien
 
-<!-- TODO Hukum Sesaran Wien -->
 :::::{.callout-note appearance="minimal"}
 ##
 ::::{#thm-sesaran-wien}
@@ -72,5 +71,78 @@ plt.show()
 
 ## Kaitannya Dengan Hukum Planck
 
-:::{.proof}
+:::::{.proof}
+Hukum sesaran Wien menerangkan kedudukan puncak lengkung jasad hitam. 
+Puncak lengkung boleh diperoleh daripada pembezaan persamaan Planck. 
+Puncaknya ialah titik yang menghasilkan pembezaan sifar.
+
+:::{.callout-tip}
+## Usul
+Puncak lengkung boleh diperoleh dengan membezakan [pers. Planck](./Planck.qmd#hukum-planck) terhadap panjang gelombang, $\lambda$, kemudian menyamakannya dengan sifar,
+$$
+    \frac{\text{d}U}{\text{d}\lambda} = \frac{\text{d}}{\text{d}\lambda}\left(\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}\right) = 0.
+$${#eq-proof-wien-01}
 :::
+
+
+:::{#lem-pembezaan-hasil-darab .column-margin}
+## Pembezaan Hasil Darab
+$$
+    \frac{\text{d}}{\text{d}x}(u\cdot v) = \frac{\text{d}u}{\text{d}x}\cdot v + u\cdot\frac{\text{d}v}{\text{d}x}
+$$
+:::
+
+Persamaan Planck boleh dipecahkan menjadi hasil darab dua fungsi,
+$$
+    u = \frac{8\pi hc}{\lambda^5},\; v = \frac{1}{e^{\frac{hc}{\lambda k_BT}}-1},
+$${#eq-proof-wien-02}
+lalu petua pembezaan hasil darab ([@lem-pembezaan-hasil-darab]) boleh diguna pakai,
+$$
+    \frac{\text{d}U}{\text{d}\lambda} 
+        = 8\pi hc\left(\frac{-5}{\lambda^6}\cdot\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1} 
+            + \frac{1}{\lambda^5}\cdot\frac{hce^{\frac{hc}{\lambda k_BT}}}{\lambda^2 k_BT\left(e^{\frac{hc}{\lambda k_BT}}-1\right)^2}\right) 
+        = 0.
+$${#eq-proof-wien-03}
+
+Dengan memfaktorkan pekali-pekali sepunya, kita akan peroleh,
+$$
+    \frac{8\pi hc}{\lambda^6\left(e^{\frac{hc}{\lambda k_BT}}-1\right)}
+        \left(-5+\frac{hce^{\frac{hc}{\lambda k_BT}}}{\lambda k_BT\left(e^{\frac{hc}{\lambda k_BT}}-1\right)}\right) 
+        = 0.
+$${#eq-proof-wien-04}
+
+Disebabkan [@eq-proof-wien-04] bersamaan dengan sifar, maka sebutan-sebutan di luar kurungan tersebut boleh diabaikan. 
+Kini, tumpuan kita berada di dalam kurungan tersebut,
+$$
+    -5 + \frac{hce^{\frac{hc}{\lambda k_BT}}}{\lambda k_BT\left(e^{\frac{hc}{\lambda k_BT}}-1\right)}
+        = 0.
+$${#eq-proof-wien-05}
+Persamaan ini boleh diringkaskan dengan memperkenalkan satu pembolehubah $X$.
+
+:::{.callout-tip}
+## Usul
+Kita takrifkan $X$ sebagai,
+$$
+    X = \frac{hc}{\lambda k_BT}.
+$${#eq-proof-wien-06}
+:::
+
+
+Maka, [@eq-proof-wien-05] kini menjadi,
+$$
+    X\frac{e^X}{e^X-1} = 5.
+$${#eq-proof-wien-07}
+
+[Pers. @eq-proof-wien-07] ini perlu dinilai menggunakan kaedah berangka untuk memperoleh nilai $X$. 
+Saya merujuk kepada nilai yang diperoleh oleh [@Stroyan1998]^[[@Stroyan1998] menulisnya sebagai $5=(5-X)e^X$ tetapi bentuk ini setara dengan $X\frac{e^X}{e^X-1} = 5$.], iaitu $X \approx 4.9651$.
+
+Setelah itu, [@eq-proof-wien-06] perlu disusun semula dalam sebutan $\lambda T$. 
+Disebabkan kita sudah takrifkan pembezaannya sifar, maka $\lambda$ di sini semestinya merujuk kepada panjang gelombang puncak iaitu $\lambda_p$,
+$$
+    \lambda_p T = \frac{hc}{X k_B},
+$${#eq-proof-wien-08}
+dan menggunakan nilai $X$ yang diperoleh sebentar tadi, kita dapati nilai $\lambda_p T$ ini sememangnya sama dengan pemalar Wien,
+$$
+    W = \frac{hc}{X k_B} = 2.8978\times 10^{-3}\text{m}\cdot\text{K}.
+$${#eq-proof-wien-09}
+:::::

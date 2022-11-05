@@ -1,4 +1,4 @@
-# Sejarah Sinaran Jasad Hitam
+# Fungsi Gelombang $\Psi(x)$
 
 :::{.callout-important}
 ## Belum Tersedia

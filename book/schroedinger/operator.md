@@ -1,1 +1,0 @@
-# Pembolehcerap Sebagai Operator

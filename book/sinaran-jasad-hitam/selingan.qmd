@@ -1,1 +1,39 @@
 # Bentuk-Bentuk Lain Persamaan Planck
+
+Jika kalian pernah gelintar sekitar Google, kalian akan dapati bahawa terdapat persamaan-persamaan Planck yang berbeza bentuknya. 
+Khususnya, ada yang menyatakan bahawa pekalinya mendarab $2 hc^2$, ataupun $2\pi hc^2$, dan bukannya $8\pi hc$ seperti yang digunakan dalam catatan ini. 
+Setiap satunya betul dan merujuk kepada kuantiti yang berbeza-beza:
+
+:::{.callout-note .column-margin}
+Bentuk-bentuk berbeza ini diambil dari @Webeneger_tt yang menurutnya mengambil dari tiga sumber ini:
+
+1. Lowry A. Kirkby. _Physik - Der Studienbegleiter_. Springer. 2012 (p. 428)
+2. E. Boeker, R. van Grondelle. _Environmental Physics_. Wiley. 2011 (p. 9)
+3. J. R. Mahan. _Radiation Heat Transfer_. Wiley. 2002 (ch. 2.16)
+:::
+
+- Dalam bentuk kesinaran, persamaan Planck ialah 
+    $$
+        L=\frac{2 hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.
+    $$
+- Dalam bentuk ketumpatan fluks, persamaan Planck ialah 
+    $$
+        M=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.
+    $$
+- Dalam bentuk ketumpatan tenaga pula, 
+    $$
+        U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.
+    $$
+
+
+Dari segi pemahaman sinaran jasad hitam dan pentafsiran bentuk graf, ketiga-tiga bentuk ini tiada bezanya. 
+Setiap satunya akan menghasilkan bentuk lengkung yang sama. 
+Perbezaannya hanyalah apabila mencerap nilai-nilai tersebut. 
+Jadi kita tidak perlu risau tentangnya melainkan kita ditugaskan untuk mencerap jasad hitam menggunakan alat tertentu.
+
+Ia juga membawa takrifan tepat yang berbeza. 
+Seperti yang dilihat dalam bahagian ['Hukum Stefan Boltzmann'](./Stefan-Boltzmann.qmd) ketika mencari hukum Stefan--Boltzmann, pekali $\frac{c}{4}$ diperlukan tetapi jika kita bermula dengan menggunakan bentuk ketumpatan fluks, maka pekali tersebut tidak diperlukan.
+
+Satu-satunya sebab saya menggunakan bentuk ketumpatan tenaga dalam nota ini ialah kerana kuliah saya menggunakan bentuk ini sepenuhnya.
+Hasilnya, hukum-hukum lain seperti Hukum Taburan Wien dan Hukum Rayleigh--Jeans juga diperoleh dalam bentuk ketumpatan tenaganya. 
+Hukum Sesaran Wien pula tidak merasai perbezaan ini kerana pekali tersebut tidak memainkan peranan apabila ditetapkan $\frac{\text{d}}{\text{d}\lambda}f(\lambda) = 0$.

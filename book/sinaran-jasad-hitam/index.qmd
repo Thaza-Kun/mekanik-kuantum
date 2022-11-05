@@ -1,0 +1,18 @@
+# Sinaran Jasad Hitam
+
+Jasad hitam ialah suatu jasad yang akan menyerap kesemua panjang gelombang cahaya dengan sempurna tanpa pantulan dan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba.
+Bintang-bintang memiliki sifat ini.
+
+Rumus terbaik yang memerihalkan taburan cahaya yang dipancarkan oleh bintang ialah [hukum Planck](./sinaran-jasad-hitam/Planck.md).
+Ada pun begitu, pelajar Fizik lazimnya diajar tentang dua cubaan lampau ialah [hukum taburan Wien](./sinaran-jasad-hitam/taburan-Wien.md) dan [hukum Rayleigh--Jean](./sinaran-jasad-hitam/Rayleigh-Jeans.md) bagi mengetengahkan kepentingan hukum Planck.
+Perkembangan tersebut boleh didapati dalam bahagian [sejarah](./sinaran-jasad-hitam/sejarah.md).
+Selain itu, [hukum sesaran Wien](./sinaran-jasad-hitam/) yang memerihalkan puncak graf serta [hukum Stefan--Boltzmann](./sinaran-jasad-hitam/Stefan-Boltzmann.md) yang memerihalkan luas bawah graf juga adalah dua hukum yang penting berkaitan sinaran jasad hitam.
+
+```{python}
+#| echo: false
+#| fig-align: center
+from scripts.blackbody import Planck, Wien, RayleighJeans
+from scripts.graphing import blackbody_by_wavelength
+
+blackbody_by_wavelength(models=[(Planck, 'Planck'), (Wien, 'Wien'), (RayleighJeans, 'Rayleigh-Jeans')], title='Perbandingan model-model sinaran jasad hitam')
+```
