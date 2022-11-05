@@ -1,0 +1,16 @@
+# ignore the build files
+_build
+# ignore any jupyter checkpoints
+.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+
+*.pyc
+# ignore environment files
+.venv
+
+*/.quarto/
+*/_book/
+*/_freeze/
+*_files/
+
+.vscode
