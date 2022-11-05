@@ -1,0 +1,42 @@
+# Dorongan Projek {.unnumbered}
+
+Laman sesawang [MajalahSains](www.majalahsains.com) yang diasaskan oleh Mohd Faizal Aziz boleh dilihat sebagai mercu tanda usaha pemasyarakatan sains di samudera maya bernama internet.
+Di sebalik bangun jatuh banyak portal sains yang lain, MajalahSains tetap megah mengibarkan benderanya pada ribuan pembaca yang melawatnya.
+Jelaslah orang ramai masih minat mengikuti berita sains.
+
+Kewujudan MajalahSains juga memberi peluang kepada portal-portal sains lain untuk turut berkembang sama.
+Misalnya [Apadilangit](https://apadilangit.com/) yang diasaskan oleh Muhammad Hafez Ahmat Murtza pada tahun 2016 melaksanakan pelbagai program di luar dan dalam talian.
+Apadilangit inilah yang menjadi wakil Malaysia untuk memberi nama bintang dan eksoplanet melalui kutipan cadangan dari pelajar-pelajar sempena sambutan 100 tahun Kesatuan Astronomi Antarabangsa, IAU.^[Nama yang diberikan oleh Malaysia ialah 'Intan' untuk bintangnya dan 'Baiduri' untuk eksoplanetnya (@iau2019).]
+
+Saluran [Ajar](https://www.youtube.com/c/AjarMalaysia) (walaupun bukan menumpu pada sains semata-mata) yang diasaskan oleh Muhammad Haziq Abdul Rahim pula telah meraih sehingga 270 ribu pelanggan di YouTube melangkaui Anugerah Butang Main Perak walaupun baru berumur 3 tahun! Itu adalah pencapaian yang sangat mengagumkan!
+
+Pemasyarakatan sains, atau umumnya pemasyarakatan ilmu, sedang galak dilaksanakan oleh bicarawan-bicarawan sains yang sudah ataupun yang belum mendapat nama.
+Kegiatan menyampaikan sains dalam konteks popular ini seringkali menyabitkan nama Carl Sagan sebagai pengasas dan amalannya meluas sehingga muncul banyak saluran YouTube berkaitannya.
+Di Malaysia, ia masih di peringkat tunas.
+
+Kemunculan golongan seperti MajalahSains, Apadilangit, dan Ajar, telah menyediakan momentum yang cukup agar tanah maya terus disuburkan dengan bahan-bahan ilmiah popular.
+Saya yakin, dalam sedekad dua kelak, akan muncul nama-nama baharu yang akan menyambung kerja mereka.
+
+Sudah tiba masanya untuk kita agihkan tenaga untuk menyuburkan kandungan sains teknikal pula.
+Hakikatnya, usaha melahirkan peminat sains dibina atas keinginan melahirkan pakar dalam bidang ini.
+Maka, penghasilan bahan ilmiah popular dan bahan ilmiah teknikal perlukan keseimbangan.
+
+Penulisan bahan rujukan teknikal sains berbahasa Melayu bukanlah sesuatu yang baharu.
+Antaranya ialah "Pengenalan Mekanik Kuantum" (1996) dan "Fizik Moden" (1989) oleh Prof Mohammad Yahaya; "Superkonduktor: Konvensional dan Suhu Tinggi" (1996) oleh Prof Roslan Abdul Shukor; serta "Vektor dan Tensor: Suatu Pendekatan Terkamir" (1991) dan "Tensor dan Bentuk Pembeza" (2000) oleh Prof Shaharir Mohd Zain.
+Prof Shaharir ada banyak lagi hasil tulisan dalam bidang Sains, Matematik dan Falsafah Sains yang tidak mampu saya senaraikan.
+
+Entah berapa ramai lagi penulis ilmiah serta bukunya yang tidak kita ketahui.
+Ada eloknya jika kita geledah perpustakaan ilmiah kita untuk mengorek khazanah-khazanah ilmu ini.
+
+Adapun semua ini, buku-buku tersebut hanya wujud di alam nyata.
+Dunia internet ialah satu pustaka yang luas; maka amatlah rugi jika pustaka maya ini kelompongan bahan rujukan.
+Jumlah bahan ilmiah dalam pustaka nyata dan pustaka maya perlukan keseimbangan.
+
+Buat masa ini, kelihatannya seperti tiada bahan rujukan ilmiah sains berbahasa Melayu yang dijumpai di internet, terutamanya untuk pengajian tinggi.
+Oleh itu, projek Catatan Fizik Teori ini bertujuan untuk memulakan langkah pertama mengisi kelompongan itu.
+
+Karya ini adalah hasil teladan daripada wargamaya seluruh dunia.
+Ada banyak jenis rujukan yang mereka hasilkan dan sebahagiannya (mungkin sebenarnya sebahagian besar daripadanya) bukanlah daripada kuliah atau kursus bersilibus tetapi hanya sekadar catatan mereka berkaitan ilmu yang diteroka itu.
+
+Lagipun, amalan mengongsikan catatan kuliah sudah lama diamalkan oleh para mahasiswa tetapi selalunya ia adalah perkongsian dari senior ke junior kursus tersebut.
+Maka, projek ini adalah perkembangan wajar daripada amalan tersebut.

@@ -1,0 +1,1 @@
+# Penyelesaian Persamaan Schrödinger

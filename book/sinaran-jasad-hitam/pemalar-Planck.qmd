@@ -1,0 +1,41 @@
+# Pemalar Planck
+
+Pemalar Planck ialah pemalar yang menghubungkan frekuensi jasad kuantum dengan tenaganya.
+Ia merupakan unit terkecil tenaga sepertimana 5 sen ialah duit terkecil fiat Ringgit Malaysia.
+
+Bermula tahun 2019, pemalar ini diangkat agar mempunyai nilai tertakrif.
+Hal ini bermaksud pemalar Planck tidak ada ketakpastian dan unit seperti kilogram disandarkan pada nilai ini.
+
+:::{#def-pemalar-planck}
+## Pemalar Planck
+$$
+    h= 6.626 070 15 \times 10^{–34} \text{kg}\cdot\text{m}^2\cdot\text{s}^{-1}
+$$
+:::
+
+## Planck Palang
+Pemalar Planck ini ada satu saudara yang seringkali digunakan untuk sistem berayun.
+Memandangkan sistem berayun berkait dengan $2\pi$ dan lazimnya muncul bersama dengan $h$ untuk konsep kuantum, maka ia disekalikan menjadi simbol baru, $\hbar$: 
+
+:::{#def-pemalar-planck-palang}
+## Pemalar Planck Palang
+$$
+    \hbar = \frac{h}{2\pi}
+$$
+:::
+
+Pemalar $\hbar$ ini juga dipanggil 'pemalar Dirac' kerana digunakan dalam kaedah pengkuantuman berkanun Dirac. 
+
+<!-- 
+## Penentuan Nilai
+
+Usaha pertama menentukan nilai $h$ boleh disurih ke makalah Robert A. Milikan pada tahun 1916, "_A Direct Photoelectric Determination of
+Planck's $h$_"^[maksud: Penentuan Nilai $h$ Secara Langsung Melalui Kaedah Fotoelektrik].
+Nilai yang ditentukan oleh Millikan ialah $6.57\times 10^{-34} \text{kg} \text{m}^2 \text{s}^{-1}$ dengan ketakpastian 0.5%.
+Kalau dibandingkan dengan takrifan moden, nilai tersebut tersasar sekitar 0.85%.
+
+:::{#fig-millikan-fotoelektrik}
+![](millikan-1916-fotoelektrik.png)
+
+Salah satu daripada banyak graf yang dilukis Millikan dalam makalahnya [@Millikan1916]. Robert Millikan merupakan seorang fizikawan ujikaji yang disegani sejarah. Ada baiknya kita meneladani ketelitian beliau!
+::: -->

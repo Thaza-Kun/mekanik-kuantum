@@ -1,0 +1,1 @@
+# Penyelesaian Sawar Keupayaan Tentu

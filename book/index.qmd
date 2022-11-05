@@ -1,0 +1,23 @@
+# Mekanik Kuantum {.unnumbered}
+
+
+:::{.epigraph}
+> Pengajaran daripada kisah ini ialah kita tidak patut cuba mencapai banyak perkara sekaligus.
+> Kita seharusnya mengasingkan satu masalah fizik daripada masalah fizik yang lain sejauh mungkin.
+> Kemudian, barulah kita boleh singkirkannya satu demi satu."
+
+-- Paul Dirac (1989)
+:::
+
+Bagi memulakan buku ini, eloklah kita menghayati petikan fizikawan ulung Paul Dirac daripada rencananya, '[Kaedah Kerja dalam Fizik Teori](https://fizikkini.com/kaedah-kerja-dalam-fizik-teori-bahagian-i/)'.
+Kisah yang dirujuk oleh beliau itu sebenarnya ialah kisah pencarian persamaan Schr&ouml;dinger.
+Ia menepati tema utama kebanyakan kursus pengenalan mekanik kuantum: iaitu agar pelajar memahami dan memahiri persamaan Schr&ouml;dinger.
+
+Lagipun, petikan itu adalah satu nasihat umum yang baik: jangan terlalu ghairah cuba menyelesaikan semua perkara sekaligus tetapi kenal pasti masalah-masalah kecil di laluan kejayaan tersebut dan selesaikanlah ia sedikit demi sedikit.
+Jika kita ditimpa satu masalah yang besar, ingatlah akan kata ini lalu pecahkannya menjadi masalah-masalah yang kecil dan cuba singkirkannya sedikit demi sedikit.
+
+Usaha membina masyarakat berilmu ialah satu cabaran yang besar dan memakan masa.
+Langkah pertama yang perlu diambil ialah belajar menyampaikan ilmu dalam bahasa masyarakat tersebut serta menyediakan acuan agar bahasa tersebut boleh berkembang.
+Usaha saya menyediakan catatan ini hanyalah satu langkah kecil untuk mencapai cita-cita tersebut setelah memahiri laras ilmiah bahasa Melayu.
+
+Semoga ia bermanfaat.

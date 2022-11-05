@@ -1,0 +1,114 @@
+# Hukum Stefan--Boltzmann
+
+:::::{.callout-note appearance="minimal"}
+##
+::::{#thm-stefan-boltzmann}
+## Hukum Stefan-Boltzmann
+Jumlah tenaga, $E$, yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, $T$,
+$$
+  E(T) = \sigma T^4,
+$$
+
+:::{.callout-tip collapse=true}
+## dengan maksud bahawa...
+| simbol | maksud | nilai |
+| :---: | :--- | :--- |
+| $E$ | tenaga | pembolehubah bersandar $T$ |
+| $T$ | suhu bintang | pembolehubah tak bersandar |
+| $\sigma$ | pemalar Stefan--Boltzmann| $5.6704\times 10^{-8}\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4}$ |
+:::
+::::
+:::::
+## Kaitannya Dengan Hukum Planck
+
+:::::{.proof}
+Hukum Stefan--Boltzmann memerihalkan jumlah tenaga yang disinarkan oleh suatu bintang. 
+Hal ini sama seperti mencari luas di bawah lengkung. 
+Maknanya kita perlu kamirkannya terhadap panjang gelombang.
+
+:::{.callout-tip}
+## Usul
+1. Luas bawah lengkung ialah hasil kamiran Hukum Planck terhadap panjang gelombang dari sifar ke infiniti,
+$$
+    E = \int_0^\infty \frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1} \text{d}\lambda.
+$${#eq-proof-stefan-boltzmann-01}
+2. Pembolehubah $x$ ditakrifkan sebagai,
+$$
+x = \frac{hc}{\lambda k_BT},
+$${#eq-proof-stefan-boltzmann-02}
+maka,
+$$
+\lambda = \frac{hc}{xk_BT},
+$${#eq-proof-stefan-boltzmann-03}
+dan,
+$$
+\text{d}\lambda = \text{d}x \frac{hc}{x^2k_BT}.
+$${#eq-proof-stefan-boltzmann-04}
+:::
+
+Menggantikkan [@eq-proof-stefan-boltzmann-02] sehingga [@eq-proof-stefan-boltzmann-04] ke dalam [@eq-proof-stefan-boltzmann-01] akan menghasilkan,
+$$
+    E = \frac{8 \pi k_B^4 T^4}{h^3c^3}\int_0^\infty \frac{x^3}{e^x-1}\text{d}x.
+$${#eq-proof-stefan-boltzmann-05}
+Kamiran tersebut boleh diselesaikan menggunakan petua \@ref(thm:mu-thm-03) tanpa perlu selesaikannya menggunakan tangan.
+
+:::{#lem-kamiran-khusus .column-margin}
+Kamiran $\frac{x^{(n-1)}}{e^x-1}$ terhadap $x$ dari sifar ke infititi ialah,
+$$
+    \int_{0}^{\infty} \frac{x^{(n-1)}}{e^x - 1}\text{d}x = \Gamma(n)\left(\frac{1}{1^n}+\frac{1}{2^n}+\frac{1}{3^n}+\dots\right).
+$$
+
+<hr/>
+
+Dipetik dari [@spiegel2009]: contoh 18.80.
+:::
+
+Fungsi gamma $\Gamma(n)$ dalam [@lem-kamiran-khusus] hanyalah merujuk kepada fungsi faktorial $\Gamma(n)=(n-1)!$. 
+Untuk kes [@eq-proof-stefan-boltzmann-05], $n=4$ maka fungsi gammanya $\Gamma(4)=3!$. 
+Disebabkan $n=4$, kita akan merujuk petua [@lem-penjumlahan-salingan-kuasa-4] untuk menyelesaikan penjumlahan tersebut.
+
+:::{#lem-penjumlahan-salingan-kuasa-4 .column-margin}
+## Penjumlahan salingan menaik berkuasa 4
+$$
+    \sum_{k}^{\infty}\frac{1}{k^4}=\left(\frac{1}{1^4}+\frac{1}{2^4}+\frac{1}{3^4}+\frac{1}{4^4}+\dots\right) = \frac{\pi^4}{90}.
+$$
+
+<hr/>
+
+Dipetik dari [@spiegel2009]: contoh 21.20.
+:::
+
+Maka, kita akan peroleh,
+$$
+\begin{align}
+    E &= \frac{8\pi k_B^4T^4}{h^3c^3}(3!)\left(\frac{\pi^4}{90}\right) \nonumber\\
+        & = \frac{8\pi^5 k_B^4T^4}{15h^3c^3}.
+\end{align}
+$${#eq-proof-stefan-boltzmann-06}
+
+Dengan membandingkan [@eq-proof-stefan-boltzmann-06] dengan hukum Stefan--Boltzmann, maka kita akan menerka perhubungan ini:
+$$
+    \sigma T^4 \stackrel{?}{=} \frac{8\pi^5 k_B^4}{15h^3c^3}T^4,
+$$
+tetapi terkaan ini tidak benar kerana jika kita kira setiap satu pemalar tersebut, kita akan dapati nilainya tidak sama dengan pemalar Stefan--Boltzmann, $\sigma$,
+$$
+\begin{align*}
+  \frac{8\pi^5 k_B^4}{15h^3c^3} &= 7.5657\times 10^{-16}\,\text{J}\cdot\text{m}^{-3}\cdot\text{K}^{-4},\\
+  \sigma &= 5.6704\times 10^{-8}\,\text{W}\cdot\text{s}^{-1}\cdot\text{K}^{-4},\\
+  \frac{8\pi^5 k_B^4}{15h^3c^3} &\neq \sigma.
+\end{align*}
+$$
+
+Apa yang berlaku di sini ialah $U$ dalam persamaan Planck yang kita hasilkan itu merujuk kepada **ketumpatan tenaga cahaya** berfrekuensi tertentu (Rujuk bahagian ['Bentuk-Bentuk Lain Persamaan Planck'](./selingan.qmd#bentuk-bentuk-lain-persamaan-planck) untuk keterangan lanjut). 
+Oleh itu, kamirannya, iaitu $\int U \text{d}\lambda$, masih merujuk kepada ketumpatan tenaga cahaya tetapi dijumlahkan untuk semua frekuensi. 
+Sedangkan hukum Stefan--Boltzmann merujuk kepada **jumlah tenaga** mutlak. 
+Kita perlukan pekali $\frac{c}{4}$ untuk memperbetulkan keadaan^[@Nave2017],
+$$
+    E = \frac{c}{4}\frac{8\pi^5 k_B^4}{15h^3c^3}T^4
+$${#eq-proof-stefan-boltzmann-07}
+Kemudian, kita boleh sahkan bahawa,
+$$
+    \sigma = \frac{2\pi^5 k_B^4}{15h^3c^2},
+$${#eq-proof-stefan-boltzmann-08}
+seperti yang ingin dibuktikan.
+:::::

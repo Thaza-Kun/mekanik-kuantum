@@ -1,0 +1,70 @@
+# Hukum Taburan Wien
+
+:::::{.callout-note appearance="minimal"}
+##
+::::{#thm-taburan-wien}
+## Hukum Taburan Wien
+Ketumpatan tenaga cahaya, $U$ adalah berkadaran eksponensial dengan suhu dan panjang gelombang, $\text{exp}\Big\{-\frac{1}{\lambda T}\Big\}$, dan berkadaran songsang dengan suhu berkuasa lima, $\lambda^5$, 
+
+$$
+U(\lambda,T) = \frac{ae^{-\frac{b}{\lambda T}}}{\lambda^5},
+$$
+
+:::{.callout-tip collapse=true} 
+## dengan maksud bahawa...
+
+| simbol | maksud | nilai |
+| :---: | :--- | :--- |
+| U($\lambda$,$T$) | ketumpatan tenaga cahaya| fungsi bersandar $\lambda$ dan $T$ |
+| $\lambda$ | panjang gelombang cahaya| pembolehubah tidak bersandar |
+| T | suhu bintang| pembolehubah tidak bersandar |
+| a,b | pemalar| |
+
+:::
+::::
+:::::
+
+
+```{python}
+#| echo: false
+#| fig-align: center
+
+from scripts.blackbody import Wien
+from scripts.graphing import blackbody_by_wavelength
+
+blackbody_by_wavelength(models=[(Wien, None)], title='Lengkung sinaran jasad hitam berdasarkan model Wien', mock_data='data contoh')
+```
+
+## Kaitannya Dengan Hukum Planck
+
+::::::{.proof}
+Hukum taburan Wien boleh menerangkan lengkung jasad hitam dengan baik hanya jika panjang gelombangnya pendek.
+Ia gagal untuk panjang gelombang panjang. 
+Maka, kita boleh peroleh hukum taburan Wien jika diletakkan syarat panjang gelombang mesti pendek.
+
+:::{.callout-tip}
+## Usul
+[Hukum taburan Wien](#thm-taburan-wien) boleh diperolehi jika panjang gelombang, $\lambda$, dihadkan ke arah sifar dalam [hukum Planck](./Planck.qmd#thm-planck),
+$$
+    U_{\text{Wien}}=\lim_{\lambda\to 0}\frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_BT}}-1}.
+$${#eq-proof-taburan-wien-01}
+:::
+
+Lalu, kita perhatikan apa yang terjadi pada sebutan eksponennya. Jika $\lambda$ menghampiri sifar, maknanya $\frac{hc}{\lambda k_BT}$ akan menjadi tersangatlah besar. Maka nilai $1$ itu boleh diabaikan seperti dalam [@lem-e-to-inf].
+
+:::{#lem-e-to-inf .column-margin}
+## Penghampiran Eksponen ke Arah $\infty$
+$$
+\lim_{x\to\infty}e^x - 1 \approx e^x.
+$$
+:::
+
+Oleh itu, [@eq-proof-taburan-wien-01] menjadi,
+$$
+    U_{\text{Wien}}=\frac{8\pi hce^{-\frac{hc}{\lambda k_BT}}}{\lambda^5},
+$$
+yang sepadan dengan hukum taburan Wien. Jika dibandingkan dengan [@eq-proof-taburan-wien-01], kita akan dapat kira nilai pemalar $a$ dan $b$,
+$$
+    a = 8\pi hc,\;b = \frac{hc}{k_B}.
+$$
+::::::
