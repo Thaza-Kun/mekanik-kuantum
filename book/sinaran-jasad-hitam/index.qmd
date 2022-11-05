@@ -3,10 +3,10 @@
 Jasad hitam ialah suatu jasad yang akan menyerap kesemua panjang gelombang cahaya dengan sempurna tanpa pantulan dan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba.
 Bintang-bintang memiliki sifat ini.
 
-Rumus terbaik yang memerihalkan taburan cahaya yang dipancarkan oleh bintang ialah [hukum Planck](./Planck.md).
-Ada pun begitu, pelajar Fizik lazimnya diajar tentang dua cubaan lampau ialah [hukum taburan Wien](./taburan-Wien.md) dan [hukum Rayleigh--Jean](./Rayleigh-Jeans.md) bagi mengetengahkan kepentingan hukum Planck.
-Perkembangan tersebut boleh didapati dalam bahagian [sejarah](./sejarah.md).
-Selain itu, [hukum sesaran Wien](./sesaran-Wien.qmd) yang memerihalkan puncak graf serta [hukum Stefan--Boltzmann](./Stefan-Boltzmann.md) yang memerihalkan luas bawah graf juga adalah dua hukum yang penting berkaitan sinaran jasad hitam.
+Rumus terbaik yang memerihalkan taburan cahaya yang dipancarkan oleh bintang ialah [hukum Planck](./Planck.qmd).
+Ada pun begitu, pelajar Fizik lazimnya diajar tentang dua cubaan lampau ialah [hukum taburan Wien](./taburan-Wien.qmd) dan [hukum Rayleigh--Jean](./Rayleigh-Jeans.qmd) bagi mengetengahkan kepentingan hukum Planck.
+Perkembangan tersebut boleh didapati dalam bahagian [sejarah](./sejarah.qmd).
+Selain itu, [hukum sesaran Wien](./sesaran-Wien.qmd) yang memerihalkan puncak graf serta [hukum Stefan--Boltzmann](./Stefan-Boltzmann.qmd) yang memerihalkan luas bawah graf juga adalah dua hukum yang penting berkaitan sinaran jasad hitam.
 
 ```{python}
 #| echo: false
