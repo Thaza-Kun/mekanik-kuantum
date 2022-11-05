@@ -79,12 +79,12 @@ Dipetik dari [@spiegel2009]: contoh 21.20.
 :::
 
 Maka, kita akan peroleh,
-[
-    \begin{align}
-    E &= \frac{8\pi k_B^4T^4}{h^3c^3}(3!)\left(\frac{\pi^4}{90}\right) \nonumber\\
-        & = \frac{8\pi^5 k_B^4T^4}{15h^3c^3}.
-    \end{align}
-]{#eq-proof-stefan-boltzmann-06}
+$$
+    E \frac{8\pi k_B^4T^4}{h^3c^3}(3!)\left(\frac{\pi^4}{90}\right);
+$${#eq-proof-stefan-boltzmann-06-a}
+$$
+    E = \frac{8\pi^5 k_B^4T^4}{15h^3c^3}.
+$${#eq-proof-stefan-boltzmann-06}
 
 Dengan membandingkan [@eq-proof-stefan-boltzmann-06] dengan hukum Stefan--Boltzmann, maka kita akan menerka perhubungan ini:
 $$
