@@ -4,9 +4,12 @@ _build
 .ipynb_checkpoints/*
 */.ipynb_checkpoints/*
 
+*.pyc
 # ignore environment files
 .venv
 
 */.quarto/
 */_book/
 */_freeze/
+
+.vscode

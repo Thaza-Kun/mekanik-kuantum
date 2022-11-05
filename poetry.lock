@@ -125,6 +125,28 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
+name = "black"
+version = "22.10.0"
+description = "The uncompromising code formatter."
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+click = ">=8.0.0"
+mypy-extensions = ">=0.4.3"
+pathspec = ">=0.9.0"
+platformdirs = ">=2"
+tomli = {version = ">=1.1.0", markers = "python_full_version < \"3.11.0a7\""}
+typing-extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
+
+[package.extras]
+colorama = ["colorama (>=0.4.3)"]
+d = ["aiohttp (>=3.7.4)"]
+jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
+uvloop = ["uvloop (>=0.15.2)"]
+
+[[package]]
 name = "bleach"
 version = "5.0.1"
 description = "An easy safelist-based HTML-sanitizing tool."
@@ -946,6 +968,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "mypy-extensions"
+version = "0.4.3"
+description = "Experimental type system extensions for programs checked with the mypy typechecker."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "myst-nb"
 version = "0.13.2"
 description = "A Jupyter Notebook Sphinx reader built on top of the MyST markdown parser."
@@ -1236,6 +1266,14 @@ python-versions = ">=3.6"
 [package.extras]
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
+
+[[package]]
+name = "pathspec"
+version = "0.10.1"
+description = "Utility library for gitignore style pattern matching of file paths."
+category = "dev"
+optional = false
+python-versions = ">=3.7"
 
 [[package]]
 name = "pexpect"
@@ -2134,7 +2172,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "5d718d8e6cb1332267c6fa7e3abd7c38db103b4c85574d5a2029cfd8e3d5ae7c"
+content-hash = "87a5abbed7064e9ebae221ec142e81b423fb4f545d8e60ecffd3b36e4dff006e"
 
 [metadata.files]
 alabaster = [
@@ -2156,6 +2194,7 @@ babel = [
 ]
 backcall = []
 beautifulsoup4 = []
+black = []
 bleach = []
 certifi = []
 cffi = []
@@ -2346,6 +2385,7 @@ mistune = [
     {file = "mistune-0.8.4-py2.py3-none-any.whl", hash = "sha256:88a1051873018da288eee8538d476dffe1262495144b33ecb586c4ab266bb8d4"},
     {file = "mistune-0.8.4.tar.gz", hash = "sha256:59a3429db53c50b5c6bcc8a07f8848cb00d7dc8bdb431a4ab41920d201d4756e"},
 ]
+mypy-extensions = []
 myst-nb = [
     {file = "myst-nb-0.13.2.tar.gz", hash = "sha256:81e0a4f186bb35c487f5443c7005a474d68ffb58f518f469102d1db7b452066a"},
     {file = "myst_nb-0.13.2-py3-none-any.whl", hash = "sha256:1b9ea3a04c9e0eee05145aa297d2feeabb94c4e23e3047b92efa011ddba4f4b4"},
@@ -2374,6 +2414,7 @@ packaging = []
 pandas = []
 pandocfilters = []
 parso = []
+pathspec = []
 pexpect = []
 pickleshare = []
 pillow = []
