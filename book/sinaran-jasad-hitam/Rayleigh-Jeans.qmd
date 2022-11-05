@@ -66,7 +66,7 @@ $$
 $$
 :::
 
-Bila [@lem-lem-e-to-0] digunakan terhadap [@eq-proof-eq-proof-rayleigh-jeans-01], kita dapati bahawa hanya sebutan $\frac{hc}{\lambda k_BT}$ sahaja yang tinggal,
+Bila [@lem-e-to-0] digunakan terhadap [@eq-proof-rayleigh-jeans-01], kita dapati bahawa hanya sebutan $\frac{hc}{\lambda k_BT}$ sahaja yang tinggal,
 $$
     \lim_{\lambda\to\infty} e^{\frac{hc}{\lambda k_BT}}-1 \approx \frac{hc}{\lambda k_BT}+1 -1=\frac{hc}{\lambda k_BT}.
 $${#eq-proof-rayleigh-jeans-02}

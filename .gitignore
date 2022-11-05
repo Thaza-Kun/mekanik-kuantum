@@ -12,5 +12,6 @@ _build
 */_book/
 */_freeze/
 *_files/
+*/site_libs/*
 
 .vscode
