@@ -1,3 +1,9 @@
+---
+nocite: |
+    @Stroyan1998
+# TODO Cite Computational Physics with Python by Eric Ayars
+---
+
 # Penyelesaian Berkomputer Untuk Sesaran Wien {.appendix #sec-komputasi-wien}
 
 [Pers. @eq-proof-wien-07] yang muncul dalam [bahagian @sec-sesaran-Wien-Planck] berbentuk begini
