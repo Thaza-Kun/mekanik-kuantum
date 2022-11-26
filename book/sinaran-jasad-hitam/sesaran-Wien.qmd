@@ -69,7 +69,7 @@ plt.show()
 ```
 
 
-## Kaitannya Dengan Hukum Planck
+## Kaitannya Dengan Hukum Planck {#sec-sesaran-Wien-Planck}
 
 :::::{.proof}
 Hukum sesaran Wien menerangkan kedudukan puncak lengkung jasad hitam. 
@@ -134,7 +134,8 @@ $$
 $${#eq-proof-wien-07}
 
 [Pers. @eq-proof-wien-07] ini perlu dinilai menggunakan kaedah berangka untuk memperoleh nilai $X$. 
-Saya merujuk kepada nilai yang diperoleh oleh [@Stroyan1998]^[[@Stroyan1998] menulisnya sebagai $5=(5-X)e^X$ tetapi bentuk ini setara dengan $X\frac{e^X}{e^X-1} = 5$.], iaitu $X \approx 4.9651$.
+Boleh rujuk [lampiran @sec-komputasi-wien] untuk ikuti kiraan yang dilakukan.
+Nilai X yang diperolehi ialah $X \approx 4.9651$.
 
 Setelah itu, [@eq-proof-wien-06] perlu disusun semula dalam sebutan $\lambda T$. 
 Disebabkan kita sudah takrifkan pembezaannya sifar, maka $\lambda$ di sini semestinya merujuk kepada panjang gelombang puncak iaitu $\lambda_p$,

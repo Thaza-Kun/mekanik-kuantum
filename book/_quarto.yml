@@ -17,6 +17,7 @@ crossref:
   lem-prefix: petua
   eq-title: Persamaan
   eq-prefix: pers.
+  appendix-title: Lampiran
 
 
 book:
@@ -80,6 +81,8 @@ book:
     #     - hidrogen/atom-Bohr.md
     #     - hidrogen/momentum-sudutan.md
     #     - hidrogen/fungsi-gelombang.md
+  appendices:
+    - sinaran-jasad-hitam/penyelesaian-berangka-sesaran-Wien.qmd
 
 bibliography: references.bib
 
