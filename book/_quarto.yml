@@ -96,6 +96,3 @@ format:
     reader-mode: true
   pdf:
     documentclass: scrreprt
-
-title-block-banner: true
-
