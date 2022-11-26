@@ -1,6 +1,6 @@
 ---
-nocite: |
-    @Stroyan1998
+# nocite: |
+#     @Stroyan1998
 # TODO Cite Computational Physics with Python by Eric Ayars
 ---
 
