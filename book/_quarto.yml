@@ -91,6 +91,9 @@ format:
     theme: cosmo
     reference-location: section
     citation-location: document
+    twitter-card: true
+    open-graph: true
+    reader-mode: true
   pdf:
     documentclass: scrreprt
 
