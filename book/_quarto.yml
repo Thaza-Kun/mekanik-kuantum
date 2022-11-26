@@ -2,6 +2,7 @@ project:
   type: book
   preview: 
       port: 6969
+  output-dir: ../_book
   # pre-render: 
   #   - pip install -e ..
 
@@ -19,12 +20,13 @@ crossref:
   eq-prefix: pers.
   appendix-title: Lampiran
 
-
 book:
   title: "✨ Mekanik Kuantum 🐈"
   author: "Murthadza bin Aznam"
+  site-url: https://thaza-kun.github.io/mekanik-kuantum 
   date: now
   language: ms-MY
+  cover-image: cover.png
   search: true
   reader-mode: true
   repo-url: https://github.com/thaza-kun/mekanik-kuantum
@@ -94,5 +96,7 @@ format:
     twitter-card: true
     open-graph: true
     reader-mode: true
+    include-after-body: 
+      - ../_snippets/kofi.html
   pdf:
     documentclass: scrreprt

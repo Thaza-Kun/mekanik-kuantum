@@ -8,11 +8,11 @@ _build
 # ignore environment files
 .venv
 
-*/.quarto/
-*/_book/
-*/_freeze/
+*.quarto/
+*_book/
+*_freeze/
 *_files/
-*/site_libs/*
+*site_libs/*
 
 .vscode
 /.luarc.json
