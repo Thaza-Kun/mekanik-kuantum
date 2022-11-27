@@ -77,7 +77,7 @@ Hal ini menghairankan Phillip Lenard yang lakukan ujikaji ini pada tahun 1902 da
 Jika disangkakan cahaya adalah gelombang semata-mata, perkara-perkara yang disenaraikan di atas tidak berlaku.
 
 :::{#fig-analogi-kincir-air .column-margin}
-![](kincir-air-bertakung.svg)
+![](kincir-air-bertakung.png)
 
 Kincir air bertakung digunakan sebagai analogi bagaimana fizikawan terdahulu menggambarkan elektron boleh mengumpulkan tenaga dari cahaya seolah-olah ianya sungai.
 Gambar dipetik dari [_Malcolm.boura_ melalui wikimedia](https://commons.wikimedia.org/wiki/File:Overshot_waterwheel_simple.svg) dan diubah suai dengan [lesen karyasama CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
