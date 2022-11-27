@@ -4,7 +4,7 @@ Antara yang terawal menyahut [postulat kuantum Planck](../sinaran-jasad-hitam/Pl
 
 Kesan fotoelektrik ialah kejadian elektron yang diterujakan apabila disinari cahaya sehingga bebas dari ikatan atomnya.
 Tenaga yang diterima oleh elektron berkadaran dengan frekuensi cahaya.
-Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam [postulat kuantum Planck](../sinaran-jasad-hitam/Planck.qmd#postulat-planck-tentang-sekuantum-cahaya).
+Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam postulat kuantum Planck (Rujuk @sec-postulat-planck).
 
 :::::{.callout-note appearance="simple" icon=false}
 ##
@@ -31,10 +31,81 @@ $$
 ::::
 :::::
 
-<!-- ## Sejarah Kesan Fotoelektrik
+## Tatakaedah
 
-Kesan ini mula diperhatikan oleh Phillip Lenard pada tahun 1902 dalam makalahnya, [_Über die lichtelektrische Wirkung_](https://onlinelibrary.wiley.com/doi/10.1002/andp.19023130510)^[maksud: Tentang Kesan Fotoelektrik].
+:::{#fig-photoelectric .column-margin}
+![](photoelectric-setup.png)
 
-### Kehairanan Tenaga Cahaya
+Tatasusunan radas 
+:::
 
-### Peranan Postulat Planck -->
+Radas-radas yang diperlukan untuk kesan fotoelektrik ialah seperti berikut:
+
+1. Bekas hampagas lutsinar
+2. Dua keping logam
+3. Sumber cahaya berwarna tulen
+4. Bateri
+5. Ammeter
+
+Dua keping logam diletakkan dalam bekas hampagas lutsinar bagi memastikan tiada pengaruh bendasing.
+Sambungkan kepingan logam tersebut pada bateri dan ammeter supaya menjadi litar terbuka.
+Halakan lampu pada kepingan logam bercas negatif lalu lihat apa hasilnya pada ammeter.
+
+Jika tenaga yang dibekalkan cahaya adalah cukup, maka elektron-elektron akan melompat dari kepingan logam pertama ke kepingan logam kedua.
+Perbuatan ini akan menutup litar lalu menghasilkan arus.
+Ujikaji ini boleh ditiru melalui simulasi yang telah disediakan oleh _University of Colorado_ di pautan ini: [https://phet.colorado.edu/en/simulations/photoelectric/](https://phet.colorado.edu/en/simulations/photoelectric/)
+
+Bandingkan apakah kesan tiga (3) perkara ini terhadap arus elektrik:
+
+1. keamatan cahaya
+2. warna cahaya (frekuensi)
+3. jenis logam
+
+## Pemerhatian
+
+Terdapat tiga perkara yang boleh disimpulkan daripada ujikaji ini:
+
+1. Ada warna (frekuensi) cahaya yang mampu melompatkan elektron dan ada warna cahaya yang langsung tidak mampu melompatkan elektron.
+    Arus litar berkadaran terus dengan frekuensi cahaya.
+2. Keamatan cahaya hanya memberi kesan terhadap arus sekiranya warna yang digunakan mampu melompatkan elektron.
+    Arus litar berkadaran terus dengan keamatan cahaya dengan syarat frekuensi cahaya berjaya lompatkan elektron dalam pemerhatian (1).
+3. Kepingan logam yang digunakan mempengaruhi frekuensi cahaya yang boleh lompatkan elektron.
+    Ada logam yang memerlukan cahaya berfrekuensi tinggi manakala ada logam yang memerlukan cahaya berfrekuensi rendah.
+
+Hal ini menghairankan Phillip Lenard yang lakukan ujikaji ini pada tahun 1902 dan rakan-rakan sezamannya.
+Jika disangkakan cahaya adalah gelombang semata-mata, perkara-perkara yang disenaraikan di atas tidak berlaku.
+
+:::{#fig-analogi-kincir-air .column-margin}
+![](kincir-air-bertakung.svg)
+
+Kincir air bertakung digunakan sebagai analogi bagaimana fizikawan terdahulu menggambarkan elektron boleh mengumpulkan tenaga dari cahaya seolah-olah ianya sungai.
+Gambar dipetik dari [_Malcolm.boura_ melalui wikimedia](https://commons.wikimedia.org/wiki/File:Overshot_waterwheel_simple.svg) dan diubah suai dengan [lesen karyasama CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+
+:::
+
+Pertimbangkan satu kincir air jenis bertakung yang dipasang di hujung sungai untuk dituai tenaganya.
+Kincir tersebut tetap akan berpusing tidak kiralah sungainya mengalir secara deras ataupun tidak.
+Asalkan takungannya dapat diisi, maka kincir tetap akan berpusing (Rujuk [@fig-analogi-kincir-air]).
+Bezanya, sungai yang tidak deras akan ambil masa yang lama untuk mengisi takungan kincir air berbanding sungai yang deras.
+
+
+Begitulah juga gambaran fizikawan terdahulu tentang cahaya.
+Sekiranya cahaya adalah sejenis gelombang yang terus-menerus memberikan tenaga, maka mana-mana frekeunsi cahaya akan boleh melompatkan elektron dari kepingan logam.
+Bezanya cepat atau lambat sahaja menunggu takungan tenaga diisi.
+Hakikatnya, elektron melompat dengan serta-merta dan bergantung kepada frekuensi cahaya. 
+
+Hal ini yang menjemput Albert Einstein memikirkan semula ujikaji ini dari kerangka postulat kuantum Planck.
+Jika digambarkan cahaya melalui postulat kuantum Planck , maka ketiga-tiga pemerhatian di atas dapat dijelaskan, termasuklah hakikat bahawa elektron melompat serta-merta:
+
+1. Setiap elektron hanya boleh terima tenaga satu kuantum cahaya secara serta-merta.
+    Oleh itu, tenaga cahaya yang berkadaran dengan frekuensi cahaya ($E=hf$) memainkan peranan penting.
+    Sekiranya tenaga yang dibekalkan frekuensi tertentu tidak mencukupi, maka elektron tidak boleh lompat.
+2. Keamatan cahaya mewakili berapa banyak ketulan kuantum cahaya yang disinarkan.
+    Kemudian, lebih banyak ketulan kuantum cahaya disinarkan, lebih banyaklah elektron yang melompat lalu meninggikan arus 
+    (walaupun tenaga setiap satu elektron tidak bertambah).
+3. Setiap logam ada ikatan yang tersendiri terhadap elektron.
+    Ikatan ini ialah fungsi kerja $\Phi$ dan setiap logam mempunyai nilai lain-lain.
+    Tenaga yang diterima elektron tersebut akan digunakan untuk membebaskan diri dari ikatan ini.
+    Selebihnya, akan digunakan untuk melompat.
+
+Dari tiga perkara inilah munculnya @thm-fotoelektrik.
