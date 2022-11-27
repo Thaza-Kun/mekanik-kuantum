@@ -1,1 +1,5 @@
 # Eksperimen
+
+Terdapat banyak eksperimen yang menyokong kewujudan mekanik kuantum.
+Antaranya ialah:
+1. [Kesan Fotoelektrik](./kesan-fotoelektrik.qmd)
