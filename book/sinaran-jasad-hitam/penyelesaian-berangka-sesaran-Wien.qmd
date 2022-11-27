@@ -94,7 +94,7 @@ def persilangan_pembahagi_dua(fungsi, kiri: float, kanan: float, ketepatan: floa
 ## Penyelesaian
 Sebelum kita mulakan penyelesaian, kita perlu tahu dahulu adakah fungsi yang kita ada ini bersilang dengan garis $y=0$ tidak?
 Kita cuba lukis graf untuk tengok wujud ke tak persilangan tersebut.
-Oleh itu, kita takrifkan dulu fungsi kita.
+Oleh itu, kita takrifkan dulu fungsi untuk @eq-komputasi-wien-02.
 ```{python}
 import numpy as np
 
