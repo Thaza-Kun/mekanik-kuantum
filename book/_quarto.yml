@@ -96,6 +96,7 @@ format:
     twitter-card: true
     open-graph: true
     reader-mode: true
+    css: /styles.css
     include-after-body: 
       - ../_snippets/kofi.html
   pdf:
