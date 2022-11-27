@@ -125,6 +125,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="✨ Mekanik Kuantum 🐈 - Lampiran A — Penyelesaian Berkomputer Untuk Sesaran Wien">
 <meta property="og:description" content="Pers.&nbsp;eq-proof-wien-07 yang muncul dalam bahagian&nbsp;sec-sesaran-Wien-Planck berbentuk begini \[
     X\frac{e^X}{e^X-1} = 5.
@@ -405,37 +406,39 @@ Note
 <section id="pelaksanaan" class="level3" data-number="A.1.1">
 <h3 data-number="A.1.1" class="anchored" data-anchor-id="pelaksanaan"><span class="header-section-number">A.1.1</span> Pelaksanaan</h3>
 <div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> persilangan_pembahagi_dua(fungsi, kiri: <span class="bu">float</span>, kanan: <span class="bu">float</span>, ketepatan: <span class="bu">float</span> <span class="op">=</span> <span class="fl">1.0e-6</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># !! `fungsi` ialah fungsi yang kita nak tahu puncanya (titik persilangan)</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    jarak <span class="op">=</span> <span class="bu">abs</span>(kanan<span class="op">-</span>kiri)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    had: <span class="bu">int</span> <span class="op">=</span> <span class="dv">100</span> <span class="co"># Untuk letak had berapa kali boleh ulang</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    ulangan: <span class="bu">int</span> <span class="op">=</span> <span class="dv">1</span> <span class="co"># Untuk kira berapa kali dah ulang</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> jarak <span class="op">&gt;</span> ketepatan:</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [2] Dapatkan titik `tengah`</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        tengah <span class="op">=</span> (kiri<span class="op">+</span>kanan)<span class="op">/</span><span class="fl">2.</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [3] Semak sama ada persilangan berlaku di julat pertama [`kiri`,`tengah`]</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (fungsi(kiri)<span class="op">*</span>fungsi(tengah)) <span class="op">&lt;</span> <span class="dv">0</span>:</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Jika ya, balik ke langkah (1) dengan nilai baharu kiri=kiri dan kanan=tengah</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>            kiri <span class="op">=</span> kiri</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>            kanan <span class="op">=</span> tengah</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Jika tidak, balik ke langkah (1) dengan nilai baharu kiri=tengah dan kanan=kanan</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>            kiri <span class="op">=</span> tengah</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            kanan <span class="op">=</span> kanan</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [4] Ulang langkah [1] - [3] sampai `jarak &lt;= ketepatan`</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        jarak <span class="op">=</span> <span class="bu">abs</span>(kanan<span class="op">-</span>kiri)</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Kalau dah lebih had, kita keluar. Kita tak nak benda ni ulang sampai bila-bila tak berhenti.</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        ulangan <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> ulangan <span class="op">==</span> had: </span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="ss">f'Sudah </span><span class="sc">{</span>had<span class="sc">}</span><span class="ss"> kali diulang tetapi masih tak jumpa jawapan.'</span>)</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> tengah</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> persilangan_pembahagi_dua(fungsi, kiri: <span class="bu">float</span>, kanan: <span class="bu">float</span>, ketepatan: <span class="bu">float</span> <span class="op">=</span> <span class="fl">1.0e-6</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># !! `fungsi` ialah fungsi yang kita nak tahu puncanya (titik persilangan)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    jarak <span class="op">=</span> <span class="bu">abs</span>(kanan<span class="op">-</span>kiri)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    had: <span class="bu">int</span> <span class="op">=</span> <span class="dv">100</span> <span class="co"># Untuk letak had berapa kali boleh ulang</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    ulangan: <span class="bu">int</span> <span class="op">=</span> <span class="dv">1</span> <span class="co"># Untuk kira berapa kali dah ulang</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> jarak <span class="op">&gt;</span> ketepatan:</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [2] Dapatkan titik `tengah`</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        tengah <span class="op">=</span> (kiri<span class="op">+</span>kanan)<span class="op">/</span><span class="fl">2.</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [3] Semak sama ada persilangan berlaku di julat pertama [`kiri`,`tengah`]</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (fungsi(kiri)<span class="op">*</span>fungsi(tengah)) <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Jika ya, balik ke langkah (1) dengan nilai baharu kiri=kiri dan kanan=tengah</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>            kiri <span class="op">=</span> kiri</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>            kanan <span class="op">=</span> tengah</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Jika tidak, balik ke langkah (1) dengan nilai baharu kiri=tengah dan kanan=kanan</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            kiri <span class="op">=</span> tengah</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            kanan <span class="op">=</span> kanan</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="co"># [4] Ulang langkah [1] - [3] sampai `jarak &lt;= ketepatan`</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        jarak <span class="op">=</span> <span class="bu">abs</span>(kanan<span class="op">-</span>kiri)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Kalau dah lebih had, kita keluar. Kita tak nak benda ni ulang sampai bila-bila tak berhenti.</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        ulangan <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> ulangan <span class="op">==</span> had: </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="ss">f'Sudah </span><span class="sc">{</span>had<span class="sc">}</span><span class="ss"> kali diulang tetapi masih tak jumpa jawapan.'</span>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> tengah</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="kelebihan-dan-kekurangan" class="level3" data-number="A.1.2">
@@ -452,23 +455,27 @@ Note
 </section>
 <section id="penyelesaian" class="level2" data-number="A.2">
 <h2 data-number="A.2" class="anchored" data-anchor-id="penyelesaian"><span class="header-section-number">A.2</span> Penyelesaian</h2>
-<p>Sebelum kita mulakan penyelesaian, kita perlu tahu dahulu adakah fungsi yang kita ada ini bersilang dengan garis <span class="math inline">\(y=0\)</span> tidak? Kita cuba lukis graf untuk tengok wujud ke tak persilangan tersebut. Oleh itu, kita takrifkan dulu fungsi kita.</p>
+<p>Sebelum kita mulakan penyelesaian, kita perlu tahu dahulu adakah fungsi yang kita ada ini bersilang dengan garis <span class="math inline">\(y=0\)</span> tidak? Kita cuba lukis graf untuk tengok wujud ke tak persilangan tersebut. Oleh itu, kita takrifkan dulu fungsi untuk <a href="#eq-komputasi-wien-02">pers.&nbsp;<span>A.2</span></a>.</p>
 <div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> formula(x: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">*</span>np.exp(x)<span class="op">/</span>(np.exp(x) <span class="op">-</span> <span class="dv">1</span>) <span class="op">-</span><span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> formula(x: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x<span class="op">*</span>np.exp(x)<span class="op">/</span>(np.exp(x) <span class="op">-</span> <span class="dv">1</span>) <span class="op">-</span><span class="dv">5</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Kemudian, bolehlah kita lukis grafnya.</p>
 <div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="fl">0.1</span>, <span class="dv">10</span>)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> formula(x)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, linewidth<span class="op">=</span><span class="fl">0.8</span>, color<span class="op">=</span><span class="st">'black'</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="fl">0.1</span>, <span class="dv">10</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> formula(x)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, linewidth<span class="op">=</span><span class="fl">0.8</span>, color<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="penyelesaian-berangka-sesaran-Wien_files/figure-html/cell-4-output-1.png" width="569" height="411"></p>
 </div>
@@ -476,7 +483,9 @@ Note
 <p>Nampaknya, titik persilangan tersebut berada di antara <span class="math inline">\(x=4\)</span> dan <span class="math inline">\(x=6\)</span>. Kedua-dua nilai ini boleh jadi nilai <code>kiri</code> dan <code>kanan</code> asal untuk kaedah pembahagi dua.</p>
 <p>Apabila sudah diketahui wujud titik persilangan, maka bolehlah kita gerakkan algoritma pencarian titik silang melalui pembahagian dua.</p>
 <div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>jawapan <span class="op">=</span> persilangan_pembahagi_dua(formula, kiri<span class="op">=</span><span class="dv">4</span>, kanan<span class="op">=</span><span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>jawapan <span class="op">=</span> persilangan_pembahagi_dua(formula, kiri<span class="op">=</span><span class="dv">4</span>, kanan<span class="op">=</span><span class="dv">6</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="5">
 <div class="cell-output cell-output-stdout">
@@ -508,15 +517,8 @@ Namun begitu, bentuk grafnya berbeza.
 </section>
 
 </main> <!-- /main -->
-<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-<script>
-  kofiWidgetOverlay.draw('thaza_kun', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Tip Me',
-    'floating-chat.donateButton.background-color': '#00b9fe',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+<script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+<script type="text/javascript">kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'V7V62QO3C');kofiwidget2.draw();</script> 
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
