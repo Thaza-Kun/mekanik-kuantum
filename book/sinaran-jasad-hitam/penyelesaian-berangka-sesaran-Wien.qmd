@@ -2,6 +2,8 @@
 # nocite: |
 #     @Stroyan1998
 # TODO Cite Computational Physics with Python by Eric Ayars
+execute: 
+  echo: fenced
 ---
 
 # Penyelesaian Berkomputer Untuk Sesaran Wien {.appendix #sec-komputasi-wien}
