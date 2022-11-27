@@ -42,7 +42,7 @@ blackbody_by_wavelength(models=[(Planck, None)], title='Lengkung sinaran jasad h
 <!-- TODO ## Konsep -->
 
 <!-- TODO -->
-## Postulat Planck Tentang Sekuantum Cahaya
+## Postulat Planck Tentang Sekuantum Cahaya {#sec-postulat-planck}
 
 Penyelesaian kepada masalah ini diberikan oleh Max Planck dengan dua postulat yang dibawanya.
 Postulat-postulat ini mengandaikan bahawa cahaya bukanlah selanjar seperti gelombang tetapi seperti berketul-ketul seperti zarah.
@@ -70,7 +70,7 @@ These postulates are counter intuitive to the wave model of light
 
 ## Pemerolehan Hukum Planck
 
-Bagi memperoleh persamaan Planck (Hukum \@ref(def:mu-def-05)), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayunnya.
+Bagi memperoleh persamaan Planck ([Hukum @thm-planck]), kita akan bermula dengan menakrif jumlah tenaga yang dimiliki oleh setiap pengayun serta menakrifkan jumlah pengayunnya.
 
 ::::{.callout-tip}
 ## Usul
