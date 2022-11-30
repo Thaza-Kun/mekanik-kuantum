@@ -5,7 +5,6 @@ Antara yang terawal menyahut [postulat kuantum Planck](../sinaran-jasad-hitam/Pl
 Kesan fotoelektrik ialah kejadian elektron yang diterujakan apabila disinari cahaya sehingga bebas dari ikatan atomnya.
 Tenaga yang diterima oleh elektron berkadaran dengan frekuensi cahaya.
 Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam postulat kuantum Planck (Rujuk @sec-postulat-planck).
-Hal ini serupa dengan tenaga yang dibawa oleh sekuantum cahaya dalam postulat kuantum Planck (Rujuk @sec-postulat-planck).
 
 :::::{.callout-note appearance="simple" icon=false}
 ##
@@ -37,7 +36,7 @@ $$
 :::{#fig-photoelectric .column-margin}
 ![](photoelectric-setup.png)
 
-Tatasusunan radas 
+Tataletak radas 
 :::
 
 Radas-radas yang diperlukan untuk kesan fotoelektrik ialah seperti berikut:
