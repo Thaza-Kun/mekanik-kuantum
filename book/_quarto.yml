@@ -6,8 +6,12 @@ project:
   # pre-render: 
   #   - pip install -e ..
 
+# filters:
+#   - black-formatter
+
 execute: 
   freeze: auto
+
 
 crossref: 
   def-title: Takrif
@@ -18,6 +22,7 @@ crossref:
   lem-prefix: petua
   eq-title: Persamaan
   eq-prefix: pers.
+  sec-prefix: bahagian
   appendix-title: Lampiran
 
 book:
@@ -84,7 +89,7 @@ book:
     #     - hidrogen/momentum-sudutan.md
     #     - hidrogen/fungsi-gelombang.md
   appendices:
-    - sinaran-jasad-hitam/penyelesaian-berangka-sesaran-Wien.qmd
+    - sinaran-jasad-hitam/Wien-penyelesaian-berangka.qmd
 
 bibliography: references.bib
 

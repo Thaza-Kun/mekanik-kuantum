@@ -31,7 +31,7 @@ $$
 $${#eq-komputasi-wien-02}
 Persamaan ini mewakili graf $x$ melawan $y$. 
 Nilai $X$ yang kita mahukan ialah apabila $y=0$.
-Permasalah ini telah bertukar menjadi permasalah pencarian titik silang graf dengan garis $y=0$.
+Permasalahan ini telah bertukar menjadi permasalahan pencarian titik silang graf dengan garis $y=0$.
 
 ## Kaedah Pembahagi Dua
 Kaedah paling mudah nak faham dan buat untuk mencari titik silang graf dengan garis $y=0$ ialah kaedah pembahagi dua.
@@ -47,36 +47,70 @@ Langkah-langkahnya ialah seperti berikut:
     Ambil nilai `tengah` sebagai jawapan.
 
 ### Pelaksanaan
+
+:::{.callout-note .column-margin}
+## 🐍 Python serta Sandaran-Sandarannya
 ```{python}
-def persilangan_pembahagi_dua(fungsi, kiri: float, kanan: float, ketepatan: float = 1.0e-6) -> float:
-    # !! `fungsi` ialah fungsi yang kita nak tahu puncanya (titik persilangan)
+# | echo: false
+import platform
+import numpy
+import matplotlib
+
+from IPython.display import Markdown
+
+lines = [f"Kod yang dipaparkan dalam dokumen ini diuji menggunakan Python versi {platform.python_version()} bersama sandaran-sandaran berikut:",
+            "",
+         f"1. numpy={numpy.__version__}", 
+         f"2. matplotlib={matplotlib.__version__}"
+         ]
+
+Markdown("\n".join(lines))
+```
+:::
+
+
+```{python}
+def persilangan_pembahagi_dua(
+        fungsi, # fungsi yang kita nak tahu puncanya (titik persilangan)
+        kiri: float, 
+        kanan: float, 
+        ketepatan: float = 1.0e-6
+    ) -> float:
+
     # [1] Pilih dua titik, `kiri` dan `kanan`.
     jarak = abs(kanan-kiri)
     
     had: int = 100 # Untuk letak had berapa kali boleh ulang
     ulangan: int = 1 # Untuk kira berapa kali dah ulang
+
     while jarak > ketepatan:
         # [2] Dapatkan titik `tengah`
         tengah = (kiri+kanan)/2.
         
-        # [3] Semak sama ada persilangan berlaku di julat pertama [`kiri`,`tengah`]
+        # [3] Semak sama ada ada persilangan berlaku
+        #     di julat pertama [`kiri`,`tengah`]
         if (fungsi(kiri)*fungsi(tengah)) < 0:
-            # Jika ya, balik ke langkah (1) dengan nilai baharu kiri=kiri dan kanan=tengah
+            # Jika ya:
+            # Balik ke langkah (1) dengan nilai baru kiri=kiri dan kanan=tengah
             # Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.
             kiri = kiri
             kanan = tengah
         else:
-            # Jika tidak, balik ke langkah (1) dengan nilai baharu kiri=tengah dan kanan=kanan
+            # Jika tidak:
+            # Balik ke langkah (1) dengan nilai baru kiri=tengah dan kanan=kanan
             # Ulangan [1] Pilih dua titik, `kiri` dan `kanan`.
             kiri = tengah
             kanan = kanan
         # [4] Ulang langkah [1] - [3] sampai `jarak <= ketepatan`
         jarak = abs(kanan-kiri)
 
-        # Kalau dah lebih had, kita keluar. Kita tak nak benda ni ulang sampai bila-bila tak berhenti.
+        # Kalau dah lebih had, kita keluar. 
+        # Kita tak nak benda ni ulang sampai kiamat tak berhenti.
         ulangan += 1
         if ulangan == had: 
-            raise ValueError(f'Sudah {had} kali diulang tetapi masih tak jumpa jawapan.')
+            raise ValueError(
+                f'Sudah {had} kali diulang tetapi masih tak jumpa jawapan.'
+                )
     
     return tengah
 ```

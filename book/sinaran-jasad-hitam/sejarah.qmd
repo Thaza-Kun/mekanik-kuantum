@@ -1,8 +1,19 @@
 # Sejarah Sinaran Jasad Hitam
 
 :::{.callout-important}
-## Belum Tersedia
+## Belum Tersedia 🚧
 
 Kandungan halaman ini masih belum disediakan.
 Harap maklum.
 :::
+
+```{python}
+#| echo: false
+#| fig-align: center
+#| label: fig-jasad-hitam-rumusan
+#| fig-cap: Graf sinaran jasad hitam yang menggunakan hukum Planck, taburan Wien, dan Rayleigh--Jeans.
+
+from scripts import Planck, Wien, RayleighJeans, plot_blackbody_by_wavelength
+
+plot_blackbody_by_wavelength(models=[(Planck, 'Planck'), (Wien, 'Wien'), (RayleighJeans, 'Rayleigh-Jeans')], title='Perbandingan model-model sinaran jasad hitam')
+```

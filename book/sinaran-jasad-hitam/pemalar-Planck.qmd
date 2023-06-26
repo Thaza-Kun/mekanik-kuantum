@@ -26,16 +26,24 @@ $$
 
 Pemalar $\hbar$ ini juga dipanggil 'pemalar Dirac' kerana digunakan dalam kaedah pengkuantuman berkanun Dirac. 
 
-<!-- 
+
 ## Penentuan Nilai
 
 Usaha pertama menentukan nilai $h$ boleh disurih ke makalah Robert A. Milikan pada tahun 1916, "_A Direct Photoelectric Determination of
 Planck's $h$_"^[maksud: Penentuan Nilai $h$ Secara Langsung Melalui Kaedah Fotoelektrik].
+Ia merupakan sahutan langsung dari cubaan Einstein mengaitkan hipotesis Planck dengan [kesan fotoelektrik](#kesan-fotoelektrik).
 Nilai yang ditentukan oleh Millikan ialah $6.57\times 10^{-34} \text{kg} \text{m}^2 \text{s}^{-1}$ dengan ketakpastian 0.5%.
 Kalau dibandingkan dengan takrifan moden, nilai tersebut tersasar sekitar 0.85%.
 
-:::{#fig-millikan-fotoelektrik}
-![](millikan-1916-fotoelektrik.png)
+:::{.column-margin #fig-millikan-summary}
+![](./img/millikan-1916-summary.png)
 
-Salah satu daripada banyak graf yang dilukis Millikan dalam makalahnya [@Millikan1916]. Robert Millikan merupakan seorang fizikawan ujikaji yang disegani sejarah. Ada baiknya kita meneladani ketelitian beliau!
-::: -->
+Rumusan dari makalah @Millikan1916.
+
+:::
+
+:::{#fig-millikan-fotoelektrik}
+![](./img/millikan-1916-fotoelektrik.png)
+
+Graf yang dilukis Millikan bertanda 'Fig. 6' dalam makalahnya [@Millikan1916]. Lihat betapa kemasnya graf yang dihasilkan walaupun ia merupakan lukisan tangan. Robert A. Millikan merupakan seorang fizikawan ujikaji yang disegani sejarah. Ada baiknya kita meneladani ketelitian beliau!
+:::

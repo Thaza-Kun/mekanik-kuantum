@@ -30,18 +30,17 @@ $$
 #| echo: false
 #| fig-align: center
 
-from scripts.blackbody import Planck
-from scripts.graphing import blackbody_by_wavelength
+from scripts import Planck, plot_blackbody_by_wavelength
 
-blackbody_by_wavelength(models=[(Planck, None)], title='Lengkung sinaran jasad hitam berdasarkan model Planck', mock_data='data contoh')
+# from scripts.blackbody import Planck
+# from scripts.graphing import blackbody_by_wavelength
+
+plot_blackbody_by_wavelength(models=[(Planck, None)], title='Lengkung sinaran jasad hitam berdasarkan model Planck', mock_data='data contoh')
 ```
 
 <!-- TODO Report this behaviour 👇 -->
 <!-- ::::{#thm-planck .callout-note appearance="simple" icon=false} -->
 
-<!-- TODO ## Konsep -->
-
-<!-- TODO -->
 ## Postulat Planck Tentang Sekuantum Cahaya {#sec-postulat-planck}
 
 Penyelesaian kepada masalah ini diberikan oleh Max Planck dengan dua postulat yang dibawanya.
@@ -61,12 +60,6 @@ $$
 $$
 
 :::
-
-<!-- 
-:::{.callout-important}
-These postulates are counter intuitive to the wave model of light
-:::
--->
 
 ## Pemerolehan Hukum Planck
 

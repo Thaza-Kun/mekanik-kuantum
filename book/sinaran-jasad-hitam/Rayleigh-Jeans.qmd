@@ -25,10 +25,9 @@ $$
 #| echo: false
 #| fig-align: center
 
-from scripts.blackbody import RayleighJeans
-from scripts.graphing import blackbody_by_wavelength
+from scripts import plot_blackbody_by_wavelength, RayleighJeans
 
-blackbody_by_wavelength(models=[(RayleighJeans, None)], title='Lengkung sinaran jasad hitam berdasarkan model Rayleigh-Jeans', mock_data='data contoh')
+plot_blackbody_by_wavelength(models=[(RayleighJeans, None)], title='Lengkung sinaran jasad hitam berdasarkan model Rayleigh-Jeans', mock_data='data contoh')
 ```
 
 :::{.callout-important}

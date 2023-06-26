@@ -2,8 +2,7 @@
 
 Bagi memunculkan persamaan Schrödinger, seharusnya kita berpegang pada andaian-andaian berikut:
 
-1. Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga, $E$, dan frekuensi, $f$ seperti yang digariskan oleh postulat Planck, $E=hf=\hbar\omega$;
-   <!-- TODO Hubungkait Planck -->
+1. Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga, $E$, dan frekuensi, $f$ seperti yang digariskan oleh postulat Planck, $E=hf=\hbar\omega$ (rujuk @sec-postulat-planck);
 1. Bahawa momentum sistem kuantum mematuhi perhubungan momentum jisim, $p$, dan momentum gelombang, $k$, seperti yang digariskan oleh hipotesis deBroglie, $p=hk$;
    <!-- TODO De Broglie -->
 1. Bahawa sistem kuantum mematuhi prinsip keabadian tenaga;
