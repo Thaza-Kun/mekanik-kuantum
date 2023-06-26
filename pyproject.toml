@@ -20,6 +20,7 @@ qmsolve = "^2.0.0"
 ipykernel = "^6.23.3"
 notebook = "^6.5.4"
 nbformat = "^5.9.0"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
