@@ -13,6 +13,7 @@ _build
 *_freeze/
 *_files/
 *site_libs/*
+*cache*
 
 .vscode
 /.luarc.json
