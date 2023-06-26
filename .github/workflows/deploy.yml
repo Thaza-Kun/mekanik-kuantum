@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: "3.11"
           cache: "pip"
-      - run: pip install poetry
-      - run: poetry install
+      - run: pip install -r requirements
+      - run: pip install .
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
