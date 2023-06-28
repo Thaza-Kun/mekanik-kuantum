@@ -1,0 +1,35 @@
+# Matematik Mekanik Kuantum
+
+Teori kuantum bersandarkan dua perkara: fungsi gelombang dan operator.
+Fungsi gelombang menerangkan keadaan sistem kuantum manakala 
+operator menerangkan pembolehcerap.
+Operator bertindak sebagai penjelmaan linear yang dikenakan terhadap fungsi gelombang yang diwakili oleh vektor.
+Sistem penjelmaan linear terhadap vektor merupakan suatu sistem aljabar linear.
+
+<!-- TODO Gunakan pers. Schrodinger sebagai contoh -->
+
+## Tatatanda Dirac
+
+<!-- REF https://mathforquantum.quantumtinkerer.tudelft.nl/4_vector_spaces_QM/ -->
+
+Katakan suatu sistem kuantum boleh diwakili oleh nilai $\ket{r}$ dengan komponen $r_1$, $r_2$ dan $r_3$,
+$$
+    \ket{r} = \begin{bmatrix}
+        r_1 \\
+        r_2 \\
+        r_3
+    \end{bmatrix}.
+$$
+Vektor $\ket{r}$ disebut sebagai vektor ket.
+Vektor yang mewakili konjugat kompleks bagi vektor ket $\ket{r}$ ialah,
+$$
+    \bra{r} = \ket{r}^\dagger = \begin{bmatrix} r_1^\ast\ r_2^\ast\ r_3^\ast \end{bmatrix},
+$$
+yang dipanggil vektor bra. 
+Kedua-dua vektor bra dan vektor ket menghasilkan hasil darab dalaman.
+
+$$
+\braket{r|r} = \ket{r} \cdot \ket{r}
+$$
+
+## Ruang Hilbert

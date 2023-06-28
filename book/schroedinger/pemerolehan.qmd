@@ -1,0 +1,85 @@
+# Pemerolehan Persamaan Schrödinger
+
+Bagi memunculkan persamaan Schrödinger, seharusnya kita berpegang pada andaian-andaian berikut:
+
+::::{.callout-tip}
+## Usul
+
+1. Bahawa tenaga sistem kuantum mematuhi perhubungan tenaga, $E$, dan frekuensi, $f$ seperti yang digariskan oleh [postulat Planck](@sec-postulat-planck), 
+   $$
+      E=hf=\hbar\omega.
+   $${#eq-schrodinger-usul-tenaga}
+1. Bahawa momentum sistem kuantum mematuhi perhubungan momentum jisim, $p$, dan momentum gelombang, $k$, seperti yang digariskan oleh hipotesis deBroglie, 
+   $$
+      p=\hbar k.
+   $${#eq-schrodinger-usul-momentum}
+   <!-- TODO De Broglie -->
+1. Bahawa sistem kuantum mematuhi prinsip keabadian tenaga;
+1. Bahawa fungsi gelombang $\Psi(r,t)$ bersifat linear; dan
+   <!-- TODO terangkan kelinearan -->
+1. Bahawa fungsi keupayaan $V(r,t)$ bersandarkan ruang dan masa.
+::::
+
+
+Gelombang ialah gangguan yang berayun sekitar masa dan tempat.
+Bentuk umum persamaan gelombang berbentuk begini:
+$$
+   \frac{\partial^2 \Psi(r, t)}{\partial t^2} = \frac{1}{v^2}\frac{\partial^2 \Psi(r, t)}{\partial r^2}.
+$$
+Oleh itu, fungsi $\Psi(r,t)$ yang mematuhi persamaan tersebut ialah
+$$
+   \Psi(r, t) = Ae^{i(kr - \omega t)}.
+$${#eq-schrodinger-gelombang-psi}
+<!-- TODO Explain why -->
+Melalui @eq-schrodinger-usul-tenaga dan @eq-schrodinger-usul-momentum, kita dapati bahawa nilai $k$ dan $\omega$ boleh ditulis begini,
+$$
+   k = \frac{p}{\hbar},\,
+   \omega = \frac{E}{\hbar};
+$$
+maka @eq-schrodinger-gelombang-psi menjadi begini:
+$$
+   \Psi(r, t) = Ae^{\frac{i}{\hbar}(pr - Et)}.
+$$
+
+Bagi membawa sebutan tenaga dan sebutan momentum turun, kita akan membezakan fungsi $\Psi(r,t)$ terhadap masa dan ruang,
+$$
+   \frac{\partial}{\partial t}\Psi(r, t) = \frac{-iE}{\hbar}Ae^{\frac{i}{\hbar}(pr - Et)} = \frac{-iE}{\hbar}\Psi(r, t),
+$${#eq-schrodinger-separa-t}
+$$
+   \frac{\partial}{\partial r}\Psi(r, t) = \frac{ip}{\hbar}Ae^{\frac{i}{\hbar}(pr - Et)} = \frac{-ip}{\hbar}\Psi(r, t).
+$${#eq-schrodinger-separa-r}
+Lalu muncul pula soalan tentang bagaimana kita mampu kaitkan tenaga dengan momentum?
+Melalui persamaan tenaga kinetik, kita dapati bahawa tenaga boleh dikaitkan dengan momentum kuasa dua,
+$$
+   E = \frac{1}{2}mv^2 = \frac{p^2}{2m},
+$${#eq-schrodinger-tenaga-momentum}
+Oleh itu, @eq-schrodinger-separa-r perlu dibezakan sekali lagi agar muncul sebutan $p^2$,
+$$
+   \frac{\partial^2}{\partial r^2}\Psi(r, t) = \frac{i^2p^2}{\hbar^2}\Psi(r, t).
+$${#eq-schrodinger-separa-r-separa-r}
+Apabila disusun semula @eq-schrodinger-separa-t dan @eq-schrodinger-separa-r-separa-r agar ia diungkapkan dalam sebutan $E$ dan $p$,
+$$
+   E\Psi(r, t) = i\hbar\frac{\partial}{\partial t}\Psi(r, t),
+$$
+$$
+   p^2\Psi(r, t) = -\hbar^2\frac{\partial^2}{\partial r^2}\Psi(r, t),
+$$
+kita akan dapati bahawa kedua-dua tenaga dan momentum diungkapakn sebagai sebuah operator:
+$$
+   \hat{E} = i\hbar\frac{\partial}{\partial t},\,
+   \hat{p}^2 = -\hbar^2\frac{\partial^2}{\partial r^2}.
+$${#eq-schrodinger-operator-tenaga-momentum}
+Hal ini berkait dengan peranan pembolehcerap (seperti tenaga dan momentum) sebagai sebuah operator dalam perkaedahan mekanik kuantum.
+Cukup di sini kita tahu yang @eq-schrodinger-operator-tenaga-momentum boleh dimasukkan ke dalam @eq-schrodinger-tenaga-momentum dan @eq-schrodinger-usul-tenaga untuk menghasilkan
+$$
+   E = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial r^2} = i\hbar\frac{\partial}{\partial t}
+$$
+yang merupakan operator Hamiltonan^[Hamiltonan ialah sebuah operator tenaga.] bagi zarah bebas yang tidak dipengaruhi medan.
+Apabila pengaruh medan dibawa masuk ke dalam persamaan, kita tambah sebutan fungsi keupayaan $V(r, t)$,
+$$
+   -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial r^2} + V(r, t) = i\hbar\frac{\partial}{\partial t}.
+$$
+Maka lengkaplah persamaan ini menjadi persamaan Schrödinger apabila fungsi gelombang $\Psi(r, t)$ dipasangkan pada persamaan ini:
+$$
+   -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial r^2}\Psi(r, t) + V(r, t)\Psi(r, t) = i\hbar\frac{\partial}{\partial t}\Psi(r, t).
+$${#eq-schrodinger-schrodinger}

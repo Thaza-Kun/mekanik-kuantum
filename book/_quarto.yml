@@ -68,12 +68,15 @@ book:
     #     - gelombang/fungsi-yang-diterima.md
     - part: schroedinger/index.qmd
       chapters:
-        - schroedinger/andaian.qmd
+        - schroedinger/pemerolehan.qmd
         - schroedinger/fungsi-gelombang.qmd
         - schroedinger/operator.qmd
         - schroedinger/hamiltonan.qmd
         - schroedinger/nilai-jangkaan.qmd
         - schroedinger/arus-kebarangkalian.qmd
+    # - part: matematik/index.qmd
+    #   chapters:
+    #     - ''
     # - part: penyelesaian
     #   chapters:
     #     - penyelesaian/zarah-bebas.md
